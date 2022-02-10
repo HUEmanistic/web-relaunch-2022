@@ -1,0 +1,51 @@
+  <DropdownItem>
+                <LinkGray
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.blackpast.org/"
+                >
+                  Blackpast.org
+                </LinkGray>
+              </DropdownItem>
+              <DropdownItem>
+                <LinkGray
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.zinnedproject.org/about/"
+                >
+                  Zinn Education Project
+                </LinkGray>
+              </DropdownItem>
+
+              <DropdownItem>
+                <LinkGray
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="http://www.mappingpoliceviolence.org"
+                >
+                  Mapping Police Violence
+                </LinkGray>
+              </DropdownItem>
+              <DropdownItem>
+                <LinkGray
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="http://sundown.tougaloo.edu/content.php?file=sundowntowns-whitemap.html "
+                >
+                  Sundown Towns
+                </LinkGray>
+              </DropdownItem>
+              <DropdownItem>
+                <LinkGray
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://dsl.richmond.edu/panorama/redlining/#loc=10/47.535/-122.329&city=seattle-wa&text=about&adviewer=sidebar"
+                >
+                  Mapping Inequality (Redlining)
+                </LinkGray>
+              </DropdownItem>
+
+
+
+            <DropdownItem>Book Recommendations</DropdownItem>
+              <DropdownItem>Movie &amp; Video Recommendations</DropdownItem>
