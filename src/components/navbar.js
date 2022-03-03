@@ -19,7 +19,7 @@ import {
   TshirtLogo,
   DonateButton,
   PulsateButton,
-  InMenuLink,
+  // InMenuLink,
   MobileLink,
 } from "../styles/navbar_style";
 
@@ -66,12 +66,17 @@ const Navibar = () => {
   window.addEventListener("scroll", changeBackground)
 
   return (
-    <Navigation light expand="md" style={{ backgroundColor: navbarSolid ? "white" : null, transition: "background-color 1s ease", 
-      
-    }}>
-      
+    <Navigation
+      light
+      expand="md"
+      style={{
+        backgroundColor: navbarSolid ? "white" : null,
+        transition: "background-color 1s ease",
+   
+      }}
+    >
       <NavBrandStyle>
-        <LogoFade >
+        <LogoFade>
           <LogoImg navbarSolid={navbarSolid} onClick={route2} />
         </LogoFade>
       </NavBrandStyle>
@@ -87,20 +92,35 @@ const Navibar = () => {
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                <LinkBlack>Anti-Racism Programs</LinkBlack>
+                <LinkBlack>What is HUEmanistic?</LinkBlack>
               </DropdownToggle>
               <DropdownMenu left>
-                <DropdownItem>
-                  <InMenuLink href="https://www.aclu.org/issues/criminal-law-reform/reforming-police/aclu-apps-record-police-conduct">
-                    ACLU's Mobile Justice
-                  </InMenuLink>
+                <DropdownItem onClick={route1}>
+                  Vision &amp; Mission Statement
+                </DropdownItem>
+                <DropdownItem onClick={route3}>
+                  The Humans Behind HUEmanistic
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                <LinkBlack> Who We Are</LinkBlack>
+                <LinkBlack>Learning Annex</LinkBlack>
+              </DropdownToggle>
+              <DropdownMenu left>
+                <DropdownItem onClick={route1}>
+                  Vision &amp; Mission Statement
+                </DropdownItem>
+                <DropdownItem onClick={route3}>
+                  The Humans Behind HUEmanistic
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav>
+                <LinkBlack> Volunteer</LinkBlack>
               </DropdownToggle>
               <DropdownMenu left>
                 <DropdownItem onClick={route1}>
@@ -137,13 +157,13 @@ const Navibar = () => {
         </SocialMediaDiv>
         <PulsateButton>
           <DonateLink to="/donate">
-            <DonateButton>Donate / Volunteer</DonateButton>
+            <DonateButton>Donate</DonateButton>
           </DonateLink>
         </PulsateButton>
-<PulsateButton>
-        <DonateLink to="/donate">
-          <MobileLink>Donate</MobileLink>
-        </DonateLink>
+        <PulsateButton>
+          <DonateLink to="/donate">
+            <MobileLink>Donate</MobileLink>
+          </DonateLink>
         </PulsateButton>
       </NavCollapse>
     </Navigation>

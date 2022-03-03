@@ -49,6 +49,7 @@ export const MenuList = Styled.div`
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
     width:  100%;
 
 
@@ -167,7 +168,7 @@ text-align: center;
 font-size: 1.3rem;
 color: black;
 width: 100%;
-font-weight: 600;
+font-weight: 300;
 
 
      &:hover {
@@ -231,7 +232,7 @@ text-align: center;
 font-size: 1.3rem;
 color: black;
 width: 100%;
-font-weight: 600;
+font-weight: 300;
         
             &:hover {
                 text-decoration:none;
@@ -300,6 +301,7 @@ display: none;
 export const Navigation = Styled(Navbar)`
 display: flex;
 position: fixed;
+padding-right:5%;
 width: 100%;
 top:0;
 left:0;
@@ -311,12 +313,14 @@ justify-content: center;
 text-align: center;
 z-Index: 10;
 margin-bottom: 5%;
+font-family: 'Montserrat', sans-serif;
+weight:300;
 border-top: 5px #0c00ca solid;
 box-shadow: 5px 10px 10px #00000080;
 
 
     @media (max-width: 1440px) {
-        padding: .5% 2%;
+        padding: .5% 4%;
             }
 
     @media (max-width: 767px) {
@@ -424,7 +428,7 @@ export const LogoImg = Styled.img.attrs((props) => ({
 
 export const DonateButton = Styled(Button)`
     background-image: linear-gradient(to right, #614385 0%, #516395  51%, #614385  100%);
-    padding: 10%;
+    padding: 15%;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -450,7 +454,7 @@ export const DonateButton = Styled(Button)`
         
         @media(min-width: 768px) and (max-width: 1024px) {
             margin-right: 5%;
-            padding:8%;
+            padding: 10% 20%;
             font-size: .7rem;
             }
 
