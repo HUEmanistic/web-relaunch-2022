@@ -54,9 +54,9 @@ function NavigationBar() {
         </MenuIcon>
         {click ? <NavMenuActive /> : <NavMenu />}
         <NavItem>
-          <NavLinks to="/main" onClick={closeMobileMenu}>
+          {/* <NavLinks to="/main" onClick={closeMobileMenu}> */}
             Home
-          </NavLinks>
+          {/* </NavLinks> */}
         </NavItem>
 
         <NavItem onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
