@@ -72,7 +72,6 @@ const Navibar = () => {
       style={{
         backgroundColor: navbarSolid ? "white" : null,
         transition: "background-color 1s ease",
-   
       }}
     >
       <NavBrandStyle>
@@ -86,13 +85,34 @@ const Navibar = () => {
           <MenuList>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                <LinkBlack onClick={route2}>Home</LinkBlack>
+                {/* <LinkBlack onClick={route2}> */}
+                <h1 style={{ color: "black" }}>Home</h1>
+                {/* </LinkBlack> */}
               </DropdownToggle>
             </UncontrolledDropdown>
 
             <UncontrolledDropdown nav inNavbar>
+              {/* <DropdownToggle nav> */}
+              {/* <LinkBlack> */}
+
+              <h1 style={{ color: "black" }}>What is HUEmanistic?</h1>
+              {/* </LinkBlack> */}
+              {/* </DropdownToggle> */}
+              {/* <DropdownMenu left>
+                <DropdownItem onClick={route1}>
+                  Vision &amp; Mission Statement
+                </DropdownItem>
+                <DropdownItem onClick={route3}>
+                  The Humans Behind HUEmanistic
+                </DropdownItem>
+              </DropdownMenu> */}
+            </UncontrolledDropdown>
+
+            <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                <LinkBlack>What is HUEmanistic?</LinkBlack>
+                {/* <LinkBlack> */}
+                <h1 style={{ color: "black" }}>Learning Annex</h1>
+                {/* </LinkBlack> */}
               </DropdownToggle>
               <DropdownMenu left>
                 <DropdownItem onClick={route1}>
@@ -106,35 +126,23 @@ const Navibar = () => {
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                <LinkBlack>Learning Annex</LinkBlack>
+                <h1 style={{ color: "black" }}>Volunteer</h1>
+                {/* <LinkBlack> Volunteer</LinkBlack> */}
               </DropdownToggle>
-              <DropdownMenu left>
+              {/* <DropdownMenu left>
                 <DropdownItem onClick={route1}>
                   Vision &amp; Mission Statement
                 </DropdownItem>
                 <DropdownItem onClick={route3}>
                   The Humans Behind HUEmanistic
                 </DropdownItem>
-              </DropdownMenu>
+              </DropdownMenu> */}
             </UncontrolledDropdown>
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                <LinkBlack> Volunteer</LinkBlack>
-              </DropdownToggle>
-              <DropdownMenu left>
-                <DropdownItem onClick={route1}>
-                  Vision &amp; Mission Statement
-                </DropdownItem>
-                <DropdownItem onClick={route3}>
-                  The Humans Behind HUEmanistic
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav>
-                <MenuLink to="/contact">Contact </MenuLink>
+                <h1 style={{ color: "black" }}>Contact</h1>
+                {/* <MenuLink to="/contact">Contact </MenuLink> */}
               </DropdownToggle>
             </UncontrolledDropdown>
           </MenuList>
