@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react"
-import { useHistory, useLocation  } from "react-router-dom";
+import React from "react"
+import { useHistory } from "react-router-dom";
 import {
   Navigation,
   NavStyle,
@@ -7,9 +7,9 @@ import {
   NavCollapse,
   NavToggler,
   LogoFade,
-  LinkBlack,
+  // LinkBlack,
   DonateLink,
-  MenuLink,
+  // MenuLink,
   MenuList,
   TwitterLogo,
   FBLogo,
@@ -31,56 +31,39 @@ import {
 } from "reactstrap";
 
 const Navibar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [navbarSolid, setNavbarSolid] = useState(false);
-  const toggle = () => setIsOpen(!isOpen);
+
 
   const history = useHistory();
   const route1 = () => {
     history.push("/about_our_mission");
   };
   const route2 = () => {
-    history.push("/main");
+    history.push("/");
   };
   const route3 = () => {
     history.push("/about_us");
   };
 
 
-  const { pathname } = useLocation();
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  const changeBackground = () => {
-    if (window.scrollY > 100) {
-      setNavbarSolid(true);
-    } else {
-      setNavbarSolid(false);
-    }
-  }
 
   
   
-  window.addEventListener("scroll", changeBackground)
+
 
   return (
     <Navigation
       light
       expand="md"
-      style={{
-        backgroundColor: navbarSolid ? "white" : null,
-        transition: "background-color 1s ease",
-      }}
+
     >
       <NavBrandStyle>
         <LogoFade>
-          <LogoImg navbarSolid={navbarSolid} onClick={route2} />
+          <LogoImg onClick={route2} />
         </LogoFade>
       </NavBrandStyle>
-      <NavToggler onClick={toggle} />
-      <NavCollapse isOpen={isOpen} navbar>
+      <NavToggler  />
+      <NavCollapse  navbar>
         <NavStyle navbar>
           <MenuList>
             <UncontrolledDropdown nav inNavbar>

@@ -9,7 +9,7 @@ import {
     NavbarToggler,
 } from "reactstrap";
 import Logo from "../media/images/logo/logo.png";
-import LogoBlack from "../media/images/logo/black_logo.png";
+import LogoColor from "../media/images/logo/logo_no_phrase_shadow.png";
 import { Link } from "react-router-dom";
 import { Twitter } from "@styled-icons/bootstrap/Twitter";
 import { Facebook } from "@styled-icons/boxicons-logos/Facebook"
@@ -305,7 +305,7 @@ padding-right:5%;
 width: 100%;
 top:0;
 left:0;
-background-color: hsla(0, 0%, 100%, 0.3);
+background-color: hsla(0, 0%, 100%, 1);
 display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
@@ -398,7 +398,7 @@ export const NavToggler = Styled(NavbarToggler)`
 //images ------------------------------
 
 export const LogoImg = Styled.img.attrs((props) => ({
-    src: props.navbarSolid ? Logo : LogoBlack,
+    src: props.navbarSolid ? Logo : LogoColor,
 
 }))`
     width: 100%;

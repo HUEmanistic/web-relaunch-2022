@@ -1,6 +1,6 @@
 import Styled from "styled-components";
-import Logo from "../media/images/logo/black_logo.png";
-import background from "../media/images/background/pexels-sharon-mccutcheon-1317559.jpg";
+import Logo from "../media/images/logo/logo_phrase_shadow.png";
+import background from "../media/images/background/paint_bg.jpg";
 import CCBackground from "../media/images/color_commentary/Color_Commentary_banner2.jpg";
 import ProfilesBackground from "../media/images/profiles/profiles_background.jpg";
 import ProfilesLogo from "../media/images/profiles/profiles_logo.png";
@@ -43,13 +43,14 @@ export const LogoImg = Styled.img.attrs({
 })`
 display;flex;
     width: 200%;
-
             }
             @media (max-width: 768px) {
              width: 100%;
             }
 
 `;
+
+
 
 export const ProfileLogo = Styled.img.attrs({
   src: `${ProfilesLogo}`,
