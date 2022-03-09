@@ -1,25 +1,18 @@
 import Styled from "styled-components";
 import Logo from "../media/images/logo/logo_phrase_shadow.png";
 import background from "../media/images/background/paint_bg.jpg";
-import CCBackground from "../media/images/color_commentary/Color_Commentary_banner2.jpg";
+import ColorLogo from "../media/images/color_commentary/CCLogo.png";
 import ProfilesBackground from "../media/images/profiles/profiles_background.jpg";
 import ProfilesLogo from "../media/images/profiles/profiles_logo.png";
-import { webBlocks } from "../data/webBlocks";
 
-import {
-  Row,
-  Col,
-} from "reactstrap";
+import { Row, Col } from "reactstrap";
 import { BounceIn } from "./keyframes";
-
-
 
 
 
 ///////////////////// Main Page Style ///////////////////////
 
-
-//body
+// *body
 
 export const Page = Styled.body`
 background-image: url(${background});
@@ -36,12 +29,25 @@ font-family: font-family: 'Montserrat', sans-serif;
 
 `;
 
-//images
+// *iframe
+
+export const Frame = Styled.iframe.attrs({
+  height: "100%",
+  width: "100%",
+  frameBorder: "0",
+  scrolling: "no",
+})`
+display: flex;,
+margin: 0 auto;
+
+`;
+
+// *images
 
 export const LogoImg = Styled.img.attrs({
   src: `${Logo}`,
 })`
-display;flex;
+display:flex;
     width: 200%;
             }
             @media (max-width: 768px) {
@@ -50,45 +56,67 @@ display;flex;
 
 `;
 
-
-
 export const ProfileLogo = Styled.img.attrs({
   src: `${ProfilesLogo}`,
 })`
     display:flex;
-    height:400px;
-
+    height:50%;
+    width:auto;
+margin-bottom:3%;
 
             }
             @media (max-width: 768px) {
              width: 100%;
             }
-
-
 `;
 
 
 
+export const CCLogo = Styled.img.attrs({
+  src: `${ColorLogo}`,
+})`
+    display:flex;
+    margin: 2% 0;
+    height:50%;
+    width:auto%;
+            }
+            @media (max-width: 768px) {
+             width: 100%;
+            }
+`;
 
 export const CarouselContainer = Styled.div`
+display:flex;
 height:400px;
 width:100%;
 `;
 
 export const CCSlide = Styled.div`
 display:flex;
+flex-wrap: nowrap;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
 height:400px;
-background-image: url(${CCBackground});
+
 background-repeat: no-repeat;
 background-size: cover;
-flex-direction: column;
-justify-content: flex-end;
+`;
+
+export const Slide = Styled.div`
+display:flex;
+flex-wrap: nowrap;
+justify-content: center;
 align-content: center;
+align-items: center;
+height:400px;
+background-repeat: no-repeat;
+background-size: cover;
 `;
 
 export const ProfilesSlide = Styled.div`
 display:flex;
-flex-direction: row;
 flex-wrap: nowrap;
 height:100%;
 width:100%;
@@ -97,17 +125,16 @@ background-repeat: no-repeat;
 background-size: cover;
 justify-content: space-evenly;
 align-items: center;
+display:flex;
+flex-wrap: nowrap;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
+
 `;
 
-
-
-
-
-
-
-
-// Divs
-
+// *divs
 
 export const MainDiv = Styled.div`
 display:flex;
@@ -156,8 +183,7 @@ box-shadow: 5px 5px 8px #BCB8B8;
         }
 `;
 
-
-//Text
+// *text
 
 export const MainTitle = Styled.h1`
 display: flex;
@@ -238,14 +264,8 @@ font-size: 1.2em;
         }
 `;
 
-//Rows
+// *rows
 
-export const PodcastContainerRow = Styled.div`
-display:flex;
-flex-direction: row;
-align-items: flex-end;
-margin-bottom:2%;
-`;
 
 export const ContentRow = Styled(Row)`
 display:flex;
@@ -278,12 +298,12 @@ padding: 3% 0;
 
 `;
 
-//Columns
+// *columns
 
 export const PodcastContainerColumn = Styled.div`
 display:flex;
 flex-direction: column;
-align-items: flex-end;
+width:60%;
 margin-bottom:2%;
 `;
 
@@ -356,7 +376,6 @@ flex-direction: column;
 width: 100%;
 `;
 
-
 // animations
 
 export const LogoBounce = Styled.div`
@@ -388,12 +407,8 @@ margin:2% 0 2% 2%;
 
 //////////////// Profile Style /////////////////////////////
 
-
 //////////////// Volunteer Style /////////////////////////////
-
 
 //////////////// Learning Annex Style /////////////////////////////
 
-
 //////////////// What's HUEmanistic Style /////////////////////////////
-

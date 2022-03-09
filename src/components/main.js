@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "nuka-carousel";
 
 import { members } from "../data/board_members";
-import {webBlocks} from "../data/webBlocks"
+import { webBlocks, slideData } from "../data/web_info";
 import { default as MemberImg } from "./members_img";
 
 import {
@@ -14,15 +14,14 @@ import {
   ContentCol2,
   ContentCol3,
   CarouselContainer,
-  CCSlide,
-  ProfilesSlide,
-  PodcastContainerRow,
+  Frame,
+  Slide,
+  PodcastLogo,
   PodcastContainerColumn,
   MainTitle,
   MainText,
   MainDiv,
   Page,
-  ProfileLogo,
   WebBlockTitle,
   WebBlockDiv,
 } from "../styles/main_style";
@@ -30,46 +29,35 @@ import {
 import Navibar from "./navbar";
 
 function Main(props) {
-
   return (
     <Page>
       <MainDiv>
         <Navibar />
 
         <CarouselContainer>
-          <Carousel>
-            <CCSlide>
-              <PodcastContainerColumn>
-                <iframe
-                  src="https://anchor.fm/huemanistic-organization/embed"
-                  height="100%"
-                  width="65%"
-                  frameborder="0"
-                  scrolling="no"
-                  title="podcast"
-                ></iframe>{" "}
-              </PodcastContainerColumn>
-            </CCSlide>
-
-            <PodcastContainerRow>
-              <ProfilesSlide>
-                <ProfileLogo />
-                <iframe
-                  style={{ display: "flex" }}
-                  src="https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003"
-                  width="60%"
-                  frameborder="0"
-                  scrolling="no"
-                  title="podcast"
-                ></iframe>{" "}
-              </ProfilesSlide>
-            </PodcastContainerRow>
+          <Carousel
+            style={{
+              boxShadow: "10px 10px 5px #4B57CF",
+            }}
+          >
+            {slideData.map((bg) => (
+              <Slide style={{ backgroundImage: bg.backgroundImage }}>
+                <PodcastContainerColumn>
+                  <bg.logo style={{ width: bg.logoWidth, margin: bg.margin}} />
+                  <Frame
+                    style={{ width: bg.width }}
+                    src={bg.src}
+                    title={bg.title}
+                  />
+                </PodcastContainerColumn>
+              </Slide>
+            ))}
 
             <iframe
               width="100%"
               height="100%"
               src="https://www.youtube.com/embed/2GcyYvruOYY"
-              title="YouTube video player"
+              title="Your Black Friend - The N Word"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -109,7 +97,7 @@ function Main(props) {
 
         <ContentRow2>
           {webBlocks.map((wb) => (
-            <WebBlockDiv style={{background: wb.background}}>
+            <WebBlockDiv style={{ background: wb.background }}>
               <WebBlockTitle>{wb.title}</WebBlockTitle>
               <MainText>{wb.info}</MainText>
             </WebBlockDiv>

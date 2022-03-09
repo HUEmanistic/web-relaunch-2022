@@ -316,7 +316,7 @@ margin-bottom: 5%;
 font-family: 'Montserrat', sans-serif;
 weight:300;
 border-top: 5px #0c00ca solid;
-box-shadow: 5px 10px 10px #00000080;
+box-shadow: 5px 5px 5px #00000080;
 
 
     @media (max-width: 1440px) {
