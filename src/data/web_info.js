@@ -1,7 +1,4 @@
-import {
-  CCLogo,
-  ProfileLogo,
-} from "../styles/main_style";
+import { CCLogo, ProfileLogo } from "../styles/main_style";
 
 let ccPodcast = "https://anchor.fm/huemanistic-organization/embed";
 let pPodcast =
@@ -9,17 +6,20 @@ let pPodcast =
 
 export const webBlocks = [
   {
-    background: "#4a5dbd",
+    backgroundColor: "#F4D03F",
+    backgroundImage: "linear-gradient(132deg, #F4D03F 0%, #16A085 100%)",
     title: "What is HUEmanistic?",
     info: "Learn more about our mission to educate one neighbor at a time.",
   },
   {
-    background: "#bd4f4a",
+    backgroundColor: "#FF3CAC",
+    backgroundImage: "linear-gradient(19deg, #21D4FD 0%, #B721FF 100%)",
     title: "Volunteer",
     info: "Help Wanted! We are looking to expand our team. If you'd like to help Please Apply!",
   },
   {
-    background: "#6cbd4a",
+    backgroundColor: "#FF3CAC",
+    backgroundImage: "linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)",
     title: "Learning Annex",
     info: "Here's a collection of our research and past podcasts",
   },
@@ -34,7 +34,6 @@ export const slideData = [
     src: ccPodcast,
     title: "Color Commentary Podcast",
     width: "100%",
-
   },
   {
     backgroundColor: "#FFDEE9",
@@ -48,5 +47,3 @@ export const slideData = [
     width: "100%",
   },
 ];
-
-

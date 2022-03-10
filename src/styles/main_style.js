@@ -48,7 +48,7 @@ export const LogoImg = Styled.img.attrs({
   src: `${Logo}`,
 })`
 display:flex;
-    width: 200%;
+    width: 100%;
             }
             @media (max-width: 768px) {
              width: 100%;
@@ -164,13 +164,15 @@ font-style: italic;
 export const WebBlockDiv = Styled.div`
 display:flex;
 flex-direction: column;
-// background: ${(props) => props.background}
+border-radius: 25% 10%;
 justify-content: center;
 align-items: center;
 width: 100%;
 text-align:center;
 margin:1%;
-padding: 5%;
+border-radius: 10% / 50%;
+padding: 2%;
+box-shadow: 10px 5px 5px gray;
 `;
 
 export const ImageDiv = Styled.img`
@@ -220,7 +222,7 @@ export const WebBlockTitle = Styled.h1`
 display:flex;
 text-decoration: underline;
 margin-bottom: 3%;
-font-size:2rem;
+font-size:1.5rem;
 font-size:600;
 color: black;
 text-shadow: 0px -1px 0px rgba(255,255,255,.5); /* 50% white from top */
@@ -272,7 +274,7 @@ display:flex;
 flex-direction: row;
 width: 100%;
 margin:2%;
-background: rgba(255,255,255, 0.25);
+background: rgba(255,255,255, 0.55);
 border-radius: 0 25px;
             @media (max-width: 480px) {
               margin-top: 20%;
@@ -310,7 +312,7 @@ margin-bottom:2%;
 export const ContentCol1 = Styled(Col)`
 display:flex;
 margin: 0;
-color: #ffffff;
+color: black;
 flex-direction: column;
 justify-content: center;
 align-items: center;

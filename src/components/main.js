@@ -66,14 +66,12 @@ function Main(props) {
         </CarouselContainer>
 
         <ContentRow>
-          <ContentCol1>
+         <ContentCol1>
             <MainTitle>Welcome To</MainTitle>
             <LogoBounce>
               <LogoImg />
             </LogoBounce>
-          </ContentCol1>
-
-          <ContentCol2>
+         
             <MainText>
               HUEmanistic was created out of the turmoil and division of our
               society. We are working to dismantle the systems of racism through
@@ -81,7 +79,7 @@ function Main(props) {
               resources you find here are meant to help lead you wherever you
               are on your journey to become anti-racist.
             </MainText>
-          </ContentCol2>
+ </ContentCol1>
         </ContentRow>
 
         <ContentCol3
@@ -97,9 +95,9 @@ function Main(props) {
 
         <ContentRow2>
           {webBlocks.map((wb) => (
-            <WebBlockDiv style={{ background: wb.background }}>
+            <WebBlockDiv style={{ background: wb.backgroundImage }}>
               <WebBlockTitle>{wb.title}</WebBlockTitle>
-              <MainText>{wb.info}</MainText>
+              <MainText style={{fontSize: "1rem"}}>{wb.info}</MainText>
             </WebBlockDiv>
           ))}
         </ContentRow2>
