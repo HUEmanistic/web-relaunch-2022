@@ -1,6 +1,6 @@
 import Styled from "styled-components";
 import Logo from "../media/images/logo/logo_phrase_shadow.png";
-import background from "../media/images/background/paint_bg.jpg";
+import background from "../media/images/background/main.jpg";
 import ColorLogo from "../media/images/color_commentary/CCLogo.png";
 import ProfilesBackground from "../media/images/profiles/profiles_background.jpg";
 import ProfilesLogo from "../media/images/profiles/profiles_logo.png";
@@ -10,9 +10,26 @@ import { BounceIn } from "./keyframes";
 
 
 
+
+
 ///////////////////// Main Page Style ///////////////////////
 
 // *body
+
+// export const Page = Styled.body`
+// background-image: url(${background});
+// background-attachment: fixed;
+// background-position: top;
+// background-repeat: no-repeat;
+// background-size: cover;
+// padding-top: 6%;
+// font-family: font-family: 'Montserrat', sans-serif;
+//       @media (max-width: 481px) {
+//         background-image: none;
+//         padding:0;
+//       }
+
+// `;
 
 export const Page = Styled.body`
 background-image: url(${background});
@@ -187,36 +204,7 @@ box-shadow: 5px 5px 8px #BCB8B8;
 
 // *text
 
-export const MainTitle = Styled.h1`
-display: flex;
-color: #000;
-font-size: 6rem;
-font-weight: 600;
-width:100%;
-text-shadow: 5px 5px rgba(0, 0, 255, .2);
 
-            @media (max-width: 1440px) {
-             font-size 3rem;
-             padding-left: 10%;
-             margin-bottom: 2%;
-            }
-            @media (max-width: 1280px) {
-             font-size 3rem;
-             width: 90%;
-             margin-bottom: 2%;
-            }
-            @media (max-width: 1024px) {
-             font-size 2rem;
-             margin-bottom: 3%;
-             text-align: center;
-            }
-            @media (max-width: 481px) {
-             width: 100%;
-             text-align: center;
-
-            }
-
-`;
 
 export const WebBlockTitle = Styled.h1`
 display:flex;
@@ -274,7 +262,6 @@ display:flex;
 flex-direction: row;
 width: 100%;
 margin:2%;
-background: rgba(255,255,255, 0.55);
 border-radius: 0 25px;
             @media (max-width: 480px) {
               margin-top: 20%;
@@ -309,32 +296,34 @@ width:60%;
 margin-bottom:2%;
 `;
 
+export const IntroCol = Styled(Col)`
+display:flex;
+margin: 0;
+color: black;
+background: #ffffffCC;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+border-radius: 30px;
+width: 100%;
+padding:2%;
+margin:5%;
+
+`;
+
 export const ContentCol1 = Styled(Col)`
 display:flex;
 margin: 0;
 color: black;
+background: white;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
 width: 100%;
+padding:2%;
 margin:5%;
-
-
-
-
-            // @media (max-width: 1920px) {
-            //   margin: 6% 0 5% 0;
-            // }
-            // @media (max-width: 1440px) {
-            //   margin: 8% 0 5% 0;
-            // }
-            // @media (max-width: 768px) {
-            //   margin-top: 20%;
-            // }
-            // @media (max-width: 480px) {
-            //   margin: 26%;
-            // }
 
 `;
 
@@ -408,6 +397,47 @@ margin:2% 0 2% 2%;
 `;
 
 //////////////// Profile Style /////////////////////////////
+
+//*body
+
+export const Body = Styled.body`
+background-image: url(${background});
+background-attachment: fixed;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 6%;
+font-family: font-family: 'Montserrat', sans-serif;
+      @media (max-width: 481px) {
+        background-image: none;
+        padding:0;
+      }
+
+`;
+
+export const Pic = Styled.img.attrs({
+  src: "",
+})`
+
+            }
+            @media (max-width: 768px) {
+             
+            }
+`;
+
+export const Name = Styled.h1``;
+
+export const Section = Styled.div``;
+
+export const SectionTitle = Styled.p``;
+
+export const SectionCol = Styled(Col)``;
+
+export const TextSection = Styled.p``;
+
+export const Header = Styled.h2``;
+
+
 
 //////////////// Volunteer Style /////////////////////////////
 

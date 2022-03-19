@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import { Route, Switch} from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
+import Navibar from "./components/navbar";
 import Main from "./components/main";
 import Mission from "./components/about_mission";
 import US from "./components/about_us";
@@ -10,14 +11,15 @@ import Donate from "./components/donate";
 import Contact from "./components/contact";
 import YBF from "./components/ybf";
 import Resources_Research from "./components/resources_research";
+import Profile from "./components/profile"
 
 
 function App() {
 
   return (
     <>
+      
       <Switch>
-
         <Route exact path="/" component={Main} />
         <Route exact path="/about_our_mission" component={Mission} />
         <Route exact path="/about_us" component={US} />
@@ -38,7 +40,9 @@ function App() {
           component={Resources_Research}
         />
 
+        <Route path="/profile/:name" component={Profile} />
       </Switch>
+      <Navibar />
     </>
   );
 }

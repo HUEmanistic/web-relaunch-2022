@@ -1,24 +1,21 @@
 import React from "react";
 import Carousel from "nuka-carousel";
+import ProfileListDisplay from "./ProfileListDIsplay";
 
-import { members } from "../data/board_members";
 import { webBlocks, slideData } from "../data/web_info";
-import { default as MemberImg } from "./members_img";
 
 import {
   LogoBounce,
   LogoImg,
   ContentRow,
   ContentRow2,
+  IntroCol,
   ContentCol1,
-  ContentCol2,
   ContentCol3,
   CarouselContainer,
   Frame,
   Slide,
-  PodcastLogo,
   PodcastContainerColumn,
-  MainTitle,
   MainText,
   MainDiv,
   Page,
@@ -26,13 +23,13 @@ import {
   WebBlockDiv,
 } from "../styles/main_style";
 
-import Navibar from "./navbar";
+
 
 function Main(props) {
   return (
     <Page>
       <MainDiv>
-        <Navibar />
+
 
         <CarouselContainer>
           <Carousel
@@ -43,7 +40,7 @@ function Main(props) {
             {slideData.map((bg) => (
               <Slide style={{ backgroundImage: bg.backgroundImage }}>
                 <PodcastContainerColumn>
-                  <bg.logo style={{ width: bg.logoWidth, margin: bg.margin}} />
+                  <bg.logo style={{ width: bg.logoWidth, margin: bg.margin }} />
                   <Frame
                     style={{ width: bg.width }}
                     src={bg.src}
@@ -66,12 +63,10 @@ function Main(props) {
         </CarouselContainer>
 
         <ContentRow>
-         <ContentCol1>
-            <MainTitle>Welcome To</MainTitle>
+          <IntroCol>
             <LogoBounce>
               <LogoImg />
             </LogoBounce>
-         
             <MainText>
               HUEmanistic was created out of the turmoil and division of our
               society. We are working to dismantle the systems of racism through
@@ -79,17 +74,15 @@ function Main(props) {
               resources you find here are meant to help lead you wherever you
               are on your journey to become anti-racist.
             </MainText>
- </ContentCol1>
+          </IntroCol>
         </ContentRow>
 
         <ContentCol3
           style={{ background: "white", textAlign: "center", padding: "3%" }}
         >
-          <MainText style={{ color: "black" }}>The HUEmanistic Crew</MainText>
+          <MainText style={{ color: "black", fontWeight: 600, }}>The HUEmanistic Crew</MainText>
           <ContentRow2>
-            {members.map((member) => (
-              <MemberImg member={member} />
-            ))}
+            <ProfileListDisplay />
           </ContentRow2>
         </ContentCol3>
 
@@ -97,7 +90,7 @@ function Main(props) {
           {webBlocks.map((wb) => (
             <WebBlockDiv style={{ background: wb.backgroundImage }}>
               <WebBlockTitle>{wb.title}</WebBlockTitle>
-              <MainText style={{fontSize: "1rem"}}>{wb.info}</MainText>
+              <MainText style={{ fontSize: "1rem" }}>{wb.info}</MainText>
             </WebBlockDiv>
           ))}
         </ContentRow2>
