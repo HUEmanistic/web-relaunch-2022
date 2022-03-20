@@ -11,7 +11,7 @@ import Donate from "./components/donate";
 import Contact from "./components/contact";
 import YBF from "./components/ybf";
 import Resources_Research from "./components/resources_research";
-import Profile from "./components/profile"
+import Profile from "./components/profile";
 
 
 function App() {
