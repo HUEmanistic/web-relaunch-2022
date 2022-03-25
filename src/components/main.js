@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "nuka-carousel";
-import ProfileListDisplay from "./ProfileListDIsplay";
+import ProfileListDisplay from "./ProfileListDisplay";
+import background from "../media/images/background/main.jpg";
 
 import { webBlocks, slideData } from "../data/web_info";
 
@@ -10,7 +11,6 @@ import {
   ContentRow,
   ContentRow2,
   IntroCol,
-  ContentCol1,
   ContentCol3,
   CarouselContainer,
   Frame,
@@ -27,10 +27,8 @@ import {
 
 function Main(props) {
   return (
-    <Page>
+    <Page style={{ backgroundImage: `url(${background})` }}>
       <MainDiv>
-
-
         <CarouselContainer>
           <Carousel
             style={{
@@ -80,7 +78,9 @@ function Main(props) {
         <ContentCol3
           style={{ background: "white", textAlign: "center", padding: "3%" }}
         >
-          <MainText style={{ color: "black", fontWeight: 600, }}>The HUEmanistic Crew</MainText>
+          <MainText style={{ color: "black", fontWeight: 600 }}>
+            The HUEmanistic Crew
+          </MainText>
           <ContentRow2>
             <ProfileListDisplay />
           </ContentRow2>

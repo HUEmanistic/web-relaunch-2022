@@ -1,8 +1,16 @@
 import { CCLogo, ProfileLogo } from "../styles/main_style";
 
+
+import HazzaunaProfile from "../media/images/background/hazzauna.jpg";
+import SeanProfile from "../media/images/background/sean.jpg";
+import MariannaProfile from "../media/images/background/marianna.jpg";
+import ChristinaProfile from "../media/images/background/christina.jpg";
+import BrandonProfile from "../media/images/background/brandon.jpg";
+
+
 let ccPodcast = "https://anchor.fm/huemanistic-organization/embed";
 let pPodcast =
-  "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003";
+  "https://anchor.fm/huemanistic-organization9/embed";
 
 export const webBlocks = [
   {
@@ -45,5 +53,23 @@ export const slideData = [
     margin: "0 auto",
     logoWidth: "50%",
     width: "100%",
+  },
+];
+
+export const backgroundImage = [
+  {
+    backgroundImage1: { HazzaunaProfile },
+  },
+  {
+    backgroundImage2: { BrandonProfile },
+  },
+  {
+    backgroundImage3: { SeanProfile },
+  },
+  {
+    backgroundImage4: { MariannaProfile },
+  },
+  {
+    backgroundImage5: { ChristinaProfile },
   },
 ];

@@ -1,6 +1,5 @@
 import Styled from "styled-components";
 import Logo from "../media/images/logo/logo_phrase_shadow.png";
-import background from "../media/images/background/main.jpg";
 import ColorLogo from "../media/images/color_commentary/CCLogo.png";
 import ProfilesBackground from "../media/images/profiles/profiles_background.jpg";
 import ProfilesLogo from "../media/images/profiles/profiles_logo.png";
@@ -14,25 +13,7 @@ import { BounceIn } from "./keyframes";
 
 ///////////////////// Main Page Style ///////////////////////
 
-// *body
-
-// export const Page = Styled.body`
-// background-image: url(${background});
-// background-attachment: fixed;
-// background-position: top;
-// background-repeat: no-repeat;
-// background-size: cover;
-// padding-top: 6%;
-// font-family: font-family: 'Montserrat', sans-serif;
-//       @media (max-width: 481px) {
-//         background-image: none;
-//         padding:0;
-//       }
-
-// `;
-
 export const Page = Styled.body`
-background-image: url(${background});
 background-attachment: fixed;
 background-position: top;
 background-repeat: no-repeat;
@@ -45,6 +26,7 @@ font-family: font-family: 'Montserrat', sans-serif;
       }
 
 `;
+//used: Main, Profile
 
 // *iframe
 
@@ -157,6 +139,7 @@ export const MainDiv = Styled.div`
 display:flex;
 flex-direction: column;
 justify-content: center;
+border: blue 1px solid;
 
       @media (max-width: 767px) {
         margin-top: 20%;
@@ -166,6 +149,7 @@ justify-content: center;
       }
 
 `;
+//used: Main, Profile
 
 export const SliderDiv = Styled.div`
 display:flex;
@@ -268,6 +252,7 @@ border-radius: 0 25px;
             }
 `;
 
+
 export const ContentRow2 = Styled.div`
 background: #FFFFFF;
 width: 100%;
@@ -286,6 +271,8 @@ padding: 3% 0;
             }
 
 `;
+//used: Main, Profile
+
 
 // *columns
 
@@ -398,44 +385,120 @@ margin:2% 0 2% 2%;
 
 //////////////// Profile Style /////////////////////////////
 
-//*body
+// *divs
 
-export const Body = Styled.body`
-background-image: url(${background});
-background-attachment: fixed;
-background-position: top;
-background-repeat: no-repeat;
-background-size: cover;
-padding-top: 6%;
-font-family: font-family: 'Montserrat', sans-serif;
-      @media (max-width: 481px) {
-        background-image: none;
-        padding:0;
-      }
-
+export const Section = Styled.div`
+display: flex;
+width: 100%;
+justify-content: center;
+background: #ffffff80;
+color:black;
+padding:2%;
+margin: 2%;
 `;
 
-export const Pic = Styled.img.attrs({
-  src: "",
-})`
+export const SectionCol = Styled(Col)`
+display: flex;
+width: 100%;
+background: #ffffff80;
+color:black;
+padding:2%;
+margin: 2%;
+`;
 
+
+// *rows
+
+export const ProfileRow = Styled(Row)`
+display:flex;
+background: #ffffff80;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 3% 0;
+border: green 1px solid;
+`;
+
+export const ProfileRow2 = Styled.div`
+background: #FFFFFF;
+width: 100%;
+display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
+padding: 3% 0;
+border: orange 1px solid;
+            @media (max-width: 1280px) {
+              width: 100%;
             }
+
             @media (max-width: 768px) {
-             
+              flex-direction: column;
+              align-content: center;
+              align-items: center;
             }
+
 `;
 
-export const Name = Styled.h1``;
+export const ProfileHeaderRow = Styled(Row)`
+display:flex;
+flex-direction: row;
+padding: 3% 0;
+border: green 1px solid;
+`;
 
-export const Section = Styled.div``;
 
-export const SectionTitle = Styled.p``;
+// *cols
 
-export const SectionCol = Styled(Col)``;
 
-export const TextSection = Styled.p``;
+export const ProfileCol = Styled(Col)`
+display:flex;
+margin: 0;
+color: black;
+flex-direction: column;
+width: 50%;
+padding:2%;
+margin:5%;
+border: yellow 1px solid;
+`;
 
-export const Header = Styled.h2``;
+export const ProfileCol2 = Styled(Col)`
+display:flex;
+margin: 0;
+color: black;
+flex-direction: column;
+width: 100%;
+padding:2%;
+margin:5%;
+border: red 1px solid;
+`;
+
+export const ProfileHeaderCol = Styled(Col)`
+display:flex;
+flex-wrap: nowrap;
+color: black;
+flex-direction: column;
+// padding:2%;
+// margin:5%;
+border: purple 1px solid;
+`;
+
+
+
+// *text
+export const SectionTitle = Styled.h1`
+display: flex;
+font-weight: 600;
+`;
+
+export const SectionText = Styled.p`
+display: flex;
+font-weight: 200;
+white-space: pre-wrap;
+line-height: 2;
+`;
+
+
+
+
 
 
 

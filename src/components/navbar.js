@@ -7,7 +7,7 @@ import {
   NavCollapse,
   NavToggler,
   LogoFade,
-  // LinkBlack,
+  LinkBlack,
   DonateLink,
   // MenuLink,
   MenuList,
@@ -68,9 +68,9 @@ const Navibar = () => {
           <MenuList>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                {/* <LinkBlack onClick={route2}> */}
+                <LinkBlack onClick={route2}>
                 <h1 style={{ color: "black" }}>Home</h1>
-                {/* </LinkBlack> */}
+                </LinkBlack>
               </DropdownToggle>
             </UncontrolledDropdown>
 
