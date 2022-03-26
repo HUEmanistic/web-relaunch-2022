@@ -414,7 +414,7 @@ display:flex;
 background: #ffffff80;
 flex-wrap: wrap;
 padding: 3% 0;
-border: green 1px solid;
+// border: green 1px solid;
 `;
 
 export const ProfileRow2 = Styled.div`
@@ -424,7 +424,7 @@ display:flex;
 flex-direction: row;
 flex-wrap: nowrap;
 padding: 3% 0;
-border: orange 1px solid;
+// border: orange 1px solid;
             @media (max-width: 1280px) {
               width: 100%;
             }
@@ -458,7 +458,7 @@ flex-direction: column;
 width: 50%;
 padding:2%;
 margin:5%;
-border: yellow 1px solid;
+// border: yellow 1px solid;
 `;
 
 export const ProfileCol2 = Styled(Col)`
@@ -469,14 +469,14 @@ flex-direction: column;
 width: 100%;
 padding:2%;
 margin:5%;
-border: red 1px solid;
+// border: red 1px solid;
 `;
 
 export const ProfileHeaderCol1 = Styled(Col)`
 display:flex;
 width:20%;
 flex-wrap: nowrap;
-justify-content: flex-end;
+justify-content: center;
 color: black;
 `;
 
