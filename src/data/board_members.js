@@ -3,11 +3,11 @@ import Sean from "../media/images/bio/sean.jpg";
 import Marianna from "../media/images/bio/marianna.jpg";
 import Christina from "../media/images/bio/christina.jpg";
 import Brandon from "../media/images/bio/brandon.jpg";
-import HazzaunaProfile from "../media/images/background/hazzauna.jpg";
-import SeanProfile from "../media/images/background/sean.jpg";
-import MariannaProfile from "../media/images/background/marianna.jpg";
-import ChristinaProfile from "../media/images/background/christina.jpg";
-import BrandonProfile from "../media/images/background/brandon.jpg";
+import HazzaunaProfile from "../media/images/background/hazzauna_alt.jpg";
+import SeanProfile from "../media/images/background/sean_alt.jpg";
+import MariannaProfile from "../media/images/background/marianna_alt.jpg";
+import ChristinaProfile from "../media/images/background/christina_alt.jpg";
+import BrandonProfile from "../media/images/background/brandon_alt.jpg";
 
 export const members = [
   {
@@ -18,21 +18,11 @@ export const members = [
     image: `${Sean}`,
     role: "President, Director Of Marketing, Director",
     profile_episode:
-      "https://anchor.fm/huemanistic-organization9/episodes/HUEmanistic-Profiles---Sean-Moore-e1anf6v/a-a6v7ejq",
+      "https://anchor.fm/huemanistic-organization9/episodes/HUEmanistic-Profiles---Sean-Moore-e1anf6v",
     contact: `
     info@huemanistic.org / attn: Sean Moore`,
-    books: `
-    Book1
-    Book2 
-    Book3
-    Book4
-    Book5`,
-    movies: `
-    Movie1
-    Movie2
-    Movie3
-    Movie4
-    Movie5`,
+    books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
+    movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
     bio: `A Los Angeles Native trained in Design, Psychology and Pop Culture with a BA in art. I am currently a Campaign Manager and Marketer, amateur writer of books and do podcasts in my spare time. Being a person of color, I am intimately familiar with the inequities and injustice of a racist society with a violent and painful history. However, I do believe in the myth of the American Dream and I strive constantly to use every tool at my disposal to make that myth a reality for all. I joined HUEmanistic because I believe in what the organization represents, and I will use my skills and talents to aid in their mission.`,
     experienceTitle: "Evening Traffic Stop",
     experience: `My mother frequently made it a point to teach me about the inequities in society.  The disparity in the sexes, the unfairness of the classes, and the oft time subtle and blatant racism prevalent in our country.  I can't say that I was ever surprised that there are people out there who didn't like me, simply because of the color of my skin.  Nor was I caught off guard when I finally learned the accurate and unabridged history of America, never shared by my grade school teachers, until I went to college. 
@@ -79,21 +69,11 @@ This is a lesson I've never forgotten.`,
     image: `${Hazzauna}`,
     contact: `
     info@huemanistic.org / attn: Hazzauna Underwood`,
-    books: `
-    Book1
-    Book2 
-    Book3
-    Book4
-    Book5`,
-    movies: `
-    Movie1
-    Movie2
-    Movie3
-    Movie4
-    Movie5`,
+    books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
+    movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
     role: "Vice President, Director",
     profile_episode:
-      "https://anchor.fm/huemanistic-organization9/episodes/HUEmanistic-Profiles---Hazzauna-Underwood-e1a969a/a-a6t8khf",
+      "https://anchor.fm/huemanistic-organization9/episodes/HUEmanistic-Profiles---Hazzauna-Underwood-e1a969a",
     bio: "ER/Critical Care Nurse. Born and raised Washingtonian. Graduated from Grover Cleveland High School in Seattle, WA. Bachelor of Arts in Human Development with a minor in Child Psychology from Washington State University. Bachelor of Science in Nursing from New Mexico State University. I have 3 daughters (16, 15 & 4) and a son (7). Currently work as an ER and Rapid response nurse at local hospitals.",
     experienceTitle: "The Hair You Wear",
     experience: `I remember it like it was yesterday.  My daughter came to me before bedtime and asked if she could have her hair straight tomorrow for school.  She was in Kinder, just 5 years old, beautiful lush curls or twists is how she normally wore her hair.  I simply replied, sure.  I blow-dried her hair and put a few rollers at the end to give a soft curl.  Morning came, I was excited to see her new hairdo, excited to see her face of excitement for it, too.  Happiness?  Elation?  Excitement?  Joy!?!  I took off her hair scarf, took down the rollers, ran my fingers through her rolled curls to separate them and, VIOLA!  Beautiful, so I believed she would believe.  That was the last thing on her mind.  Her emotions were of Sadness, Anger, Annoyance and Frustration.  My little girl wanted her hair like all the other little girls in her class, she was being made to believe that her hair being different made her different, and she felt like she didn't fit in.  She cried, big crocodile tears, and then she said to me, “Mom, your hair is straight, too.” This was the beginning of my natural hair journey and the last time I permed my hair to keep it straight. 
@@ -116,21 +96,11 @@ This is what I grew up in.  I emulated what was around, what I was taught was be
     image: `${Marianna}`,
     contact: `
     info@huemanistic.org / attn: Marianna Jankowski`,
-    books: `
-    Book1
-    Book2 
-    Book3
-    Book4
-    Book5`,
-    movies: `
-    Movie1
-    Movie2
-    Movie3
-    Movie4
-    Movie5`,
+    books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
+    movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
     role: "Secretary, Director",
     profile_episode:
-      "https://anchor.fm/huemanistic-organization9/episodes/HUEmanistic-Profiles---Marianna-Jankowski-e1fe7s1/a-a7hqlj1",
+      "https://anchor.fm/huemanistic-organization9/episodes/HUEmanistic-Profiles---Marianna-Jankowski-e1fe7s1",
     bio: `Production and Copy Editor. With a degree in Journalism, I’ve worked as the Head of International in a DVD Menu company in L.A., a Project Manager and Script Writer in Colorado, and an Admin. Assistant and Copy Editor in Portland, OR. While attending CSU Long Beach, I interned for the NAACP, where I got my first dose of white privilege. No longer a part of the struggle, I stopped paying attention, and rarely followed up on police brutality cases. The recent murders have put our nation’s dirty laundry on display, and the numbers continue to rise. We are a broken country, and we need to unite in order to fix it.`,
     experienceTitle: "Small farm town",
     experience: `From the time I was a child, into adulthood, I've battled with a voice in my head. A voice that has been passed down through generations. A voice that has asked, 'Why do they get their own awards shows? Why do they get a whole month, dedicated to their history? Why do they get Black versions of White movies? Why do they… Why do they… Why do they…'
@@ -156,21 +126,11 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
     https://www.christinaharris.dev/
     info@huemanistic.org / attn: Christina Harris
     `,
-    books: `
-    Book1
-    Book2 
-    Book3
-    Book4
-    Book5`,
-    movies: `
-    Movie1
-    Movie2
-    Movie3
-    Movie4
-    Movie5`,
+    books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
+    movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
     role: "Treasurer, Director Of Technology, Director",
     profile_episode:
-      "https://anchor.fm/huemanistic-organization9/episodes/HUEmanistic-Profiles---Christina-Harris-e1bjv87/a-a733h0q",
+      "https://anchor.fm/huemanistic-organization9/episodes/HUEmanistic-Profiles---Christina-Harris-e1bjv87",
     bio: "I'm Boston Native that made the move to eventually become a Seattleite in 2016.  I graduated from Massachusetts College of Art and Design to acquire a BA in Graphic Design. I most recently completed Lambda School's Full Stack Web Development program. I love to design and code and I'm happy to be able to use my talents to make a positive change. HUEmanistic means a lot to me because it's a chance to have a voice and to hopefully bring people, communities, and eventually the country together! Who knows maybe even the world? It's long overdue and I hope I can see this change in my lifetime. Let's make inequality a thing of the past!",
     experienceTitle: "The Talk",
     experience: `'You already have two strikes against you. You're a woman and you're Black.'  This is the sentence that has followed me throughout life. The talk my mom gave me was quick and concise but left a lasting scar on my psyche. Once this realization was chained to my being it dominated the essence of who I was.  At that moment I was forced to reckon with the fact I was different. I was forced to acknowledge the fact that people wouldn't see me for who I was. I can't remember how young I was for sure when I had the talk. I know I cried and it scared me. I didn't want to be different. I didn't want people to think I was a bad person. 
@@ -188,28 +148,16 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
     last_name: "Fiquett",
     contact: `
     info@huemanistic.org / attn: Brandon Fiquett`,
-    books: `
-    Book1
-    Book2 
-    Book3
-    Book4
-    Book5`,
-    movies: `
-    Movie1
-    Movie2
-    Movie3
-    Movie4
-    Movie5`,
+    books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
+    movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
     image: Brandon,
     role: "Director of Social Media, Director",
     profile_episode:
-      "https://anchor.fm/huemanistic-organization9/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003/a-a7aacm3",
-    bio: 
-    `
+      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003",
+    bio: `
     Sit amet purus gravida quis blandit. Sit amet luctus venenatis lectus magna fringilla. Quis eleifend quam adipiscing vitae proin sagittis. Nisl nisi scelerisque eu ultrices vitae. Auctor urna nunc id cursus metus aliquam eleifend. Odio ut enim blandit volutpat maecenas volutpat blandit. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Facilisis mauris sit amet massa. Quam nulla porttitor massa id neque aliquam vestibulum morbi.`,
     experienceTitle: "Lorem ipsum dolor",
-    experience: 
-    `
+    experience: `
 Lorem ipsum dolor sit amet consectetur adipiscing elit nec, eu pretium fusce vitae faucibus viverra facilisis bibendum, tortor platea sollicitudin praesent enim habitasse libero. Himenaeos velit egestas condimentum integer semper arcu netus congue justo torquent elit phasellus hac luctus litora, vulputate diam vitae vestibulum curae amet convallis ridiculus per platea class magna odio sollicitudin. Vel erat conubia ultricies imperdiet aliquam dictum arcu vehicula augue class, quis vitae hac curabitur tellus massa felis enim velit diam iaculis, eros consequat nec ad dapibus habitant rutrum est eget. Ipsum neque non sapien eu faucibus ante nullam nunc felis penatibus blandit, primis nam porta per turpis tempor nibh pulvinar vel metus. Dui himenaeos congue magnis hendrerit per vivamus mattis, blandit posuere egestas proin urna id, ligula habitant at sociis et neque.
 
 Curae augue porttitor est dictumst praesent accumsan placerat egestas, sagittis sem interdum felis mus ligula primis nostra habitasse, commodo nascetur porta urna sollicitudin ultrices neque mi, fusce donec auctor dui fames nibh proin. Curae cum fusce fames amet euismod tincidunt senectus, dolor aliquam id hendrerit ridiculus. Penatibus hac mollis vulputate felis dignissim purus lectus fringilla commodo, cursus tristique et elit pellentesque proin euismod mi. Tristique nulla donec fames nec malesuada interdum laoreet nam rutrum porta, cursus faucibus placerat fringilla aptent ornare elit tincidunt sem. Phasellus platea ut volutpat in sollicitudin eros nam, fames vulputate vehicula adipiscing etiam facilisi orci, elementum vitae ultrices congue a montes. Tempus sollicitudin urna aenean integer aptent pharetra pretium ullamcorper id nisi litora curae, malesuada iaculis adipiscing mi vitae vestibulum habitant ipsum varius nullam semper, nam vehicula potenti pellentesque ultrices ridiculus aliquet ornare sagittis rhoncus felis. Non amet turpis ad lectus sodales erat aptent, ac lacus convallis inceptos potenti dolor, ut interdum habitasse aliquam nunc sollicitudin.

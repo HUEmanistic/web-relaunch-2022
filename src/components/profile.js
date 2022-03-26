@@ -1,7 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { members } from "../data/board_members";
-import ProfileSection from "./profileSection";
+import TextProfileSection from "./textProfileSection";
+import PodcastProfileSection from "./podcastProfileSection";
+import ListProfileSection from "./listProfileSection";
 import ProfileListDisplay from "./ProfileListDisplay";
 import {
   Page,
@@ -65,28 +67,27 @@ export default function Profile() {
 
           <ProfileRow>
             <ProfileCol>
-              <ProfileSection
+              <ListProfileSection
                 title="Book Recommendations"
                 content={selectedMember.books}
               />
-              <ProfileSection
+              <ListProfileSection
                 title="Movie Recommendations"
                 content={selectedMember.movies}
               />
-              <Section
-              >
-                <h1>Profile Episodes</h1>
-                <Frame src={selectedMember.profile_episode}></Frame>
-                
-              </Section>
-              <ProfileSection
+              <PodcastProfileSection
+                title="Profile Episodes"
+                content={selectedMember.profile_episode}
+              />
+
+              <TextProfileSection
                 title="Contact"
                 content={selectedMember.contact}
               />
             </ProfileCol>
             <ProfileCol2>
-              <ProfileSection title="Bio" content={selectedMember.bio} />
-              <ProfileSection
+              <TextProfileSection title="Bio" content={selectedMember.bio} />
+              <TextProfileSection
                 title={`Experience : ${selectedMember.experienceTitle}`}
                 content={selectedMember.experience}
               />

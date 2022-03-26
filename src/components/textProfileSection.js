@@ -2,15 +2,15 @@ import React from "react";
 import {
   SectionTitle,
   SectionText,
-  SectionCol,
+  Section,
 } from "../styles/main_style";
 
-export default function ProfileSection(props) {
+export default function TextProfileSection(props) {
 
   return (
-    <SectionCol>
+    <Section>
       <SectionTitle>{props.title}</SectionTitle>
       <SectionText>{props.content}</SectionText>
-    </SectionCol>
+    </Section>
   );
 }
