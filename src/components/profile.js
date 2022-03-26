@@ -11,12 +11,15 @@ import {
   ImageDiv,
   ProfileRow,
   ProfileCol,
-  ProfileHeaderCol,
+  ProfileHeaderCol1,
+  ProfileHeaderCol2,
   ProfileHeaderRow,
   ProfileCol2,
   ContentRow2,
   Section,
-  Frame,
+
+  ProfileName,
+  Line,
 } from "../styles/main_style";
 
 export default function Profile() {
@@ -35,37 +38,38 @@ export default function Profile() {
         <MainDiv>
           <ProfileRow>
             <Section>
-              <ProfileHeaderCol>
+              <ProfileHeaderCol1 >
                 <ImageDiv
-                  style={{ width: "25%" }}
+                 
                   src={selectedMember.image}
                   alt={selectedMember.first_name}
                 />
-              </ProfileHeaderCol>
-              <ProfileHeaderCol>
+              </ProfileHeaderCol1>
+              <ProfileHeaderCol2 >
                 <ProfileHeaderRow>
-                  <p>
+                  <ProfileName>
                     {selectedMember.first_name} {selectedMember.last_name}
-                  </p>
+                  </ProfileName> <p>{selectedMember.role}</p>
                 </ProfileHeaderRow>
+               
+                  <Line />
+                    
+               
                 <ProfileHeaderRow>
-                  <div
-                    style={{
-                      borderTop: "2px solid #fff ",
-                      marginLeft: 20,
-                      marginRight: 20,
-                      height: 5,
-                    }}
-                  ></div>
+                 
                 </ProfileHeaderRow>
-                <ProfileHeaderRow>
-                  <p>{selectedMember.role}</p>
-                </ProfileHeaderRow>
-              </ProfileHeaderCol>
+              </ProfileHeaderCol2>
             </Section>
           </ProfileRow>
 
           <ProfileRow>
+            <TextProfileSection title="Bio" content={selectedMember.bio} />
+
+            <TextProfileSection
+              title={`Experience : ${selectedMember.experienceTitle}`}
+              content={selectedMember.experience}
+            />
+
             <ProfileCol>
               <ListProfileSection
                 title="Book Recommendations"
@@ -75,6 +79,8 @@ export default function Profile() {
                 title="Movie Recommendations"
                 content={selectedMember.movies}
               />
+            </ProfileCol>
+            <ProfileCol2>
               <PodcastProfileSection
                 title="Profile Episodes"
                 content={selectedMember.profile_episode}
@@ -83,13 +89,6 @@ export default function Profile() {
               <TextProfileSection
                 title="Contact"
                 content={selectedMember.contact}
-              />
-            </ProfileCol>
-            <ProfileCol2>
-              <TextProfileSection title="Bio" content={selectedMember.bio} />
-              <TextProfileSection
-                title={`Experience : ${selectedMember.experienceTitle}`}
-                content={selectedMember.experience}
               />
             </ProfileCol2>
           </ProfileRow>
