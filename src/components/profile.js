@@ -4,7 +4,7 @@ import { members } from "../data/board_members";
 import TextProfileSection from "./textProfileSection";
 import PodcastProfileSection from "./podcastProfileSection";
 import ListProfileSection from "./listProfileSection";
-import ProfileListDisplay from "./ProfileListDisplay";
+import ProfileListDisplay from "./profileListDisplay";
 import {
   Page,
   MainDiv,
@@ -17,7 +17,6 @@ import {
   ProfileCol2,
   ContentRow2,
   Section,
-
   ProfileName,
   Line,
 } from "../styles/main_style";
@@ -38,26 +37,23 @@ export default function Profile() {
         <MainDiv>
           <ProfileRow>
             <Section>
-              <ProfileHeaderCol1 >
+              <ProfileHeaderCol1>
                 <ImageDiv
-                 
                   src={selectedMember.image}
                   alt={selectedMember.first_name}
                 />
               </ProfileHeaderCol1>
-              <ProfileHeaderCol2 >
+              <ProfileHeaderCol2>
                 <ProfileHeaderRow>
                   <ProfileName>
                     {selectedMember.first_name} {selectedMember.last_name}
-                  </ProfileName> <p>{selectedMember.role}</p>
+                  </ProfileName>{" "}
+                  <p>{selectedMember.role}</p>
                 </ProfileHeaderRow>
-               
-                  <Line />
-                    
-               
-                <ProfileHeaderRow>
-                 
-                </ProfileHeaderRow>
+
+                <Line />
+
+                <ProfileHeaderRow></ProfileHeaderRow>
               </ProfileHeaderCol2>
             </Section>
           </ProfileRow>
