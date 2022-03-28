@@ -138,7 +138,7 @@ align-items: center;
 export const MainDiv = Styled.div`
 display:flex;
 flex-direction: column;
-justify-content: center;
+align-items: center;
 border: blue 1px solid;
 
       @media (max-width: 767px) {
@@ -179,9 +179,8 @@ box-shadow: 10px 5px 5px gray;
 export const ImageDiv = Styled.img`
 width: 60%;
 border-radius: 50%;
-margin: 5%;
 box-shadow: 5px 5px 8px #BCB8B8;
-
+border: gray 1px solid;
 
 `;
 
@@ -388,12 +387,25 @@ margin:2% 0 2% 2%;
 
 export const Section = Styled.div`
 display: flex;
+flex-direction: column;
 width: 100%;
 justify-content: center;
-background: #ffffff80;
+background: #ffffffCC;
 color:black;
-padding:2%;
+padding:4%;
 margin: 2%;
+border: green 1px solid;
+`;
+
+export const SectionHeader = Styled.div`
+display: flex;
+flex-direction: row;
+width: 100%;
+background: #ffffffB3;
+color:black;
+padding: 2%;
+margin: 2%;
+border: green 1px solid;
 `;
 
 export const SectionCol = Styled(Col)`
@@ -410,21 +422,19 @@ margin: 2%;
 
 export const ProfileRow = Styled(Row)`
 display:flex;
-
 background: #ffffff80;
 flex-wrap: wrap;
 padding: 3% 0;
-// border: green 1px solid;
+border: blue 1px solid;
 `;
 
-export const ProfileRow2 = Styled.div`
+export const ProfileRow2 = Styled(Row)`
 background: #FFFFFF;
-width: 100%;
 display:flex;
 flex-direction: row;
 flex-wrap: nowrap;
 padding: 3% 0;
-// border: orange 1px solid;
+border: orange 1px solid;
             @media (max-width: 1280px) {
               width: 100%;
             }
@@ -440,10 +450,10 @@ padding: 3% 0;
 export const ProfileHeaderRow = Styled(Row)`
 display:flex;
 flex-direction: row;
-padding: 3% 0;
 justify-content: center;
 align-items: center;
-// border: green 1px solid;
+
+// border: pink 1px solid;
 `;
 
 
@@ -472,24 +482,27 @@ margin:5%;
 // border: red 1px solid;
 `;
 
-export const ProfileHeaderCol1 = Styled(Col)`
+export const ProfileHeaderCol1 = Styled.div`
 display:flex;
-width:20%;
-flex-wrap: nowrap;
-justify-content: center;
-color: black;
-`;
-
-export const ProfileHeaderCol2 = Styled(Col)`
-display:flex;
-width:100%;
-justify-content: center;
-flex-wrap: nowrap;
-color: black;
+width:40%;
 flex-direction: column;
+margin: 2%;
+flex-wrap: nowrap;
+color: black;
+// border: purple 1px solid;
+align-items: flex-end;
 `;
 
-
+export const ProfileHeaderCol2 = Styled.div`
+display:flex;
+width:60%;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+flex-wrap: nowrap;
+color: black;
+// border: black 1px solid;
+`;
 
 // *text
 export const SectionTitle = Styled.h1`
@@ -497,6 +510,7 @@ display: flex;
 font-weight: 600;
 justify-content: center;
 align-items: center;
+margin-bottom: 2%;
 `;
 
 export const SectionText = Styled.p`
@@ -513,23 +527,24 @@ font-size: 2em;
 margin: 0 2%;
 `;
 
-export const ProfileRole = Styled.h1`
+export const HeaderRoleText = Styled.p`
 display: flex;
-font-weight: 200;
+font-weight: 400;
+font-size: 1.1rem;
 font-style: italic;
-margin: 0 2%;
+line-height: 2;
+margin-top: 1%;
 `;
 
+// *Lists ul / li
 
-// *hr
+export const UList = Styled.ul`
+display:flex;
+justify-content: center;
+`;
+export const LItem = Styled.li`
+display:flex;
 
-export const Line = Styled.hr`
-  border: 0;
-  clear:both;
-  display:block;
-  width: 96%;               
-  background-color: black;
-  height: 3px;
 `;
 
 

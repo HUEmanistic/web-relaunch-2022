@@ -16,9 +16,9 @@ import {
   ProfileHeaderRow,
   ProfileCol2,
   ContentRow2,
-  Section,
+  SectionHeader,
+  HeaderRoleText,
   ProfileName,
-  Line,
 } from "../styles/main_style";
 
 export default function Profile() {
@@ -35,28 +35,26 @@ export default function Profile() {
     >
       {selectedMember ? (
         <MainDiv>
-          <ProfileRow>
-            <Section>
-              <ProfileHeaderCol1>
-                <ImageDiv
-                  src={selectedMember.image}
-                  alt={selectedMember.first_name}
-                />
-              </ProfileHeaderCol1>
-              <ProfileHeaderCol2>
-                <ProfileHeaderRow>
-                  <ProfileName>
-                    {selectedMember.first_name} {selectedMember.last_name}
-                  </ProfileName>{" "}
-                  <p>{selectedMember.role}</p>
-                </ProfileHeaderRow>
 
-                <Line />
+          <SectionHeader>
+            <ProfileHeaderCol1>
+              <ImageDiv style={{ width: "45%" }}
+                src={selectedMember.image}
+                alt={selectedMember.first_name}
+              />
+            </ProfileHeaderCol1>
+            <ProfileHeaderCol2>
+              <ProfileHeaderRow>
+                <ProfileName>
+                  {selectedMember.first_name} {selectedMember.last_name}
+                </ProfileName>{" "}
+              </ProfileHeaderRow>
 
-                <ProfileHeaderRow></ProfileHeaderRow>
-              </ProfileHeaderCol2>
-            </Section>
-          </ProfileRow>
+              <ProfileHeaderRow>
+                <HeaderRoleText>{selectedMember.role}</HeaderRoleText> </ProfileHeaderRow>
+            </ProfileHeaderCol2>
+          </SectionHeader>
+
 
           <ProfileRow>
             <TextProfileSection title="Bio" content={selectedMember.bio} />

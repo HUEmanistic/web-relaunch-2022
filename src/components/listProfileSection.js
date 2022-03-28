@@ -2,6 +2,8 @@ import React from "react";
 import {
   SectionTitle,
   Section,
+  UList,
+  LItem,
 } from "../styles/main_style";
 
 export default function ListProfileSection(props) {
@@ -9,7 +11,7 @@ export default function ListProfileSection(props) {
   return (
     <Section>
       <SectionTitle>{props.title}</SectionTitle>
-      <ul>{props.content.map(item => <li>{item}</li>)}</ul>
+      <UList>{props.content.map(item => <LItem>{item}</LItem>)}</UList>
     </Section>
   );
 }
