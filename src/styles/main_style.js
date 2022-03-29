@@ -139,7 +139,7 @@ export const MainDiv = Styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
-border: blue 1px solid;
+// border: blue 1px solid;
 
       @media (max-width: 767px) {
         margin-top: 20%;
@@ -180,7 +180,7 @@ export const ImageDiv = Styled.img`
 width: 60%;
 border-radius: 50%;
 box-shadow: 5px 5px 8px #BCB8B8;
-border: gray 1px solid;
+// border: gray 1px solid;
 
 `;
 
@@ -389,12 +389,14 @@ export const Section = Styled.div`
 display: flex;
 flex-direction: column;
 width: 100%;
-justify-content: center;
 background: #ffffffCC;
 color:black;
 padding:4%;
 margin: 2%;
-border: green 1px solid;
+// border: green 1px solid;
+align-items: center;
+
+
 `;
 
 export const SectionHeader = Styled.div`
@@ -405,7 +407,7 @@ background: #ffffffB3;
 color:black;
 padding: 2%;
 margin: 2%;
-border: green 1px solid;
+// border: green 1px solid;
 `;
 
 export const SectionCol = Styled(Col)`
@@ -425,7 +427,7 @@ display:flex;
 background: #ffffff80;
 flex-wrap: wrap;
 padding: 3% 0;
-border: blue 1px solid;
+// border: blue 1px solid;
 `;
 
 export const ProfileRow2 = Styled(Row)`
@@ -434,7 +436,7 @@ display:flex;
 flex-direction: row;
 flex-wrap: nowrap;
 padding: 3% 0;
-border: orange 1px solid;
+// border: orange 1px solid;
             @media (max-width: 1280px) {
               width: 100%;
             }
@@ -510,7 +512,7 @@ display: flex;
 font-weight: 600;
 justify-content: center;
 align-items: center;
-margin-bottom: 2%;
+margin-bottom: 3%;
 `;
 
 export const SectionText = Styled.p`
@@ -539,8 +541,10 @@ margin-top: 1%;
 // *Lists ul / li
 
 export const UList = Styled.ul`
-display:flex;
+display:block;
 justify-content: center;
+align-items: center;
+line-height:2;
 `;
 export const LItem = Styled.li`
 display:flex;
