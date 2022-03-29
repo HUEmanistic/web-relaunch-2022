@@ -110,6 +110,7 @@ justify-content: center;
 align-content: center;
 align-items: center;
 height:400px;
+width:100%;
 background-repeat: no-repeat;
 background-size: cover;
 `;
