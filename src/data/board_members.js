@@ -3,11 +3,11 @@ import Sean from "../media/images/bio/sean.jpg";
 import Marianna from "../media/images/bio/marianna.jpg";
 import Christina from "../media/images/bio/christina.jpg";
 import Brandon from "../media/images/bio/brandon.jpg";
-import HazzaunaProfile from "../media/images/background/hazzauna_alt.jpg";
-import SeanProfile from "../media/images/background/sean_alt.jpg";
-import MariannaProfile from "../media/images/background/marianna_alt.jpg";
-import ChristinaProfile from "../media/images/background/christina_alt.jpg";
-import BrandonProfile from "../media/images/background/brandon_alt.jpg";
+import HazzaunaProfile from "../media/images/background/hazzauna.jpg";
+import SeanProfile from "../media/images/background/sean.jpg";
+import MariannaProfile from "../media/images/background/marianna.jpg";
+import ChristinaProfile from "../media/images/background/christina.jpg";
+import BrandonProfile from "../media/images/background/brandon.jpg";
 
 export const members = [
   {
