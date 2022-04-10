@@ -27,7 +27,7 @@ margin-bottom:5%;
 
 export const SectionTitle = Styled.h3`
 display: flex;
-color: slategray;
+color: black;
 font-size: 1.5rem;
 font-weight:600;
 margin-bottom: 3%;
@@ -44,7 +44,7 @@ width: 70%;
 
 export const SubSectionTitle = Styled.h3`
 display: flex;
-color: gray;
+color: black;
 font-size: 1.2rem;
 font-weight:600;
 margin: 3% 0;
@@ -52,7 +52,7 @@ margin: 3% 0;
 
 export const SectionText = Styled.p`
 display: flex;
-color:gray;
+color:black;
 font-size: 1.3rem;
 font-weight:600;
 margin-bottom: 3%;
@@ -98,7 +98,7 @@ align-content: center;
 width: 100%;
 padding: 3% 0;
 margin: 1% 0;
-border-bottom: 1px gray dotted;
+border-bottom: 2px black dotted;
 `;
 
 
@@ -108,8 +108,8 @@ width: 80%;
 border: 1px white dotted;
 padding: 5%;
 margin-bottom: 5%;
-background-color: #FFFFFF80;
-box-shadow: 2px 2px 8px #00000088;
+background-color: #FFFFFFE6;
+box-shadow: 2px 2px 8px #000000FF;
 
     @media (max-width: 481px) {
         width: 100%;
@@ -192,7 +192,7 @@ animation: ${SlideInLeft} 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 export const Italics = Styled.p`
 display:flex;
 
-color:gray;
+color:black;
 padding: 2% 0;
 margin-bottom: 5%;
 font-weight: 600;
@@ -203,9 +203,9 @@ width: 100%;
 
 export const Rule = Styled.hr`
 width:100%;
-height:2px;
+height:3px;
 padding: 2% 0;
-color:#00CED1;
+color:black;
 `;
 
 
@@ -282,7 +282,7 @@ text-decoration:none;
 export const PaypalLogo = Styled(Paypal)`
 display: flex;
 width:5%;
-color:gray;
+color:black;
 
     @media (max-width: 481px) {
         width: 10%;
@@ -294,7 +294,7 @@ export const VenmoLogo = Styled(LogoVenmo)`
 display: flex;
 width: 5%;
 margin-right:1%;
-color:gray;
+color:black;
 
     @media (max-width: 481px) {
         width: 10%;
@@ -304,7 +304,7 @@ color:gray;
 export const Storefront = Styled(Store)`
 display: flex;
 width:10%;
-color:gray;
+color:black;
 
     @media (max-width: 900px) {
         width: 20%;
@@ -314,7 +314,7 @@ color:gray;
 export const YouTubeLogo = Styled(Youtube)`
 display: flex;
 width:10%;
-color:gray;
+color:black;
     @media (max-width: 900px) {
         width: 20%;
     }
@@ -323,7 +323,7 @@ color:gray;
 export const TwitterLogo = Styled(Twitter)`
 display: flex;
 width:10%;
-color:gray;
+color:black;
 
     @media (max-width: 900px) {
         width: 20%;
@@ -333,7 +333,7 @@ color:gray;
 export const FBLogo = Styled(Facebook)`
 display: flex;
 width:10%;
-color:gray;
+color:black;
 
     @media (max-width: 900px) {
         width: 30%;
@@ -343,7 +343,7 @@ color:gray;
 export const InstaLogo = Styled(InstagramAlt)`
 display: flex;
 width:10%;
-color:gray;
+color:black;
 
     @media (max-width: 900px) {
         width: 20%;
