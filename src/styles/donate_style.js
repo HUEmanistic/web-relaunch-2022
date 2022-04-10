@@ -11,7 +11,7 @@ import { Youtube } from "@styled-icons/bootstrap/Youtube";
 import { Twitter } from "@styled-icons/bootstrap/Twitter";
 import { Facebook } from "@styled-icons/boxicons-logos/Facebook"
 import { InstagramAlt } from "@styled-icons/boxicons-logos/InstagramAlt";
-import BG from "../media/images/donate/donatebg.jpg"
+import BG from "../media/images/background/bg2.jpg"
 
 export const PageTitle = Styled.h1`
 display: flex;

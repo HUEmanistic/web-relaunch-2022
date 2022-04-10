@@ -38,105 +38,9 @@ function Donate() {
   return (
     <Page>
       <MainContainer>
-        <Navbar />
+        
         <ContentContainer>
-          <PageTitle>How Can I Help?</PageTitle>
-
-          <RowOutline>
-            <SectionTitle>Future Programs</SectionTitle>
-            <Rule />
-            <Italics>
-              We have a lot of ideas. Check out what future programs your
-              donations will help make possible!
-            </Italics>
-
-            <TitleRow2>
-              <ContentCol>
-                <SubSectionTitle>HUEmanistic Kids</SubSectionTitle>
-                <SectionText2>
-                  {" "}
-                  Resources for Parents to teach their kids how to be
-                  anti-racist.
-                </SectionText2>
-              </ContentCol>
-            </TitleRow2>
-
-            <TitleRow2>
-              <ContentCol>
-                <SubSectionTitle>The Spotlight</SubSectionTitle>
-                <SectionText2>
-                  {" "}
-                  Current events, policies, and laws that effect the
-                  disenfranchised.
-                </SectionText2>
-              </ContentCol>
-            </TitleRow2>
-
-            <TitleRow2>
-              <ContentCol>
-                <SubSectionTitle>
-                  The Psychological Effects of Racism
-                </SubSectionTitle>
-                <SectionText2>
-                  {" "}
-                  The mental and emotional effects that racism has.
-                </SectionText2>
-              </ContentCol>
-            </TitleRow2>
-
-            <TitleRow2>
-              <ContentCol>
-                <SubSectionTitle>
-                  Cultural Sensitivity &amp; Communication
-                </SubSectionTitle>
-                <SectionText2>
-                  {" "}
-                  Understanding who We are as a Culture.
-                </SectionText2>
-              </ContentCol>
-            </TitleRow2>
-
-            <TitleRow2>
-              <ContentCol>
-                <SubSectionTitle>Know Your Rights</SubSectionTitle>
-                <SectionText2>
-                  {" "}
-                  Knowing what to do may save your life.
-                </SectionText2>
-              </ContentCol>
-            </TitleRow2>
-
-            <TitleRow2>
-              <ContentCol>
-                <SubSectionTitle>Uncovered Truths</SubSectionTitle>
-                <SectionText2>
-                  {" "}
-                  History you weren't supposed to know.
-                </SectionText2>
-              </ContentCol>
-            </TitleRow2>
-
-            <TitleRow2>
-              <ContentCol>
-                <SubSectionTitle>The Notorious</SubSectionTitle>
-                <SectionText2>
-                  {" "}
-                  We dissect and debunk the misinformation from those who have
-                  gained notoriety from spreading it.
-                </SectionText2>
-              </ContentCol>
-            </TitleRow2>
-
-            <TitleRow2>
-              <ContentCol>
-                <SubSectionTitle>Community Outreach & Coaching</SubSectionTitle>
-                <SectionText2>
-                  {" "}
-                  Neighborhood conversations and events.
-                </SectionText2>
-              </ContentCol>
-            </TitleRow2>
-          </RowOutline>
+         
           <RowOutline>
             <SectionTitle>Donate</SectionTitle>
             <Rule />
@@ -279,36 +183,7 @@ function Donate() {
             </TitleRow>
           </RowOutline>
 
-          <RowOutline>
-            <SectionTitle>Volunteer Positions</SectionTitle>
-            <Rule />
-            <Italics>
-              We’re a small nonprofit, with a big cause. We need volunteers and
-              talented individuals to help promote positive change in our
-              communities.
-            </Italics>
-
-            <TitleRow>
-              <ContentCol>
-                <SectionText>
-                  Current needs:
-                  <br />
-                  <br />
-                  ⚉ Graphic Design
-                  <br />⚉ Book Reviews
-                </SectionText>
-              </ContentCol>
-            </TitleRow>
-            <ContactRow>
-            <Italics>
-              <ContactLink to="contact" >
-                {" "}
-                Contact Us 
-              </ContactLink>
-              to inquire for more information.
-            </Italics>
-            </ContactRow>
-          </RowOutline>
+        
         </ContentContainer>
       </MainContainer>
     </Page>

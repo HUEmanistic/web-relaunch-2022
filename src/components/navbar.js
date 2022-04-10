@@ -133,9 +133,9 @@ const Navibar = () => {
           </a>
         </SocialMediaDiv>
         <PulsateButton>
-          {/* <DonateLink to="/donate"> */}
+          <DonateLink to="/donate">
           <DonateButton>Donate</DonateButton>
-          {/* </DonateLink> */}
+          </DonateLink>
         </PulsateButton>
         <PulsateButton>
           <DonateLink to="/donate">
