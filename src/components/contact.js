@@ -30,16 +30,16 @@ function Contact() {
         <TitleRow>
           <PageTitle>Contact Us</PageTitle>
         </TitleRow>
-        <TitleRow>
-          <ContactText>
-            Please contact us to share your Personal Experiences, submit
-            questions to Your Black Friend, Company Sponsorship information,
-            Volunteer Inquiries or whatever is on your mind. We value your
-            opinions and feedback.
-          </ContactText>
-        </TitleRow>
-        <RowOutline>
+        <RowOutline style={{ marginTop: "5%" }}>
           <RowNoOutline>
+            <TitleRow>
+              <ContactText style={{ backgroundColor: "white", padding: "3%" }}>
+                Please contact us to share your Personal Experiences, submit
+                questions to Your Black Friend, Company Sponsorship information,
+                Volunteer Inquiries or whatever is on your mind. We value your
+                opinions and feedback.
+              </ContactText>
+            </TitleRow>
             <ContentCol>
               <Form action="https://formspree.io/f/maylgyqo" method="post">
                 <Row form>
@@ -64,11 +64,22 @@ function Contact() {
                         placeholder="Where Can We Contact You?"
                       />
                     </FormGroup>
+                    <FormGroup>
+                      <Label for="ATTN: ">Who do you want to Contact?</Label>
+                      <select id="cars" name="cars">
+                        <option value="volvo">HUEmanistic Organization</option>
+                        <option value="saab">Sean Moore</option>
+                        <option value="fiat">Hazzauna Underwood</option>
+                        <option value="audi">Brandon Fiquett</option>
+                        <option value="audi">Christina Harris</option>
+                        <option value="audi">Marianna Jankowski</option>
+                      </select>
+                    </FormGroup>
                   </Col>
                 </Row>
                 <FormGroup row>
                   <Label for="Message" sm={2}>
-                    Your Message
+                  Message
                   </Label>
                   <Col lg={12}>
                     <Input

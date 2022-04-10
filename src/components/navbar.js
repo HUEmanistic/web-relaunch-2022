@@ -1,5 +1,6 @@
 import React from "react"
 import { useHistory } from "react-router-dom";
+import {Tooltip} from "reactstrap"
 import {
   Navigation,
   NavStyle,
@@ -26,22 +27,22 @@ import {
 import {
   UncontrolledDropdown,
   DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  // DropdownMenu,
+  // DropdownItem,
 } from "reactstrap";
 
 const Navibar = () => {
 
 
   const history = useHistory();
-  const route1 = () => {
-    history.push("/about_our_mission");
-  };
+  // const route1 = () => {
+  //   history.push("#");
+  // };
   const route2 = () => {
     history.push("/");
   };
   const route3 = () => {
-    history.push("/about_us");
+    history.push("/contact");
   };
 
 
@@ -52,24 +53,20 @@ const Navibar = () => {
 
 
   return (
-    <Navigation
-      light
-      expand="md"
-
-    >
+    <Navigation light expand="md">
       <NavBrandStyle>
         <LogoFade>
           <LogoImg onClick={route2} />
         </LogoFade>
       </NavBrandStyle>
-      <NavToggler  />
-      <NavCollapse  navbar>
+      <NavToggler />
+      <NavCollapse navbar>
         <NavStyle navbar>
           <MenuList>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
                 <LinkBlack onClick={route2}>
-                <h1 style={{ color: "black" }}>Home</h1>
+                  <h1 style={{ color: "black" }}>Home</h1>
                 </LinkBlack>
               </DropdownToggle>
             </UncontrolledDropdown>
@@ -93,39 +90,28 @@ const Navibar = () => {
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                {/* <LinkBlack> */}
-                <h1 style={{ color: "black" }}>Learning Annex</h1>
-                {/* </LinkBlack> */}
+                <LinkBlack id="ComingSoon" onClick={route2}>
+                  <h1 style={{ color: "black" }}>Learning Annex</h1>
+                </LinkBlack>
+                <Tooltip
+                  flip
+                  target="ComingSoon"
+                  toggle={function noRefCheck() {}}
+                >
+                  Coming Soon
+                </Tooltip>
               </DropdownToggle>
-              <DropdownMenu left>
-                <DropdownItem onClick={route1}>
-                  Vision &amp; Mission Statement
-                </DropdownItem>
-                <DropdownItem onClick={route3}>
-                  The Humans Behind HUEmanistic
-                </DropdownItem>
-              </DropdownMenu>
             </UncontrolledDropdown>
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
                 <h1 style={{ color: "black" }}>Volunteer</h1>
-                {/* <LinkBlack> Volunteer</LinkBlack> */}
               </DropdownToggle>
-              {/* <DropdownMenu left>
-                <DropdownItem onClick={route1}>
-                  Vision &amp; Mission Statement
-                </DropdownItem>
-                <DropdownItem onClick={route3}>
-                  The Humans Behind HUEmanistic
-                </DropdownItem>
-              </DropdownMenu> */}
             </UncontrolledDropdown>
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                <h1 style={{ color: "black" }}>Contact</h1>
-                {/* <MenuLink to="/contact">Contact </MenuLink> */}
+                <LinkBlack onClick={route3}>Contact </LinkBlack>
               </DropdownToggle>
             </UncontrolledDropdown>
           </MenuList>
@@ -148,7 +134,7 @@ const Navibar = () => {
         </SocialMediaDiv>
         <PulsateButton>
           {/* <DonateLink to="/donate"> */}
-            <DonateButton>Donate</DonateButton>
+          <DonateButton>Donate</DonateButton>
           {/* </DonateLink> */}
         </PulsateButton>
         <PulsateButton>

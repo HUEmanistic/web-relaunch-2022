@@ -2,7 +2,7 @@ import Styled from "styled-components";
 import { Row, Col, Container } from "reactstrap";
 import Logo from "../media/images/logo/logo.png";
 import Email from "../media/images/contact/email.png";
-import BG from "../media/images/contact/contact_bg.jpg"
+import BG from "../media/images/background/bg1.jpg"
 
 export const Page = Styled.body`
     display: flex;
