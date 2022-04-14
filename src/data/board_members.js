@@ -69,7 +69,7 @@ This is a lesson I've never forgotten.`,
     image: `${Hazzauna}`,
     contact: `
     info@huemanistic.org / attn: Hazzauna Underwood`,
-    books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
+    books: ["So You Want to Talk About Race", "Stamped From the Beginning"],
     movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
     role: "Vice President, Director",
     profile_episode:
@@ -126,11 +126,24 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
     https://www.christinaharris.dev/
     info@huemanistic.org / attn: Christina Harris
     `,
-    books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
-    movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
+    books: [
+      "I Am Not Your Negro",
+      "The Color of Law",
+      "The Sum of Us",
+      "Medical Apartheid",
+      "Fearing the Black Body",
+    ],
+    movies: [
+      "Mississippi Burning",
+      "American History X",
+      "Do the Right Thing",
+      "In the Heat of the Night",
+    ],
     role: "Treasurer, Director Of Technology, Director",
-    profile_episode:
+    profile_episode: [
       "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Christina-Harris-e1bjv87",
+      "https://anchor.fm/huemanistic-organization9/embed/episodes/Reaction-the-Color-Commentary-episode-HealthCare-and-Wellness-with-Dr--Smith-e1guft3",
+    ],
     bio: "I'm Boston Native that made the move to eventually become a Seattleite in 2016.  I graduated from Massachusetts College of Art and Design to acquire a BA in Graphic Design. I most recently completed Lambda School's Full Stack Web Development program. I love to design and code and I'm happy to be able to use my talents to make a positive change. HUEmanistic means a lot to me because it's a chance to have a voice and to hopefully bring people, communities, and eventually the country together! Who knows maybe even the world? It's long overdue and I hope I can see this change in my lifetime. Let's make inequality a thing of the past!",
     experienceTitle: "The Talk",
     experience: `'You already have two strikes against you. You're a woman and you're Black.'  This is the sentence that has followed me throughout life. The talk my mom gave me was quick and concise but left a lasting scar on my psyche. Once this realization was chained to my being it dominated the essence of who I was.  At that moment I was forced to reckon with the fact I was different. I was forced to acknowledge the fact that people wouldn't see me for who I was. I can't remember how young I was for sure when I had the talk. I know I cried and it scared me. I didn't want to be different. I didn't want people to think I was a bad person. 

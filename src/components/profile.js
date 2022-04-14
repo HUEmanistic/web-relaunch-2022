@@ -1,10 +1,12 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { members } from "../data/board_members";
+import Carousel from "nuka-carousel";
 import TextProfileSection from "./textProfileSection";
 import PodcastProfileSection from "./podcastProfileSection";
 import ListProfileSection from "./listProfileSection";
 import ProfileListDisplay from "./profileListDisplay";
+import { AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
 import {
   Page,
   MainDiv,
@@ -35,10 +37,10 @@ export default function Profile() {
     >
       {selectedMember ? (
         <MainDiv>
-
           <SectionHeader>
             <ProfileHeaderCol1>
-              <ImageDiv style={{ width: "45%" }}
+              <ImageDiv
+                style={{ width: "45%" }}
                 src={selectedMember.image}
                 alt={selectedMember.first_name}
               />
@@ -51,14 +53,12 @@ export default function Profile() {
               </ProfileHeaderRow>
 
               <ProfileHeaderRow>
-                <HeaderRoleText>{selectedMember.role}</HeaderRoleText> </ProfileHeaderRow>
+                <HeaderRoleText>{selectedMember.role}</HeaderRoleText>{" "}
+              </ProfileHeaderRow>
             </ProfileHeaderCol2>
           </SectionHeader>
 
-
           <ProfileRow>
-            <TextProfileSection title="Bio" content={selectedMember.bio} />
-
             <TextProfileSection
               title={`Experience : ${selectedMember.experienceTitle}`}
               content={selectedMember.experience}
@@ -74,12 +74,27 @@ export default function Profile() {
                 content={selectedMember.movies}
               />
             </ProfileCol>
-            <ProfileCol2>
-              <PodcastProfileSection
-                title="Profile Episodes"
-                content={selectedMember.profile_episode}
-              />
 
+            <ProfileCol2>
+              <Carousel
+                renderCenterLeftControls={({ previousSlide }) => (
+                  <button onClick={previousSlide}>
+                    <AiFillCaretLeft />
+                  </button>
+                )}
+                renderCenterRightControls={({ nextSlide }) => (
+                  <button onClick={nextSlide}>
+                    <AiFillCaretRight />
+                  </button>
+                )}
+              >
+                {selectedMember.profile_episode.map((episode) => (
+                  <PodcastProfileSection
+                    title="Profile Episodes"
+                    content={episode}
+                  />
+                ))}
+              </Carousel>
               <TextProfileSection
                 title="Contact"
                 content={selectedMember.contact}

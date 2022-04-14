@@ -32,7 +32,7 @@ function Main(props) {
         <CarouselContainer>
           <Carousel
             style={{
-              boxShadow: "10px 10px 5px #4B57CF",
+              boxShadow: "10px 10px 5px #4B57CF"
             }}
           >
             {slideData.map((bg) => (
