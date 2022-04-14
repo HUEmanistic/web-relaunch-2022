@@ -17,8 +17,8 @@ export const members = [
     last_name: "Moore",
     image: `${Sean}`,
     role: "President, Director Of Marketing, Director",
-    profile_episode:
-      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Sean-Moore-e1anf6v",
+    profile_episode:[
+      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Sean-Moore-e1anf6v"],
     contact: `
     info@huemanistic.org / attn: Sean Moore`,
     books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
@@ -72,8 +72,8 @@ This is a lesson I've never forgotten.`,
     books: ["So You Want to Talk About Race", "Stamped From the Beginning"],
     movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
     role: "Vice President, Director",
-    profile_episode:
-      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Hazzauna-Underwood-e1a969a",
+    profile_episode:[
+      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Hazzauna-Underwood-e1a969a",],
     bio: "ER/Critical Care Nurse. Born and raised Washingtonian. Graduated from Grover Cleveland High School in Seattle, WA. Bachelor of Arts in Human Development with a minor in Child Psychology from Washington State University. Bachelor of Science in Nursing from New Mexico State University. I have 3 daughters (16, 15 & 4) and a son (7). Currently work as an ER and Rapid response nurse at local hospitals.",
     experienceTitle: "The Hair You Wear",
     experience: `I remember it like it was yesterday.  My daughter came to me before bedtime and asked if she could have her hair straight tomorrow for school.  She was in Kinder, just 5 years old, beautiful lush curls or twists is how she normally wore her hair.  I simply replied, sure.  I blow-dried her hair and put a few rollers at the end to give a soft curl.  Morning came, I was excited to see her new hairdo, excited to see her face of excitement for it, too.  Happiness?  Elation?  Excitement?  Joy!?!  I took off her hair scarf, took down the rollers, ran my fingers through her rolled curls to separate them and, VIOLA!  Beautiful, so I believed she would believe.  That was the last thing on her mind.  Her emotions were of Sadness, Anger, Annoyance and Frustration.  My little girl wanted her hair like all the other little girls in her class, she was being made to believe that her hair being different made her different, and she felt like she didn't fit in.  She cried, big crocodile tears, and then she said to me, “Mom, your hair is straight, too.” This was the beginning of my natural hair journey and the last time I permed my hair to keep it straight. 
@@ -161,12 +161,12 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
     last_name: "Fiquett",
     contact: `
     info@huemanistic.org / attn: Brandon Fiquett`,
-    books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
-    movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
+    books: ["Book1", "Book2", "Book3"],
+    movies: ["Movie1", "Movie2", "Movie3"],
     image: Brandon,
     role: "Director of Social Media, Director",
-    profile_episode:
-      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003",
+    profile_episode:[
+      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003"],
     bio: `
     Sit amet purus gravida quis blandit. Sit amet luctus venenatis lectus magna fringilla. Quis eleifend quam adipiscing vitae proin sagittis. Nisl nisi scelerisque eu ultrices vitae. Auctor urna nunc id cursus metus aliquam eleifend. Odio ut enim blandit volutpat maecenas volutpat blandit. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Facilisis mauris sit amet massa. Quam nulla porttitor massa id neque aliquam vestibulum morbi.`,
     experienceTitle: "Lorem ipsum dolor",

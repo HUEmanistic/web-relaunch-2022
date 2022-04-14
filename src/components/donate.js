@@ -1,9 +1,8 @@
 import React from "react";
-import Navbar from "./navbar";
+
 
 import {
   Page,
-  PageTitle,
   ContentContainer,
   RowOutline,
   ContentCol,
@@ -24,14 +23,11 @@ import {
   Italics,
   LinkBlack,
   SectionText,
-  SectionText2,
   PaypalImg,
   TitleRow,
-  TitleRow2,
   VenmoImg,
   MainContainer,
-  ContactLink,
-  ContactRow
+
 } from "../styles/donate_style";
 
 function Donate() {
