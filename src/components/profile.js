@@ -77,16 +77,25 @@ export default function Profile() {
 
             <ProfileCol2>
               <Carousel
-                renderCenterLeftControls={({ previousSlide }) => (
-                  <button onClick={previousSlide}>
-                    <AiFillCaretLeft />
-                  </button>
-                )}
-                renderCenterRightControls={({ nextSlide }) => (
-                  <button onClick={nextSlide}>
-                    <AiFillCaretRight />
-                  </button>
-                )}
+                renderCenterLeftControls={({ previousSlide }) => {
+                  if (selectedMember.profile_episode.length > 1) {
+                    return (
+                      <button onClick={previousSlide}>
+                        <AiFillCaretLeft />
+                      </button>
+                    );
+                  }
+                }}
+                renderCenterRightControls={({ nextSlide }) => {
+                  if (selectedMember.profile_episode.length > 1) {
+                    return (
+                      <button onClick={nextSlide}>
+                        <AiFillCaretRight />
+                      </button>
+                    );
+                  }
+                }}
+               
               >
                 {selectedMember.profile_episode.map((episode) => (
                   <PodcastProfileSection
