@@ -2,7 +2,6 @@ import React from "react";
 import Carousel from "nuka-carousel";
 import ProfileListDisplay from "./profileListDisplay";
 import background from "../media/images/background/main.jpg";
-
 import { webBlocks, slideData } from "../data/web_info";
 
 import {

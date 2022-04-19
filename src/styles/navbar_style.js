@@ -165,10 +165,11 @@ font-style: italic;
 export const LinkBlack = Styled.a`
 display: flex;
 text-align: center;
-font-size: 1.3rem;
+font-size: 1rem;
 color: black;
 width: 100%;
-font-weight: 300;
+font-weight: 500;
+
 
 
      &:hover {
@@ -176,22 +177,22 @@ font-weight: 300;
                 transition: all 0.2s ease-out;
                 text-decoration: none;
             }
-            @media(max-width: 1440px) {
-                font-size: 1.2rem;
-            }
-            @media(min-width: 1025px) and (max-width: 1200px) {
-                font-size: 1rem;
-            }
-            @media(min-width: 768px) and (max-width: 1024px) {
-                font-size: .90rem;
-            }
-            @media(max-width: 767px) {
-                margin-top: 3%;
-            }
-            @media (max-width: 480px) {
-               font-size: 1rem;
-               text-align: left;
-            }
+    //         @media(max-width: 1440px) {
+    //             font-size: 1.2rem;
+    //         }
+    //         @media(min-width: 1025px) and (max-width: 1200px) {
+    //             font-size: 1rem;
+    //         }
+    //         @media(min-width: 768px) and (max-width: 1024px) {
+    //             font-size: .90rem;
+    //         }
+    //         @media(max-width: 767px) {
+    //             margin-top: 3%;
+    //         }
+    //         @media (max-width: 480px) {
+    //            font-size: 1rem;
+    //            text-align: left;
+    //         }
 
 `;
 

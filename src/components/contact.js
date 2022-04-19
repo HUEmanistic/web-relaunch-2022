@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./navbar";
 import {
   Col,
   Button,
@@ -26,7 +25,6 @@ function Contact() {
   return (
     <Page>
       <MainContainer>
-        <Navbar />
         <TitleRow>
           <PageTitle>Contact Us</PageTitle>
         </TitleRow>

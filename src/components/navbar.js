@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 import { useHistory } from "react-router-dom";
-import {Tooltip} from "reactstrap"
+import { Tooltip, OverlayTrigger } from "react-bootstrap";
 import {
   Navigation,
   NavStyle,
@@ -32,8 +32,6 @@ import {
 } from "reactstrap";
 
 const Navibar = () => {
-
-
   const history = useHistory();
   // const route1 = () => {
   //   history.push("#");
@@ -44,13 +42,9 @@ const Navibar = () => {
   const route3 = () => {
     history.push("/contact");
   };
-
-
-
-
-  
-  
-
+  const route4 = () => {
+    history.push("#");
+  };
 
   return (
     <Navigation light expand="md">
@@ -65,47 +59,30 @@ const Navibar = () => {
           <MenuList>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                <LinkBlack onClick={route2}>
-                  <h1 style={{ color: "black" }}>Home</h1>
-                </LinkBlack>
+                <LinkBlack onClick={route2}>Home</LinkBlack>
               </DropdownToggle>
             </UncontrolledDropdown>
 
             <UncontrolledDropdown nav inNavbar>
-              {/* <DropdownToggle nav> */}
-              {/* <LinkBlack> */}
-
-              <h1 style={{ color: "black" }}>What is HUEmanistic?</h1>
-              {/* </LinkBlack> */}
-              {/* </DropdownToggle> */}
-              {/* <DropdownMenu left>
-                <DropdownItem onClick={route1}>
-                  Vision &amp; Mission Statement
-                </DropdownItem>
-                <DropdownItem onClick={route3}>
-                  The Humans Behind HUEmanistic
-                </DropdownItem>
-              </DropdownMenu> */}
+              <DropdownToggle nav>
+                <LinkBlack onClick={route4}>What is HUEmanistic? </LinkBlack>
+              </DropdownToggle>
             </UncontrolledDropdown>
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                <LinkBlack id="ComingSoon" onClick={route2}>
-                  <h1 style={{ color: "black" }}>Learning Annex</h1>
-                </LinkBlack>
-                <Tooltip
-                  flip
-                  target="ComingSoon"
-                  toggle={function noRefCheck() {}}
+                <OverlayTrigger
+                  placement="top"
+                  overlay={<Tooltip>Coming Soon</Tooltip>}
                 >
-                  Coming Soon
-                </Tooltip>
+                  <LinkBlack onClick={route4}>Learning Annex</LinkBlack>
+                </OverlayTrigger>
               </DropdownToggle>
             </UncontrolledDropdown>
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
-                <h1 style={{ color: "black" }}>Volunteer</h1>
+                <LinkBlack onClick={route4}>Volunteer </LinkBlack>
               </DropdownToggle>
             </UncontrolledDropdown>
 
@@ -119,22 +96,30 @@ const Navibar = () => {
 
         <SocialMediaDiv>
           {" "}
-          <a href="https://twitter.com/huemanistic">
-            <TwitterLogo />
-          </a>
+          <OverlayTrigger placement="top" overlay={<Tooltip>Twitter</Tooltip>}>
+            <a href="https://twitter.com/huemanistic">
+              <TwitterLogo />
+            </a>
+          </OverlayTrigger>
+           <OverlayTrigger placement="top" overlay={<Tooltip>FaceBook</Tooltip>}>
           <a href="https://www.facebook.com/HUEmanistic/">
             <FBLogo />
-          </a>
+            </a>
+          </OverlayTrigger>
+          <OverlayTrigger placement="top" overlay={<Tooltip>Insta</Tooltip>}>
           <a href="https://www.instagram.com/huemanistic_commonground/">
             <InstaLogo />
-          </a>
+            </a>
+          </OverlayTrigger>
+          <OverlayTrigger placement="top" overlay={<Tooltip>Shop</Tooltip>}>
           <a href="https://www.bonfire.com/store/the-huemanistic-store/">
             <TshirtLogo />
-          </a>
+            </a>
+          </OverlayTrigger>
         </SocialMediaDiv>
         <PulsateButton>
           <DonateLink to="/donate">
-          <DonateButton>Donate</DonateButton>
+            <DonateButton>Donate</DonateButton>
           </DonateLink>
         </PulsateButton>
         <PulsateButton>

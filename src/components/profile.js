@@ -65,14 +65,19 @@ export default function Profile() {
             />
 
             <ProfileCol>
-              <ListProfileSection
-                title="Book Recommendations"
-                content={selectedMember.books}
-              />
-              <ListProfileSection
-                title="Movie Recommendations"
-                content={selectedMember.movies}
-              />
+              {selectedMember.books.length > 0 ? (
+                <ListProfileSection
+                  title="Book Recommendations"
+                  content={selectedMember.books}
+                />
+              ) : null}
+
+              {selectedMember.movies.length > 0 ? (
+                <ListProfileSection
+                  title="Movie Recommendations"
+                  content={selectedMember.movies}
+                />
+              ) : null}
             </ProfileCol>
 
             <ProfileCol2>
@@ -95,7 +100,6 @@ export default function Profile() {
                     );
                   }
                 }}
-               
               >
                 {selectedMember.profile_episode.map((episode) => (
                   <PodcastProfileSection

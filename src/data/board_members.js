@@ -21,8 +21,8 @@ export const members = [
       "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Sean-Moore-e1anf6v"],
     contact: `
     info@huemanistic.org / attn: Sean Moore`,
-    books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
-    movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
+    books: [],
+    movies: [],
     bio: `A Los Angeles Native trained in Design, Psychology and Pop Culture with a BA in art. I am currently a Campaign Manager and Marketer, amateur writer of books and do podcasts in my spare time. Being a person of color, I am intimately familiar with the inequities and injustice of a racist society with a violent and painful history. However, I do believe in the myth of the American Dream and I strive constantly to use every tool at my disposal to make that myth a reality for all. I joined HUEmanistic because I believe in what the organization represents, and I will use my skills and talents to aid in their mission.`,
     experienceTitle: "Evening Traffic Stop",
     experience: `My mother frequently made it a point to teach me about the inequities in society.  The disparity in the sexes, the unfairness of the classes, and the oft time subtle and blatant racism prevalent in our country.  I can't say that I was ever surprised that there are people out there who didn't like me, simply because of the color of my skin.  Nor was I caught off guard when I finally learned the accurate and unabridged history of America, never shared by my grade school teachers, until I went to college. 
@@ -70,7 +70,7 @@ This is a lesson I've never forgotten.`,
     contact: `
     info@huemanistic.org / attn: Hazzauna Underwood`,
     books: ["So You Want to Talk About Race", "Stamped From the Beginning"],
-    movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
+    movies: [],
     role: "Vice President, Director",
     profile_episode:[
       "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Hazzauna-Underwood-e1a969a",],
@@ -96,8 +96,8 @@ This is what I grew up in.  I emulated what was around, what I was taught was be
     image: `${Marianna}`,
     contact: `
     info@huemanistic.org / attn: Marianna Jankowski`,
-    books: ["Book1", "Book2", "Book3", "Book4", "Book5"],
-    movies: ["Movie1", "Movie2", "Movie3", "Movie4", "Movie5"],
+    books: [],
+    movies: [],
     role: "Secretary, Director",
     profile_episode:
       "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Marianna-Jankowski-e1fe7s1",
@@ -161,8 +161,8 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
     last_name: "Fiquett",
     contact: `
     info@huemanistic.org / attn: Brandon Fiquett`,
-    books: ["Book1", "Book2", "Book3"],
-    movies: ["Movie1", "Movie2", "Movie3"],
+    books: [],
+    movies: [],
     image: Brandon,
     role: "Director of Social Media, Director",
     profile_episode:[
@@ -171,10 +171,6 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
     Sit amet purus gravida quis blandit. Sit amet luctus venenatis lectus magna fringilla. Quis eleifend quam adipiscing vitae proin sagittis. Nisl nisi scelerisque eu ultrices vitae. Auctor urna nunc id cursus metus aliquam eleifend. Odio ut enim blandit volutpat maecenas volutpat blandit. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Facilisis mauris sit amet massa. Quam nulla porttitor massa id neque aliquam vestibulum morbi.`,
     experienceTitle: "Lorem ipsum dolor",
     experience: `
-Lorem ipsum dolor sit amet consectetur adipiscing elit nec, eu pretium fusce vitae faucibus viverra facilisis bibendum, tortor platea sollicitudin praesent enim habitasse libero. Himenaeos velit egestas condimentum integer semper arcu netus congue justo torquent elit phasellus hac luctus litora, vulputate diam vitae vestibulum curae amet convallis ridiculus per platea class magna odio sollicitudin. Vel erat conubia ultricies imperdiet aliquam dictum arcu vehicula augue class, quis vitae hac curabitur tellus massa felis enim velit diam iaculis, eros consequat nec ad dapibus habitant rutrum est eget. Ipsum neque non sapien eu faucibus ante nullam nunc felis penatibus blandit, primis nam porta per turpis tempor nibh pulvinar vel metus. Dui himenaeos congue magnis hendrerit per vivamus mattis, blandit posuere egestas proin urna id, ligula habitant at sociis et neque.
-
-Curae augue porttitor est dictumst praesent accumsan placerat egestas, sagittis sem interdum felis mus ligula primis nostra habitasse, commodo nascetur porta urna sollicitudin ultrices neque mi, fusce donec auctor dui fames nibh proin. Curae cum fusce fames amet euismod tincidunt senectus, dolor aliquam id hendrerit ridiculus. Penatibus hac mollis vulputate felis dignissim purus lectus fringilla commodo, cursus tristique et elit pellentesque proin euismod mi. Tristique nulla donec fames nec malesuada interdum laoreet nam rutrum porta, cursus faucibus placerat fringilla aptent ornare elit tincidunt sem. Phasellus platea ut volutpat in sollicitudin eros nam, fames vulputate vehicula adipiscing etiam facilisi orci, elementum vitae ultrices congue a montes. Tempus sollicitudin urna aenean integer aptent pharetra pretium ullamcorper id nisi litora curae, malesuada iaculis adipiscing mi vitae vestibulum habitant ipsum varius nullam semper, nam vehicula potenti pellentesque ultrices ridiculus aliquet ornare sagittis rhoncus felis. Non amet turpis ad lectus sodales erat aptent, ac lacus convallis inceptos potenti dolor, ut interdum habitasse aliquam nunc sollicitudin.
-
-Pharetra nascetur sem cum nulla magna class curae primis aliquam dictumst, facilisi per vestibulum sociis luctus tortor condimentum interdum. Curabitur hendrerit nibh penatibus suspendisse vehicula viverra nulla quisque platea, sapien volutpat cubilia cum proin nostra urna magnis fringilla ac, aenean ultrices dignissim pretium sagittis mus sollicitudin ante. Elit potenti placerat sociosqu curabitur in aenean id convallis, est turpis cras fames parturient orci curae himenaeos habitant, vehicula egestas aliquam ad dictumst bibendum sollicitudin. Elit ac cursus taciti dis neque habitasse, amet convallis ultricies quis. Sagittis congue neque senectus egestas fermentum dui morbi dolor commodo, facilisi tempor diam ultrices sollicitudin suspendisse tristique eu. Nec feugiat ultricies aliquam imperdiet proin pulvinar lobortis facilisis sollicitudin cursus phasellus, orci in litora habitant sociis ligula rutrum torquent quis. Duis dis dapibus imperdiet ornare ut tellus amet cursus rutrum magna id hac, eu elementum iaculis cum lacinia senectus in facilisi ridiculus aptent.`,
+Coming Soon`,
   },
 ];
