@@ -37,10 +37,21 @@ padding: 5%;
 
 //rows
 
-export const RowOutline = Styled(Row)`
+export const MainRowOutline = Styled(Row)`
 display:flex;
 justify-content: center;
 width: 100%;
+padding: 5%;
+margin-bottom: 5%;
+background-color: #FFFFFFE6;
+box-shadow: 2px 2px 8px #000000FF;
+
+`;
+
+export const RowOutline = Styled(Row)`
+display:flex;
+justify-content: center;
+width: 80%;
 padding: 5%;
 margin-bottom: 5%;
 background-color: #FFFFFFE6;
@@ -58,6 +69,7 @@ export const Rule = Styled.hr`
 width:100%;
 height:3px;
 color:black;
+margin-bottom: 4%;
 `;
 
 //container
@@ -78,6 +90,11 @@ padding-top: 15%;
 
 //divs
 
+export const JobDiv = Styled.div`
+display:flex;
+justify-content: center;
+width: 75%;
+`;
 
 //link
 
@@ -97,7 +114,6 @@ margin-bottom: 3%;
 `;
 
 export const Para = Styled.p`
-text-align: center;
 color:black;
 font-weight: 300;
 font-size: 1rem;
