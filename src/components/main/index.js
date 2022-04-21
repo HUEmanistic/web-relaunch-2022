@@ -20,6 +20,9 @@ import {
   Page,
   WebBlockTitle,
   WebBlockDiv,
+  WebBlockLink,
+  WebBlockTextDiv,
+  BlockText,
 } from "./style";
 
 
@@ -31,7 +34,7 @@ function Main(props) {
         <CarouselContainer>
           <Carousel
             style={{
-              boxShadow: "10px 10px 5px #4B57CF"
+              boxShadow: "10px 10px 5px #4B57CF",
             }}
           >
             {slideData.map((bg) => (
@@ -87,10 +90,14 @@ function Main(props) {
 
         <ContentRow2>
           {webBlocks.map((wb) => (
-            <WebBlockDiv style={{ background: wb.backgroundImage }}>
-              <WebBlockTitle>{wb.title}</WebBlockTitle>
-              <MainText style={{ fontSize: "1rem" }}>{wb.info}</MainText>
-            </WebBlockDiv>
+            <WebBlockLink  to={wb.link}>
+              <WebBlockDiv style={{ background: wb.backgroundImage }}>
+                <WebBlockTitle>{wb.title}</WebBlockTitle>
+                <WebBlockTextDiv>
+                  <BlockText>{wb.info}</BlockText>
+                </WebBlockTextDiv>
+              </WebBlockDiv>
+            </WebBlockLink>
           ))}
         </ContentRow2>
       </MainDiv>

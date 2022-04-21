@@ -18,18 +18,21 @@ export const webBlocks = [
     backgroundImage: "linear-gradient(132deg, #F4D03F 0%, #16A085 100%)",
     title: "What is HUEmanistic?",
     info: "Learn more about our mission to educate one neighbor at a time.",
+    link: "/what-is-huemanistic",
   },
   {
     backgroundColor: "#FF3CAC",
     backgroundImage: "linear-gradient(19deg, #21D4FD 0%, #B721FF 100%)",
     title: "Volunteer",
-    info: "Help Wanted! We are looking to expand our team. If you'd like to help Please Apply!",
+    info: "We are looking to expand. If you'd like to help volunteer take a look at our listings",
+    link: "/volunteer",
   },
   {
     backgroundColor: "#FF3CAC",
     backgroundImage: "linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)",
     title: "Learning Annex",
-    info: "Here's a collection of our research and past podcasts",
+    info: " Coming Soon ! A collection of our research and past podcasts and videos",
+    link: "/volunteer",
   },
 ];
 

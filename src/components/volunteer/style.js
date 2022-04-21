@@ -121,17 +121,6 @@ line-height: 2rem;
 
 `;
 
-export const Para2 = Styled.p`
-display:flex;
-flex-direction: row;
-text-align: center;
-color:black;
-font-weight: 300;
-font-size: 1rem;
-line-height: 2rem;
-
-`;
-
 export const Header = Styled.h1`
 display:flex;
 flex-wrap: nowrap;

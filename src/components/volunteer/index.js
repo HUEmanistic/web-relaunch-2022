@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {
   SectionTitle,
   Rule,
   MainContainer,
   Page,
   Para,
-  Para2,
   ContentContainer,
   RowOutline,
   MainRowOutline,

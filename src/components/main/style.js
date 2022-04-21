@@ -1,4 +1,5 @@
 import Styled from "styled-components";
+import { Link } from "react-router-dom";
 import { Row, Col } from "reactstrap";
 import Logo from "../../media/images/logo/logo_phrase_shadow.png";
 import { BounceIn } from "../keyframes";
@@ -18,13 +19,21 @@ font-family: font-family: 'Montserrat', sans-serif;
 
 `;
 
+//link
+export const WebBlockLink = Styled(Link)`
+text-decoration:none;
+color: black;
+ &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+        
+`;
 
 // *iframe
 
 export const Frame = Styled.iframe.attrs({
   height: "100%",
   width: "100%",
-  frameBorder: "0",
+  frameborder: "0",
   scrolling: "no",
 })`
 display: flex;,
@@ -88,15 +97,19 @@ align-items: center;
 export const WebBlockDiv = Styled.div`
 display:flex;
 flex-direction: column;
-border-radius: 25% 10%;
 justify-content: center;
 align-items: center;
-width: 100%;
+max-width: 90%;
 text-align:center;
-margin:1%;
 border-radius: 10% / 50%;
-padding: 2%;
-box-shadow: 10px 5px 5px gray;
+padding: 5%;
+box-shadow: 10px 5px 5px gray; 
+
+`;
+
+export const WebBlockTextDiv = Styled.div`
+display:inline-block;
+text-align:center;
 `;
 
 export const ContentRow2 = Styled.div`
@@ -104,8 +117,11 @@ background: #FFFFFF;
 width: 100%;
 display:flex;
 flex-direction: row;
+justify-content: center;
+align-content: center;
+align-items: center;
 flex-wrap: nowrap;
-padding: 3% 0;
+padding: 3%;
             @media (max-width: 1280px) {
               width: 100%;
             }
@@ -144,7 +160,6 @@ margin-bottom: 3%;
 font-size:1.5rem;
 font-size:600;
 color: black;
-text-shadow: 0px -1px 0px rgba(255,255,255,.5); /* 50% white from top */
 `;
 
 export const MainText = Styled.p`
@@ -166,6 +181,28 @@ font-size: 1.5rem;
               font-size: 1rem;
             }
 `;
+
+export const BlockText = Styled.p`
+display:flex;
+width:100%;
+line-height:2rem;
+font-family: 'Montserrat', sans-serif;
+weight: 300;
+text-decoration: none;
+font-size: 1rem;
+
+
+            @media (max-width: 1024px) {
+             width: 80%;
+            }
+            @media (max-width: 768px) {
+             width: 90%;
+            }
+            @media (max-width: 480px) {
+              font-size: 1rem;
+            }
+`;
+
 
 // *rows
 
