@@ -13,7 +13,7 @@ import {
   RowNoOutline,
 } from "./style";
 
-function Main() {
+function Mission() {
   return (
     <Page>
       <MainContainer>
@@ -94,4 +94,4 @@ function Main() {
     </Page>
   );
 }
-export default Main;
+export default Mission;

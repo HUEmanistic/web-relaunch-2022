@@ -92,8 +92,6 @@ export const DefinitionImg = Styled.img.attrs({
                visibility: hidden;
             }
 `;
-//divs
-
 
 //text
 
