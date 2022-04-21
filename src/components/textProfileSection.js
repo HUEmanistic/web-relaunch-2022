@@ -3,7 +3,7 @@ import {
   SectionTitle,
   SectionText,
   Section,
-} from "../styles/main_style";
+} from "./style";
 
 export default function TextProfileSection(props) {
 

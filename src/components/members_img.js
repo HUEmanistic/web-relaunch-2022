@@ -1,5 +1,5 @@
 import React from "react";
-import { Para, ImageDiv, ContentCol1 } from "../styles/main_style";
+import { Para, ImageDiv, ContentCol1 } from "./style";
 
 function MemberImage({ member }) {
   return (

@@ -4,7 +4,7 @@ import {
   Section,
   UList,
   LItem,
-} from "../styles/main_style";
+} from "./style";
 
 export default function ListProfileSection(props) {
 

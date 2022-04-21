@@ -1,4 +1,4 @@
-import { CCLogo, ProfileLogo } from "../styles/main_style";
+import { CCLogo, ProfileLogo } from "../components/style";
 
 
 import HazzaunaProfile from "../media/images/background/hazzauna.jpg";

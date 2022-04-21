@@ -1,5 +1,5 @@
 import React from "react";
-import { SectionTitle, Section, Frame } from "../styles/main_style";
+import { SectionTitle, Section, Frame } from "./style";
 
 export default function PodcastProfileSection(props) {
   return (
