@@ -2,7 +2,7 @@ import React from "react";
 
 import {
   SectionTitle,
-  NoColOutline2,
+  NoColOutline,
   Rule,
   MainContainer,
   Page,
@@ -10,9 +10,8 @@ import {
   Para,
   ContentContainer,
   RowOutline,
-  RowNoOutline, 
+  RowNoOutline,
 } from "./style";
-
 
 function Main() {
   return (
@@ -23,25 +22,23 @@ function Main() {
             <SectionTitle>What is HUEmanistic?</SectionTitle>
             <Rule />
 
+            <NoColOutline>
+              <DefinitionImg />
+            </NoColOutline>
+            <Rule />
 
-<DefinitionImg />
             <RowNoOutline>
-              <NoColOutline2>
-                <Para>
-                  To be HUEmanistic (Hu•man•ist•ic) is to adopt diversity and
-                  equality as the norm; advocating against racism and believing
-                  that every human, despite color, has and deserves the
-                  potential to be great.
-                  <br />
-                  <br />
-                  By peeling away the societal layers that define and divide us,
-                  we can re-educate and build an understanding and supportive
-                  society that embraces our differences. Creating a movement
-                  around building community and branching from there to build
-                  bridges of true unification and solidarity for us, as humans,
-                  despite our color.
-                </Para>
-              </NoColOutline2>
+              <Para>
+                To be HUEmanistic (Hu•man•ist•ic) is to adopt diversity and
+                equality as the norm; advocating against racism and believing
+                that every human, despite color, has and deserves the potential
+                to be great. By peeling away the societal layers that define and divide us,
+                we can re-educate and build an understanding and supportive
+                society that embraces our differences. Creating a movement
+                around building community and branching from there to build
+                bridges of true unification and solidarity for us, as humans,
+                despite our color.
+              </Para>
             </RowNoOutline>
           </RowOutline>
 
@@ -98,4 +95,3 @@ function Main() {
   );
 }
 export default Main;
- 
