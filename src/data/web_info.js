@@ -24,14 +24,14 @@ export const webBlocks = [
     backgroundColor: "#FF3CAC",
     backgroundImage: "linear-gradient(19deg, #21D4FD 0%, #B721FF 100%)",
     title: "Volunteer",
-    info: "We are looking to expand. If you'd like to help volunteer take a look at our listings",
+    info: "We need Volunteers! If you'd like to volunteer take a look at our listings",
     link: "/volunteer",
   },
   {
     backgroundColor: "#FF3CAC",
     backgroundImage: "linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)",
     title: "Learning Annex",
-    info: " Coming Soon ! A collection of our research and past podcasts and videos",
+    info: " Coming Soon! A collection of our research and past podcasts and videos",
     link: "/volunteer",
   },
 ];

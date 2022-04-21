@@ -21,6 +21,7 @@ font-family: font-family: 'Montserrat', sans-serif;
 
 //link
 export const WebBlockLink = Styled(Link)`
+display:flex;
 text-decoration:none;
 color: black;
  &:focus, &:hover, &:visited, &:link, &:active {
@@ -97,7 +98,6 @@ align-items: center;
 export const WebBlockDiv = Styled.div`
 display:flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
 max-width: 90%;
 text-align:center;
@@ -117,7 +117,7 @@ background: #FFFFFF;
 width: 100%;
 display:flex;
 flex-direction: row;
-justify-content: center;
+justify-content: space-between;
 align-content: center;
 align-items: center;
 flex-wrap: nowrap;
@@ -155,7 +155,6 @@ width: 100%;
 
 export const WebBlockTitle = Styled.h1`
 display:flex;
-text-decoration: underline;
 margin-bottom: 3%;
 font-size:1.5rem;
 font-size:600;

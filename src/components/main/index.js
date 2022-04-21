@@ -25,8 +25,6 @@ import {
   BlockText,
 } from "./style";
 
-
-
 function Main(props) {
   return (
     <Page style={{ backgroundImage: `url(${background})` }}>
@@ -86,20 +84,19 @@ function Main(props) {
           <ContentRow2>
             <ProfileListDisplay />
           </ContentRow2>
+          <ContentRow2>
+            {webBlocks.map((wb) => (
+              <WebBlockLink to={wb.link}>
+                <WebBlockDiv style={{ background: wb.backgroundImage }}>
+                  <WebBlockTitle>{wb.title}</WebBlockTitle>
+                  <WebBlockTextDiv>
+                    <BlockText>{wb.info}</BlockText>
+                  </WebBlockTextDiv>
+                </WebBlockDiv>
+              </WebBlockLink>
+            ))}
+          </ContentRow2>
         </ContentCol3>
-
-        <ContentRow2>
-          {webBlocks.map((wb) => (
-            <WebBlockLink  to={wb.link}>
-              <WebBlockDiv style={{ background: wb.backgroundImage }}>
-                <WebBlockTitle>{wb.title}</WebBlockTitle>
-                <WebBlockTextDiv>
-                  <BlockText>{wb.info}</BlockText>
-                </WebBlockTextDiv>
-              </WebBlockDiv>
-            </WebBlockLink>
-          ))}
-        </ContentRow2>
       </MainDiv>
     </Page>
   );
