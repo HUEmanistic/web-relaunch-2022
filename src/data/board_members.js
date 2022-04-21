@@ -100,7 +100,7 @@ This is what I grew up in.  I emulated what was around, what I was taught was be
     movies: [],
     role: "Secretary, Director",
     profile_episode:
-      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Marianna-Jankowski-e1fe7s1",
+      ["https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Marianna-Jankowski-e1fe7s1"],
     bio: `Production and Copy Editor. With a degree in Journalism, I’ve worked as the Head of International in a DVD Menu company in L.A., a Project Manager and Script Writer in Colorado, and an Admin. Assistant and Copy Editor in Portland, OR. While attending CSU Long Beach, I interned for the NAACP, where I got my first dose of white privilege. No longer a part of the struggle, I stopped paying attention, and rarely followed up on police brutality cases. The recent murders have put our nation’s dirty laundry on display, and the numbers continue to rise. We are a broken country, and we need to unite in order to fix it.`,
     experienceTitle: "Small farm town",
     experience: `From the time I was a child, into adulthood, I've battled with a voice in my head. A voice that has been passed down through generations. A voice that has asked, 'Why do they get their own awards shows? Why do they get a whole month, dedicated to their history? Why do they get Black versions of White movies? Why do they… Why do they… Why do they…'
