@@ -20,6 +20,7 @@ import {
   ContactText,
   TitleRow,
   MainContainer,
+  FormLabel,
 } from "./style";
 function Contact() {
   return (
@@ -28,7 +29,7 @@ function Contact() {
         <TitleRow>
           <PageTitle>Contact Us</PageTitle>
         </TitleRow>
-        <RowOutline style={{ marginTop: "5%" }}>
+        <RowOutline>
           <RowNoOutline>
             <TitleRow>
               <ContactText style={{ backgroundColor: "white", padding: "3%" }}>
@@ -43,7 +44,7 @@ function Contact() {
                 <Row form>
                   <Col md={8}>
                     <FormGroup>
-                      <Label for="Name">Name</Label>
+                      <FormLabel for="Name">Name</FormLabel>
                       <Input
                         type="Name"
                         name="name"
@@ -54,7 +55,7 @@ function Contact() {
                   </Col>
                   <Col md={8}>
                     <FormGroup>
-                      <Label for="Email">Email</Label>
+                      <FormLabel for="Email">Email</FormLabel>
                       <Input
                         type="Email"
                         name="Email"
@@ -63,22 +64,22 @@ function Contact() {
                       />
                     </FormGroup>
                     <FormGroup>
-                      <Label for="ATTN: ">Who do you want to Contact?</Label>
+                      <FormLabel for="ATTN: ">Who do you want to Contact?</FormLabel>
                       <select id="cars" name="cars">
                         <option value="volvo">HUEmanistic Organization</option>
-                        <option value="saab">Sean Moore</option>
-                        <option value="fiat">Hazzauna Underwood</option>
-                        <option value="audi">Brandon Fiquett</option>
-                        <option value="audi">Christina Harris</option>
-                        <option value="audi">Marianna Jankowski</option>
+                        <option value="saab">Sean Moore - President</option>
+                        <option value="fiat">Hazzauna Underwood - Vice President</option>
+                        <option value="audi">Brandon Fiquett - Social Media Director</option>
+                        <option value="audi">Christina Harris - Tech Director</option>
+                        <option value="audi">Marianna Jankowski - Secretary</option>
                       </select>
                     </FormGroup>
                   </Col>
                 </Row>
-                <FormGroup row>
-                  <Label for="Message" sm={2}>
+                <FormGroup>
+                  <FormLabel for="Message">
                   Message
-                  </Label>
+                  </FormLabel>
                   <Col lg={12}>
                     <Input
                       type="textarea"

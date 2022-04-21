@@ -1,5 +1,5 @@
 import Styled from "styled-components";
-import { Row, Col, Container } from "reactstrap";
+import { Row, Col, Container, Label } from "reactstrap";
 import Logo from "../../media/images/logo/logo.png";
 import Email from "../../media/images/contact/email.png";
 import BG from "../../media/images/background/bg1.jpg"
@@ -75,6 +75,7 @@ margin-bottom: 10%;
 export const RowNoOutline = Styled(Row)`
 display:flex;
 width: 100%;
+margin-top: 10%;
 padding: 2%;
         @media (max-width: 480px) {
              flex-direction: column-reverse;
@@ -180,4 +181,9 @@ export const EmailImg = Styled.img.attrs({
              visibility: hidden;
             }
         
+`;
+
+export const FormLabel = Styled(Label)`
+padding: 3% 0;
+font-weight:600;
 `;
