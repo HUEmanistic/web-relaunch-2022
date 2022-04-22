@@ -39,6 +39,7 @@ export const Frame = Styled.iframe.attrs({
 })`
 display: flex;,
 margin: 0 auto;
+border:none;
 
 `;
 
