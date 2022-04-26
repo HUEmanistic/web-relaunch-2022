@@ -17,13 +17,22 @@ export const members = [
     last_name: "Moore",
     image: `${Sean}`,
     role: "President, Director Of Marketing, Director",
-    profile_episode:[
-      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Sean-Moore-e1anf6v"],
+    profile_episode: [
+      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Sean-Moore-e1anf6v",
+    ],
     contact: `
     info@huemanistic.org / attn: Sean Moore`,
     books: [],
     movies: [],
-    bio: `A Los Angeles Native trained in Design, Psychology and Pop Culture with a BA in art. I am currently a Campaign Manager and Marketer, amateur writer of books and do podcasts in my spare time. Being a person of color, I am intimately familiar with the inequities and injustice of a racist society with a violent and painful history. However, I do believe in the myth of the American Dream and I strive constantly to use every tool at my disposal to make that myth a reality for all. I joined HUEmanistic because I believe in what the organization represents, and I will use my skills and talents to aid in their mission.`,
+    bio: `A Los Angeles native, Sean is an experienced Marketing and Creative Professional 
+with 15+ years of experience and an impeccable track record for bottom-line 
+results. Skilled in franchise building, marketing support and driving new 
+businesses with a collaborative spirit in complex global organizations. 
+Sean is currently a campaign manager, marketer, writer, artist and does podcasts 
+in his spare time. Being a person of color, Sean is intimately familiar with the 
+inequities and injustice of a racist society with a violent and painful history. Sean 
+joined HUEmanistic because he believes in what the organization represents, and 
+will use his skills and talents to aid in the HUEmanistic mission. `,
     experienceTitle: "Evening Traffic Stop",
     experience: `My mother frequently made it a point to teach me about the inequities in society.  The disparity in the sexes, the unfairness of the classes, and the oft time subtle and blatant racism prevalent in our country.  I can't say that I was ever surprised that there are people out there who didn't like me, simply because of the color of my skin.  Nor was I caught off guard when I finally learned the accurate and unabridged history of America, never shared by my grade school teachers, until I went to college. 
 
@@ -72,8 +81,9 @@ This is a lesson I've never forgotten.`,
     books: ["So You Want to Talk About Race", "Stamped From the Beginning"],
     movies: [],
     role: "Vice President, Director",
-    profile_episode:[
-      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Hazzauna-Underwood-e1a969a",],
+    profile_episode: [
+      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Hazzauna-Underwood-e1a969a",
+    ],
     bio: "ER/Critical Care Nurse. Born and raised Washingtonian. Graduated from Grover Cleveland High School in Seattle, WA. Bachelor of Arts in Human Development with a minor in Child Psychology from Washington State University. Bachelor of Science in Nursing from New Mexico State University. I have 3 daughters (16, 15 & 4) and a son (7). Currently work as an ER and Rapid response nurse at local hospitals.",
     experienceTitle: "The Hair You Wear",
     experience: `I remember it like it was yesterday.  My daughter came to me before bedtime and asked if she could have her hair straight tomorrow for school.  She was in Kinder, just 5 years old, beautiful lush curls or twists is how she normally wore her hair.  I simply replied, sure.  I blow-dried her hair and put a few rollers at the end to give a soft curl.  Morning came, I was excited to see her new hairdo, excited to see her face of excitement for it, too.  Happiness?  Elation?  Excitement?  Joy!?!  I took off her hair scarf, took down the rollers, ran my fingers through her rolled curls to separate them and, VIOLA!  Beautiful, so I believed she would believe.  That was the last thing on her mind.  Her emotions were of Sadness, Anger, Annoyance and Frustration.  My little girl wanted her hair like all the other little girls in her class, she was being made to believe that her hair being different made her different, and she felt like she didn't fit in.  She cried, big crocodile tears, and then she said to me, “Mom, your hair is straight, too.” This was the beginning of my natural hair journey and the last time I permed my hair to keep it straight. 
@@ -99,8 +109,9 @@ This is what I grew up in.  I emulated what was around, what I was taught was be
     books: [],
     movies: [],
     role: "Secretary, Director",
-    profile_episode:
-      ["https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Marianna-Jankowski-e1fe7s1"],
+    profile_episode: [
+      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Marianna-Jankowski-e1fe7s1",
+    ],
     bio: `Production and Copy Editor. With a degree in Journalism, I’ve worked as the Head of International in a DVD Menu company in L.A., a Project Manager and Script Writer in Colorado, and an Admin. Assistant and Copy Editor in Portland, OR. While attending CSU Long Beach, I interned for the NAACP, where I got my first dose of white privilege. No longer a part of the struggle, I stopped paying attention, and rarely followed up on police brutality cases. The recent murders have put our nation’s dirty laundry on display, and the numbers continue to rise. We are a broken country, and we need to unite in order to fix it.`,
     experienceTitle: "Small farm town",
     experience: `From the time I was a child, into adulthood, I've battled with a voice in my head. A voice that has been passed down through generations. A voice that has asked, 'Why do they get their own awards shows? Why do they get a whole month, dedicated to their history? Why do they get Black versions of White movies? Why do they… Why do they… Why do they…'
@@ -165,8 +176,9 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
     movies: [],
     image: Brandon,
     role: "Director of Social Media, Director",
-    profile_episode:[
-      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003"],
+    profile_episode: [
+      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003",
+    ],
     bio: `
     Sit amet purus gravida quis blandit. Sit amet luctus venenatis lectus magna fringilla. Quis eleifend quam adipiscing vitae proin sagittis. Nisl nisi scelerisque eu ultrices vitae. Auctor urna nunc id cursus metus aliquam eleifend. Odio ut enim blandit volutpat maecenas volutpat blandit. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Facilisis mauris sit amet massa. Quam nulla porttitor massa id neque aliquam vestibulum morbi.`,
     experienceTitle: "Lorem ipsum dolor",
