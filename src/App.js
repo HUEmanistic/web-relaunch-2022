@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import ReactGA from "react-ga";
-import {RouteChangeTracker} from "./hooks/routeChangeTracker"
+import RouteChangeTracker from "./hooks/routeChangeTracker"
 import { Route, Switch } from "react-router-dom";
 import Navibar from "./components/navbar/index";
 import Main from "./components/main/index";

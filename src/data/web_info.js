@@ -32,7 +32,7 @@ export const webBlocks = [
     backgroundImage: "linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)",
     title: "Learning Annex",
     info: " Coming Soon! A collection of our research and past podcasts and videos",
-    link: "/volunteer",
+    link: "#",
   },
 ];
 

@@ -180,8 +180,15 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
       "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003",
     ],
     bio: `
-    Sit amet purus gravida quis blandit. Sit amet luctus venenatis lectus magna fringilla. Quis eleifend quam adipiscing vitae proin sagittis. Nisl nisi scelerisque eu ultrices vitae. Auctor urna nunc id cursus metus aliquam eleifend. Odio ut enim blandit volutpat maecenas volutpat blandit. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Facilisis mauris sit amet massa. Quam nulla porttitor massa id neque aliquam vestibulum morbi.`,
-    experienceTitle: "Lorem ipsum dolor",
+    Brandon is in the process of writing his bio and experience. But I thought in the meantime I would tell you a bit about him. Brandon first jumped head first into HUEmanistic almost a year ago in the summer of 21. The activism of the previous year seemed to have died down. Social Justice was no longer trendy. But Brandon knew injustices still exist and wanted to be an ally. 
+    
+    Brandon has a passion for science, exploration, and technology. He’s cool because I can nerd out and talk about STNG and the prospects of future space travel. He’s originally from the south but moved up to Washington.
+    
+    From what I’ve seen Brandon is very compassionate and caring. He looks at all angles of an equation before coming to a conclusion. He’s always willing to hop on a zoom and talk things out when you need to. He goes hard in every aspect of his life, work, home, and family. But still makes time for HUEmanistic and still goes hard! He’s a tech guru and an automation wizard! Huemanistic wouldn’t be where it is without him! We appreciate you Brandon!
+    
+    Written by fellow member,
+    -Christina Harris`,
+    experienceTitle: "Coming Soon",
     experience: `
 Coming Soon`,
   },

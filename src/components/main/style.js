@@ -102,7 +102,6 @@ flex-direction: column;
 align-items: center;
 max-width: 90%;
 text-align:center;
-border-radius: 10% / 50%;
 padding: 5%;
 box-shadow: 10px 5px 5px gray; 
 
