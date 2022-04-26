@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import ReactGA from "react-ga";
+import {RouteChangeTracker} from "./hooks/routeChangeTracker"
 import { Route, Switch } from "react-router-dom";
 import Navibar from "./components/navbar/index";
 import Main from "./components/main/index";
@@ -11,9 +13,11 @@ import Volunteer from "./components/volunteer/index"
 
 
 function App() {
-
+const TRACKING_ID = "G-7DXEZ8NCPR"; 
+ReactGA.initialize(TRACKING_ID);
   return (
     <>
+      <RouteChangeTracker />
       <Switch>
         <Route exact path="/" component={Main} />
         <Route exact path="/what-is-huemanistic" component={Mission} />
