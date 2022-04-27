@@ -180,14 +180,19 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
       "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003",
     ],
     bio: `
-    Brandon is in the process of writing his bio and experience. But I thought in the meantime I would tell you a bit about him. Brandon first jumped head first into HUEmanistic almost a year ago in the summer of 21. The activism of the previous year seemed to have died down. Social Justice was no longer trendy. But Brandon knew injustices still exist and wanted to be an ally. 
-    
-    Brandon has a passion for science, exploration, and technology. He’s cool because I can nerd out and talk about STNG and the prospects of future space travel. He’s originally from the south but moved up to Washington.
-    
-    From what I’ve seen Brandon is very compassionate and caring. He looks at all angles of an equation before coming to a conclusion. He’s always willing to hop on a zoom and talk things out when you need to. He goes hard in every aspect of his life, work, home, and family. But still makes time for HUEmanistic and still goes hard! He’s a tech guru and an automation wizard! Huemanistic wouldn’t be where it is without him! We appreciate you Brandon!
-    
-    Written by fellow member,
-    -Christina Harris`,
+    Brandon was born in Columbus, Georgia, and raised in the rural southeast along the Chattahoochee River, that is shared with Phenix City, Alabama.
+Prior to his current role a Systems Engineer for Amazon, Brandon spent seven plus years as a full-time volunteer for a religious order based in New York after graduating K-12 in Russell County, AL, and spending four years studying computer science at Auburn University.
+
+Brandon withdrew his support for and effectively detached himself from the fundamentalist religious order in 2017, at the age of 30, while undertaking a methodical deconstruction so as not to throw out the baby with the bathwater.
+Brandon continues to believe that all life, regardless of race, color, species, religion, nationality, social position, economic condition, or other factors, has inherent worth and value.
+
+Unfortunately, Brandon did not learn details about events such as the Tulsa, OK massacre until prompted to do research after viewing the 2019 TV mini-series Watchmen.
+
+Brandon is a firm believer that current educational efforts, such as Critical Race Theory, are not attempts to erase, wash history, or proliferate racism, but rather an attempt to more objectively characterize it from a variety of perspectives (including the uncomfortable stuff) in order to avoid repeating our collective mistakes and effect positive systemic changes in our shared future.
+
+Brandon expressed interest in volunteering time with a grassroots group that became HUEmanstic, as we know it today, during the outcry over the murder of George Floyd.
+
+Brandon is passionate about establishing common ground amongst people, fostering curiosity, and bringing the community together despite their differences.`,
     experienceTitle: "Coming Soon",
     experience: `
 Coming Soon`,

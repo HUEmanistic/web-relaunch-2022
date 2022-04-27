@@ -60,6 +60,11 @@ export default function Profile() {
 
           <ProfileRow>
             <TextProfileSection
+              title={"Bio"}
+              content={selectedMember.bio}
+            />
+
+            <TextProfileSection
               title={`Experience : ${selectedMember.experienceTitle}`}
               content={selectedMember.experience}
             />
