@@ -1,9 +1,6 @@
 import Styled from "styled-components";
 import { Row, Col } from "reactstrap";
 
-
-
-
 export const Page = Styled.body`
 background-attachment: fixed;
 background-position: top;

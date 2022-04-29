@@ -1,6 +1,6 @@
 import Styled from "styled-components";
 import { LogoFocusIn, Pulsate } from "../keyframes";
-import { Navbar, Button, Nav, NavbarBrand, NavItem } from "reactstrap";
+import { Navbar, Button, NavbarBrand, NavItem } from "reactstrap";
 import LogoColor from "../../media/images/logo/logo_no_phrase_shadow.png";
 import { Link } from "react-router-dom";
 import { Twitter } from "@styled-icons/bootstrap/Twitter";

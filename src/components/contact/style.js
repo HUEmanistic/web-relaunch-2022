@@ -1,5 +1,5 @@
 import Styled from "styled-components";
-import { Row, Col, Container, Label } from "reactstrap";
+import { Row, Col, Container, Label, FormGroup } from "reactstrap";
 import Logo from "../../media/images/logo/logo.png";
 import Email from "../../media/images/contact/email.png";
 import BG from "../../media/images/background/bg1.jpg"
@@ -14,18 +14,19 @@ export const Page = Styled.body`
 `;
 
 export const PageTitle = Styled.h1`
-display: flex;
-color: black;
-font-size: 2em;
-font-weight:800;
+    display: flex;
+    color: black;
+    font-size: 2em;
+    font-weight:800;
 
-        @media (max-width: 1280px) {
-             margin-top: 25%;
-            }
+    @media (max-width: 600px) {
+        margin-bottom: 5%;
+    }
+        @media (max-width: 320px) {
+        margin-top:10%;
+        font-size: 1.5rem;
+    }
 
-        @media (max-width: 767px) {
-             margin-top: 15%;
-            }
 `;
 
 
@@ -38,6 +39,9 @@ font-weight:600;
 margin-bottom: 3%;
 line-height: 2;
 text-align: center;
+        @media (max-width: 320px) {
+margin-bottom: 10%;
+    }
 `;
 
 export const HighlightText = Styled.span`
@@ -52,8 +56,14 @@ display: -ms-flexbox;
 align-items: center;
 justify-content: center;
 width: 100%;
-padding: 2%;
 margin: 1% 0;
+
+
+          @media (max-width: 1024px) {
+padding:0;
+margin:0;
+    }
+
 
 
 `;
@@ -62,24 +72,25 @@ export const RowOutline = Styled(Row)`
 display:flex;
 justify-content: center;
 width: 100%;
-border: 1px gray dotted;
 padding: 5%;
 background-color: #DBE0E460;
-margin-bottom: 10%;
+          @media (max-width: 1024px) {
+margin-top:3%;
+width:100%;
+    }
 
-        @media (max-width: 480px) {
-             margin: 0 auto;
-            }
+
+
 `;
 
 export const RowNoOutline = Styled(Row)`
 display:flex;
 width: 100%;
-margin-top: 10%;
 padding: 2%;
-        @media (max-width: 480px) {
-             flex-direction: column-reverse;
-            }
+
+        @media (max-width: 600px) {
+padding:0;
+    }
 `;
 
 export const ColOutline = Styled(Col)`
@@ -119,9 +130,26 @@ display: -ms-flexbox;
 background-color: #DEE7E9;
 flex-direction: column;
 width: 100%;
-
-
+        @media (max-width: 600px) {
+             display:none;
+             visibility: hidden;
+            }
 `;
+
+export const FormInput = Styled.input`
+margin:3% 0;
+    padding: 0 10%;
+    width: 100%;
+                  @media (max-width: 600px) {
+width:65%;
+margin:2% 5%;
+    }
+    @media (max-width: 480px) {
+        font-size:.8rem;
+    }
+`;
+
+
 
 export const Italics = Styled.p`
 display:flex;
@@ -138,6 +166,23 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 align-content: center;
+margin-top: 5%;
+
+
+          @media (max-width: 1024px) {
+padding:50% 0;
+    }
+              @media (max-width: 900px) {
+padding:50% 0;
+    }
+        @media (max-width: 768px) {
+padding:0;
+margin-top:40%;
+    }
+            @media (max-width: 600px) {
+padding-top:30%;
+margin-bottom: 20%;
+            }
 `;
 
 export const ContentContainer = Styled(Container)`
@@ -159,7 +204,7 @@ export const HUELogo = Styled.img.attrs({
     bottom: 5%;
     left: 25%;
 
-            @media (max-width: 480px) {
+            @media (max-width: 900px) {
              display:none;
              visibility: hidden;
             }
@@ -176,14 +221,18 @@ export const EmailImg = Styled.img.attrs({
     top: 0;
     left: 0;
 
-        @media (max-width: 480px) {
-             display:none;
-             visibility: hidden;
-            }
         
 `;
 
 export const FormLabel = Styled(Label)`
 padding: 3% 0;
 font-weight:600;
+`;
+
+export const OptionGroup = Styled(FormGroup)`
+            @media (max-width: 320px) {
+             width:85%;
+             overflow:hidden;
+            }
+
 `;

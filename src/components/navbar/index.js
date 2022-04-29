@@ -70,7 +70,7 @@ const Navibar = () => {
               placement="bottom"
               overlay={<Tooltip>Coming Soon</Tooltip>}
             >
-                <LinkBlack onClick={route4}>Learning Annex<HideMe>Coming Soon!</HideMe></LinkBlack>
+                <LinkBlack  onClick={route4}>Learning Annex<HideMe>Coming Soon!</HideMe></LinkBlack>
 </OverlayTrigger>
             </NaviItem>
             <NaviItem>

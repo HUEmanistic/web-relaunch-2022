@@ -20,15 +20,17 @@ import {
   TitleRow,
   MainContainer,
   FormLabel,
+  FormInput,
+  OptionGroup,
 } from "./style";
 function Contact() {
   return (
     <Page>
       <MainContainer>
-        <TitleRow>
-          <PageTitle>Contact Us</PageTitle>
-        </TitleRow>
         <RowOutline>
+          <TitleRow>
+            <PageTitle>Contact Us</PageTitle>
+          </TitleRow>
           <RowNoOutline>
             <TitleRow>
               <ContactText style={{ backgroundColor: "white", padding: "3%" }}>
@@ -44,42 +46,55 @@ function Contact() {
                   <Col md={8}>
                     <FormGroup>
                       <FormLabel for="Name">Name</FormLabel>
-                      <Input
+                      <FormInput
                         type="Name"
                         name="name"
                         id="Name"
                         placeholder="Nice To Meet You"
+                        style={{ border: "none" }}
                       />
                     </FormGroup>
                   </Col>
                   <Col md={8}>
                     <FormGroup>
                       <FormLabel for="Email">Email</FormLabel>
-                      <Input
+                      <FormInput
                         type="Email"
                         name="Email"
                         id="Email"
-                        placeholder="Where Can We Contact You?"
+                        placeholder="Where Can We Reach You?"
+                        style={{ border: "none" }}
                       />
                     </FormGroup>
-                    <FormGroup>
-                      <FormLabel for="ATTN: ">Who do you want to Contact?</FormLabel>
-                      <select id="cars" name="cars">
-                        <option value="volvo">HUEmanistic Organization</option>
-                        <option value="saab">Sean Moore - President</option>
-                        <option value="fiat">Hazzauna Underwood - Vice President</option>
-                        <option value="audi">Brandon Fiquett - Social Media Director</option>
-                        <option value="audi">Christina Harris - Tech Director</option>
-                        <option value="audi">Marianna Jankowski - Secretary</option>
+                    <OptionGroup>
+                      <FormLabel
+                        form="ATTN: "
+                        style={{ border: "none", marginBottom: "1%" }}
+                      >
+                        Who do you want to Contact?
+                      </FormLabel>
+                      <select id="attn" name="attn" style={{ border: "none" }}>
+                        <option value="Org">HUEmanistic Organization</option>
+                        <option value="S.Moore">Sean Moore - President</option>
+                        <option value="H.Underwood">
+                          Hazzauna Underwood - Vice President
+                        </option>
+                        <option value="B.Fiquett">
+                          Brandon Fiquett - Social Media Director
+                        </option>
+                        <option value="C.Harris">
+                          Christina Harris - Tech Director
+                        </option>
+                        <option value="M.J.">
+                          Marianna Jankowski - Secretary
+                        </option>
                       </select>
-                    </FormGroup>
+                    </OptionGroup>
                   </Col>
                 </Row>
-                <FormGroup>
-                  <FormLabel for="Message">
-                  Message
-                  </FormLabel>
-                  <Col lg={12}>
+                <OptionGroup>
+                  <FormLabel for="Message">Message</FormLabel>
+                  <Col lg={16}>
                     <Input
                       type="textarea"
                       name="text"
@@ -87,7 +102,7 @@ function Contact() {
                       placeholder="What did you want to say?"
                     />
                   </Col>
-                </FormGroup>
+                </OptionGroup>
                 <Button>Submit</Button>
               </Form>
             </ContentCol>
