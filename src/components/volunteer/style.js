@@ -56,7 +56,9 @@ padding: 5%;
 margin-bottom: 5%;
 background-color: #FFFFFFE6;
 box-shadow: 2px 2px 8px #000000FF;
-
+      @media (max-width: 480px) {
+width: 100%;
+    }
 `;
 
 export const RowNoOutline = Styled(Row)`
@@ -78,6 +80,12 @@ export const MainContainer = Styled(Container)`
 display: flex;
 width:100%;
 line-height: 1.5rem;
+      @media (max-width: 900px) {
+margin-top: 5%;
+    }
+          @media (max-width: 600px) {
+margin-top: 15%;
+    }
 `;
 
 export const ContentContainer = Styled(Container)`

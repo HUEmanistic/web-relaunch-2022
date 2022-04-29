@@ -28,10 +28,11 @@ flex-wrap: nowrap;
 padding: 5%;
 
 
-      @media (max-width: 481px) {
+      @media (max-width: 600px) {
        display:none;
        visibility: hidden;
     }
+
 
 `;
 
@@ -59,6 +60,11 @@ width:100%;
 height:3px;
 padding: 2% 0;
 color:black;
+
+        @media (max-width: 600px) {
+        display: none;
+        }
+
 `;
 
 //container
@@ -67,6 +73,10 @@ export const MainContainer = Styled(Container)`
 display: flex;
 width:100%;
 line-height: 1.5rem;
+        @media (max-width: 600px) {
+        margin-top:15%;
+        }
+
 `;
 
 export const ContentContainer = Styled(Container)`
@@ -88,9 +98,10 @@ export const DefinitionImg = Styled.img.attrs({
   width: 100%;
   box-shadow: 5px 10px #888888;
   border: gray 1px solid;
-            @media (max-width: 767px) {
-               visibility: hidden;
-            }
+        @media (max-width: 600px) {
+        display:none;
+        }
+
 `;
 
 //text
@@ -101,6 +112,17 @@ color: black;
 font-size: 1.5rem;
 font-weight:600;
 margin-bottom: 3%;
+        @media (max-width: 600px) {
+        justify-content: center;
+        width:100%;
+        }
+        @media (max-width: 480px) {
+        margin-top:5%;
+        }
+        @media (max-width: 320px) {
+        font-size: 1.3rem;
+        }
+
 `;
 
 export const Para = Styled.p`
@@ -112,6 +134,10 @@ font-weight: 500;
 font-size: 1.2rem;
 line-height: 3rem;
 padding: 5%;
+
+        @media (max-width: 320px) {
+        font-size: 1rem;
+        }
 `;
 
 export const Header = Styled.h1`
