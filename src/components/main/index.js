@@ -31,9 +31,7 @@ function Main(props) {
       <MainDiv>
         <CarouselContainer>
           <Carousel
-            style={{
-              boxShadow: "10px 10px 5px #4B57CF",
-            }}
+
           >
             {slideData.map((bg) => (
               <Slide style={{ backgroundImage: bg.backgroundImage }}>

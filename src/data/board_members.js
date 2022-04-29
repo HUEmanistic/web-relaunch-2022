@@ -24,14 +24,9 @@ export const members = [
     info@huemanistic.org / attn: Sean Moore`,
     books: [],
     movies: [],
-    bio: `A Los Angeles native, Sean is an experienced Marketing and Creative Professional 
-with 15+ years of experience and an impeccable track record for bottom-line 
-results. Skilled in franchise building, marketing support and driving new 
-businesses with a collaborative spirit in complex global organizations. 
-Sean is currently a campaign manager, marketer, writer, artist and does podcasts 
-in his spare time. Being a person of color, Sean is intimately familiar with the 
-inequities and injustice of a racist society with a violent and painful history. Sean 
-joined HUEmanistic because he believes in what the organization represents, and 
+    bio: `A Los Angeles native, Sean is an experienced Marketing and Creative Professional with 15+ years of experience and an impeccable track record for bottom-line results. Skilled in franchise building, marketing support and driving new businesses with a collaborative spirit in complex global organizations. 
+
+    Sean is currently a campaign manager, marketer, writer, artist and does podcasts in his spare time. Being a person of color, Sean is intimately familiar with the inequities and injustice of a racist society with a violent and painful history. Sean joined HUEmanistic because he believes in what the organization represents, and 
 will use his skills and talents to aid in the HUEmanistic mission. `,
     experienceTitle: "Evening Traffic Stop",
     experience: `My mother frequently made it a point to teach me about the inequities in society.  The disparity in the sexes, the unfairness of the classes, and the oft time subtle and blatant racism prevalent in our country.  I can't say that I was ever surprised that there are people out there who didn't like me, simply because of the color of my skin.  Nor was I caught off guard when I finally learned the accurate and unabridged history of America, never shared by my grade school teachers, until I went to college. 
@@ -113,7 +108,7 @@ This is what I grew up in.  I emulated what was around, what I was taught was be
       "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Marianna-Jankowski-e1fe7s1",
     ],
     bio: `Production and Copy Editor. With a degree in Journalism, I’ve worked as the Head of International in a DVD Menu company in L.A., a Project Manager and Script Writer in Colorado, and an Admin. Assistant and Copy Editor in Portland, OR. While attending CSU Long Beach, I interned for the NAACP, where I got my first dose of white privilege. No longer a part of the struggle, I stopped paying attention, and rarely followed up on police brutality cases. The recent murders have put our nation’s dirty laundry on display, and the numbers continue to rise. We are a broken country, and we need to unite in order to fix it.`,
-    experienceTitle: "Small farm town",
+    experienceTitle: "Small Farm Town",
     experience: `From the time I was a child, into adulthood, I've battled with a voice in my head. A voice that has been passed down through generations. A voice that has asked, 'Why do they get their own awards shows? Why do they get a whole month, dedicated to their history? Why do they get Black versions of White movies? Why do they… Why do they… Why do they…'
 
 The older I have gotten, the more ashamed I have gotten. I'm ashamed of this voice, and it's negative and naive nature. I'm ashamed that it has taken me so long to dispute the voice on educated grounds. I'm ashamed that, on occasion, I listened to it, and I spoke the words.
@@ -157,13 +152,13 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
     ],
     bio: "I'm Boston Native that made the move to eventually become a Seattleite in 2016.  I graduated from Massachusetts College of Art and Design to acquire a BA in Graphic Design. I most recently completed Lambda School's Full Stack Web Development program. I love to design and code and I'm happy to be able to use my talents to make a positive change. HUEmanistic means a lot to me because it's a chance to have a voice and to hopefully bring people, communities, and eventually the country together! Who knows maybe even the world? It's long overdue and I hope I can see this change in my lifetime. Let's make inequality a thing of the past!",
     experienceTitle: "The Talk",
-    experience: `'You already have two strikes against you. You're a woman and you're Black.'  This is the sentence that has followed me throughout life. The talk my mom gave me was quick and concise but left a lasting scar on my psyche. Once this realization was chained to my being it dominated the essence of who I was.  At that moment I was forced to reckon with the fact I was different. I was forced to acknowledge the fact that people wouldn't see me for who I was. I can't remember how young I was for sure when I had the talk. I know I cried and it scared me. I didn't want to be different. I didn't want people to think I was a bad person. 
+    experience: `"You already have two strikes against you. You're a woman and you're Black."  This is the sentence that has followed me throughout life. The talk my mom gave me was quick and concise but left a lasting scar on my psyche. Once this realization was chained to my being it dominated the essence of who I was.  At that moment I was forced to reckon with the fact I was different. I was forced to acknowledge the fact that people wouldn't see me for who I was. I can't remember how young I was for sure when I had the talk. I know I cried and it scared me. I didn't want to be different. I didn't want people to think I was a bad person. 
     
   Along with this reckoning that I was being judged on what I am instead of who I am was the battle of self-acceptance. It's taken me a long time to get to a place where I'm not apologetic for being me. For being born in this skin. For finally not wanting to fade in the background and go unnoticed. I grew up quiet, shy and timid. I never fully came out of my shell. This fear of being judged, this fear of having to fit some supposed status quo. The fear of being seen as less than worthy, less than human. Just being seen and treated as less than.
   
   Growing up, society told me who I was supposed to be as a Black woman. Stereotypes put me into this box of expectations. I felt like these stereotypes were tethered to me and it's what people saw or expected before they got to know me. I tried to break away from expectations in ways often detrimental to myself. Being overly kind, overly nice, and agreeable to a fault so that I wouldn't come off as something I wasn't. I was overcompensating for things I couldn't control which often left me without the courage to stand up for myself when I needed to.
   
-  'You already have two strikes against you. You're a woman and you're Black. You're going to have to work twice as hard for everything you get.' The talk set up this expectation that life is hard, unjust, and unfair. As a child this seemed like an overwhelming challenge.  I was trying to figure out what life was and how I fit. This talk was a slap of reality telling me what my role was and I didn't have much choice in the matter. The talk didn't teach me how to navigate these challenges I would face. The talk didn't give me confidence in who or what I am. The talk felt like it robbed me of something that I couldn't get back. I get the talk is a necessary evil. But I hope there will be a day when the talk will no longer be needed.`,
+  "You already have two strikes against you. You're a woman and you're Black. You're going to have to work twice as hard for everything you get." The talk set up this expectation that life is hard, unjust, and unfair. As a child this seemed like an overwhelming challenge.  I was trying to figure out what life was and how I fit. This talk was a slap of reality telling me what my role was and I didn't have much choice in the matter. The talk didn't teach me how to navigate these challenges I would face. The talk didn't give me confidence in who or what I am. The talk felt like it robbed me of something that I couldn't get back. I get the talk is a necessary evil. But I hope there will be a day when the talk will no longer be necessary.`,
   },
   {
     background: "#8d5524",
@@ -193,8 +188,7 @@ Brandon is a firm believer that current educational efforts, such as Critical Ra
 Brandon expressed interest in volunteering time with a grassroots group that became HUEmanstic, as we know it today, during the outcry over the murder of George Floyd.
 
 Brandon is passionate about establishing common ground amongst people, fostering curiosity, and bringing the community together despite their differences.`,
-    experienceTitle: "Coming Soon",
-    experience: `
-Coming Soon`,
+    experienceTitle: null,
+    experience: null,
   },
 ];

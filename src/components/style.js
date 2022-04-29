@@ -62,7 +62,8 @@ font-weight: 500;
 font-family: 'Montserrat', sans-serif;
 font-size: 1.2em;
         @media (max-width: 768px) {
-            font-size: .9rem;
+            font-size: 1.5 rem;
+            margin-bottom: 15%;
         }
 `;
 
@@ -82,6 +83,11 @@ text-align: center;
 width: 100%;
 padding:2%;
 margin:5%;
+
+        @media (max-width: 768px) {
+          margin:0 auto;
+          width 50%;
+        }
 
 `;
 

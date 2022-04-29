@@ -16,13 +16,14 @@ import {
   DonateButton,
   PulsateButton,
   HideMe,
+  NaviItem,
+  
 } from "./style";
 
 import {
   Collapse,
   Nav,
   NavbarToggler,
-  NavItem,
   Navbar,
 } from "reactstrap";
 
@@ -43,7 +44,7 @@ const Navibar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-  const [expand, setExpand] = useState(false);
+
 
   return (
     <Navbar color="light" expand="xl" light fixed="top">
@@ -55,35 +56,34 @@ const Navibar = () => {
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
         <MenuList>
-          <Nav navbar >
-            <NavItem>
+          <Nav navbar style={{width:"100%"}} >
+            <NaviItem>
               <LinkBlack onClick={route1}>Home</LinkBlack>
-            </NavItem>
+            </NaviItem>
 
-            <NavItem>
+            <NaviItem style={{display:"flex"}}>
               <LinkBlack onClick={route4}>What is HUEmanistic? </LinkBlack>
-            </NavItem>
+            </NaviItem>
 
-            <NavItem>
-              <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip>Coming Soon</Tooltip>}
-              >
+            <NaviItem>
+<OverlayTrigger
+              placement="bottom"
+              overlay={<Tooltip>Coming Soon</Tooltip>}
+            >
                 <LinkBlack onClick={route4}>Learning Annex<HideMe>Coming Soon!</HideMe></LinkBlack>
-              </OverlayTrigger>
-            </NavItem>
-            <NavItem>
+</OverlayTrigger>
+            </NaviItem>
+            <NaviItem>
               <LinkBlack onClick={route2}>Volunteer </LinkBlack>
-            </NavItem>
-            <NavItem>
+            </NaviItem>
+            <NaviItem>
               <LinkBlack onClick={route3}>Contact </LinkBlack>
-            </NavItem>
-          </Nav>
+            </NaviItem>
+         
 
           <SocialMediaDiv>
-            {" "}
             <OverlayTrigger
-              placement="top"
+              placement="bottom"
               overlay={<Tooltip>Twitter</Tooltip>}
             >
               <a href="https://twitter.com/huemanistic">
@@ -91,19 +91,19 @@ const Navibar = () => {
               </a>
             </OverlayTrigger>
             <OverlayTrigger
-              placement="top"
+              placement="bottom"
               overlay={<Tooltip>FaceBook</Tooltip>}
             >
               <a href="https://www.facebook.com/HUEmanistic/">
                 <FBLogo />
               </a>
             </OverlayTrigger>
-            <OverlayTrigger placement="top" overlay={<Tooltip>Insta</Tooltip>}>
+            <OverlayTrigger placement="bottom" overlay={<Tooltip>Insta</Tooltip>}>
               <a href="https://www.instagram.com/huemanistic_commonground/">
                 <InstaLogo />
               </a>
             </OverlayTrigger>
-            <OverlayTrigger placement="top" overlay={<Tooltip>Shop</Tooltip>}>
+            <OverlayTrigger placement="bottom" overlay={<Tooltip>Shop</Tooltip>}>
               <a href="https://www.bonfire.com/store/the-huemanistic-store/">
                 <TshirtLogo />
               </a>
@@ -113,7 +113,7 @@ const Navibar = () => {
             <DonateLink to="/donate">
               <DonateButton>Donate</DonateButton>
             </DonateLink>
-          </PulsateButton>
+          </PulsateButton> </Nav>
         </MenuList>
       </Collapse>
     </Navbar>

@@ -6,6 +6,8 @@ import { BounceIn } from "../keyframes";
 
 
 export const Page = Styled.body`
+display:flex;
+justify-content: center;
 background-attachment: fixed;
 background-position: top;
 background-repeat: no-repeat;
@@ -22,11 +24,19 @@ font-family: font-family: 'Montserrat', sans-serif;
 //link
 export const WebBlockLink = Styled(Link)`
 display:flex;
+width:100%;
+height:100%;
 text-decoration:none;
 color: black;
+
+
  &:focus, &:hover, &:visited, &:link, &:active {
         text-decoration: none;
-        
+              @media (max-width: 1024px) {
+                        @media (max-width: 1024px) {
+        height:100%;
+      
+      }
 `;
 
 // *iframe
@@ -83,14 +93,26 @@ background-size: cover;
 export const MainDiv = Styled.div`
 display:flex;
 flex-direction: column;
-align-items: center;
-// border: blue 1px solid;
+align-content: center;
+width:100%;
+max-width:1000px;
+margin-bottom:3%;
+background-color: #FFFFFFCC;
+border-left: violet 5px solid;
+border-right: purple 5px solid;
+
+            @media(max-width: 1200px) {
+                margin-bottom: 0%;
+            }
 
       @media (max-width: 767px) {
         margin-top: 20%;
       }
+              @media (max-width: 600px) {
+         margin-top: 5%;
+        }
       @media (min-width:320px) and (max-width: 480px) {
-        margin-top: 30%;
+        margin-top: 10%;
       }
 
 `;
@@ -100,16 +122,25 @@ export const WebBlockDiv = Styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
-max-width: 90%;
+width: 100%;
 text-align:center;
 padding: 5%;
 box-shadow: 10px 5px 5px gray; 
+                @media (max-width: 320px) {
+        padding:10%;
+        }
 
 `;
 
 export const WebBlockTextDiv = Styled.div`
 display:inline-block;
 text-align:center;
+            @media(max-width: 1024px) {
+display:flex;
+justify-content: center;
+            }
+            
+
 `;
 
 export const ContentRow2 = Styled.div`
@@ -122,14 +153,17 @@ align-content: center;
 align-items: center;
 flex-wrap: nowrap;
 padding: 3%;
+
             @media (max-width: 1280px) {
               width: 100%;
             }
 
+
             @media (max-width: 768px) {
               flex-direction: column;
-              align-content: center;
-              align-items: center;
+justify-content: center;
+align-items: center;
+align-content: center;
             }
 
 `;
@@ -139,6 +173,9 @@ display:flex;
 flex-direction: column;
 width:60%;
 margin-bottom:2%;
+        @media (max-width: 768px) {
+          width 80%;
+        }
 `;
 
 export const ContentCol3 = Styled.div`
@@ -147,6 +184,7 @@ margin: 0;
 color: #ffffff;
 flex-direction: column;
 width: 100%;
+
 `;
 
 
@@ -199,6 +237,7 @@ font-size: 1rem;
             }
             @media (max-width: 480px) {
               font-size: 1rem;
+              
             }
 `;
 
@@ -206,12 +245,15 @@ font-size: 1rem;
 // *rows
 
 
-export const ContentRow = Styled(Row)`
+export const ContentRow = Styled.div`
 display:flex;
+flex-direction:row;
+justify-content: center;
+width:100%;
+
 flex-direction: row;
-width: 100%;
-margin:2%;
-border-radius: 0 25px;
+
+
             @media (max-width: 480px) {
               margin-top: 20%;
             }
@@ -224,17 +266,14 @@ border-radius: 0 25px;
 
 export const IntroCol = Styled(Col)`
 display:flex;
-margin: 0;
+justify-content: center;
 color: black;
 background: #ffffffCC;
 flex-direction: column;
-justify-content: center;
+padding-bottom: 3%; 
 align-items: center;
 text-align: center;
-border-radius: 30px;
-width: 100%;
-padding:2%;
-margin:5%;
+margin:5% 0;
 
 `;
 

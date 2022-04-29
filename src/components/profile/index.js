@@ -59,16 +59,15 @@ export default function Profile() {
           </SectionHeader>
 
           <ProfileRow>
-            <TextProfileSection
-              title={"Bio"}
-              content={selectedMember.bio}
-            />
+            <TextProfileSection title={"Bio"} content={selectedMember.bio} />
 
-            <TextProfileSection
-              title={`Experience : ${selectedMember.experienceTitle}`}
-              content={selectedMember.experience}
-            />
-
+            {selectedMember.experience != null ? (
+              <TextProfileSection
+                title={`Experience : ${selectedMember.experienceTitle}`}
+                content={selectedMember.experience}
+              />
+            ) : null}
+            
             <ProfileCol>
               {selectedMember.books.length > 0 ? (
                 <ListProfileSection
@@ -84,7 +83,6 @@ export default function Profile() {
                 />
               ) : null}
             </ProfileCol>
-
             <ProfileCol2>
               <Carousel
                 renderCenterLeftControls={({ previousSlide }) => {
