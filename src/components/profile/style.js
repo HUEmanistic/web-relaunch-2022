@@ -22,7 +22,7 @@ export const MainDiv = Styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
-// border: blue 1px solid;
+
 
       @media (max-width: 767px) {
         margin-top: 20%;

@@ -7,6 +7,7 @@ import {
   RowOutline,
   ContentCol,
   RowNoOutline,
+  RowNoOutline2,
   SectionTitle,
   SubSectionTitle,
   SectionTitle2,
@@ -27,7 +28,7 @@ import {
   TitleRow,
   VenmoImg,
   MainContainer,
-
+  PaypalForm,
 } from "./style";
 
 function Donate() {
@@ -46,18 +47,18 @@ function Donate() {
             </Italics>
             <br />
             <br />
-            <RowNoOutline>
+            <RowNoOutline2>
               <PaypalLogo />
               <SubSectionTitle> PayPal</SubSectionTitle>
-            </RowNoOutline>
+            </RowNoOutline2>
             <RowNoOutline>
               <NoColOutline2>
                 <PaypalImg />
               </NoColOutline2>
 
-              <NoColOutline>
-                <form
-                  style={{ marginLeft: "25%" }}
+
+                <PaypalForm
+
                   action="https://www.paypal.com/donate"
                   method="post"
                   target="_top"
@@ -82,8 +83,8 @@ function Donate() {
                     width="1"
                     height="1"
                   />
-                </form>
-              </NoColOutline>
+                </PaypalForm>
+  
               <NoColOutline2>
                 <LinkBlack href="paypal.me/HUEmanistic">
                   paypal.me/HUEmanistic
@@ -91,11 +92,11 @@ function Donate() {
               </NoColOutline2>
             </RowNoOutline>
             <Rule />
-            <RowNoOutline>
+            <RowNoOutline2>
               <VenmoLogo />
               <SubSectionTitle>Venmo</SubSectionTitle>
-            </RowNoOutline>
-            <RowNoOutline>
+            </RowNoOutline2>
+            <RowNoOutline2>
               <NoColOutline>
                 <VenmoImg />
               </NoColOutline>
@@ -108,7 +109,7 @@ function Donate() {
                   </SectionText>
                 </RowNoOutline>
               </NoColOutline>
-            </RowNoOutline>
+            </RowNoOutline2>
           </RowOutline>
 
           <RowOutline>

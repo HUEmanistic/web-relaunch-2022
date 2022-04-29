@@ -238,7 +238,14 @@ export const LinkBlack = Styled.a`
     @media(max-width: 900px) {
         width:100%;
         border: none;
+        padding:0;
     }
+        @media(max-width: 400px) {
+        width:100%;
+        border: none;
+        padding:0;
+    }
+    
 
 `;
 
@@ -369,6 +376,7 @@ align-items: center;
     @media(max-width: 900px) {
         border-top: black 1px dotted;
         border-bottom: black 1px dotted;
+        padding:none;
     }
 `;
 
