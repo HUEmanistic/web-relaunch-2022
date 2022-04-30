@@ -40,7 +40,7 @@ export default function Profile() {
           <SectionHeader>
             <ProfileHeaderCol1>
               <ImageDiv
-                style={{ width: "45%" }}
+               
                 src={selectedMember.image}
                 alt={selectedMember.first_name}
               />

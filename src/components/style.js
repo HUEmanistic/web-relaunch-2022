@@ -101,9 +101,11 @@ width: 100%;
 background: #ffffffCC;
 color:black;
 padding:4%;
-margin: 2%;
-// border: green 1px solid;
+margin: 2% 0;
 align-items: center;
+
+
+
 `;
 
 // *text
