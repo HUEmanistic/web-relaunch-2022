@@ -1,12 +1,15 @@
 import Styled from "styled-components";
 import { Link } from "react-router-dom";
-import { Row, Col } from "reactstrap";
+import { Col } from "reactstrap";
 import Logo from "../../media/images/logo/logo_phrase_shadow.png";
 import { BounceIn } from "../keyframes";
 
 
 export const Page = Styled.body`
-display:flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 justify-content: center;
 background-attachment: fixed;
 background-position: top;

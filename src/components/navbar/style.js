@@ -387,9 +387,7 @@ export const LogoImg = Styled.img.attrs({
 })`
 display:flex;
 width: 100%;
-        }
-
-
+        
 `;
 
 // export const LogoImg = Styled.img.attrs((props) => ({
@@ -460,8 +458,10 @@ margin-top:10%;
 //animations  -----------------------
 
 export const LogoFade = Styled.div`
-    display:flex;
-    display: -webkit-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
     padding: 0;
     width: 100%;
     animation: ${LogoFocusIn} 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
