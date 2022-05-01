@@ -277,7 +277,6 @@ padding-bottom: 3%;
 align-items: center;
 text-align: center;
 margin:5% 0;
-
 `;
 
 

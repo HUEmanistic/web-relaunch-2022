@@ -9,6 +9,8 @@ import MariannaProfile from "../media/images/background/marianna.jpg";
 import ChristinaProfile from "../media/images/background/christina.jpg";
 import BrandonProfile from "../media/images/background/brandon.jpg";
 
+
+
 export const members = [
   {
     background: "#543734",
