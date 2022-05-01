@@ -1,7 +1,7 @@
 import Styled from "styled-components";
 import { Link } from "react-router-dom";
 import { Col } from "reactstrap";
-import Logo from "../../media/images/logo/logo_phrase_shadow.png";
+import Logo from "../../media/images/logo/logo.png";
 import { BounceIn } from "../keyframes";
 
 
@@ -290,14 +290,13 @@ display:-webkit-flex
 display: -moz-box;
 display: -ms-flexbox;
 animation: ${BounceIn} 1.1s both;
-width:20%;
-margin:2% 0 2% 2%;
+width:30%;
+margin: 2% 0;
 
             @media (max-width: 1440px) {
              width: 40%;
              margin-left: 2%;
             }
-
             @media (max-width: 768px) {
               width: 45%;
              margin-left: 5%;

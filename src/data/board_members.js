@@ -174,9 +174,7 @@ As a full-grown adult, with kids of my own, I didn't fully realize the extent of
     profile_episode: [
       "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003",
     ],
-    bio: `
-    Brandon was born in Columbus, Georgia, and raised in the rural southeast along the Chattahoochee River, that is shared with Phenix City, Alabama.
-Prior to his current role a Systems Engineer for Amazon, Brandon spent seven plus years as a full-time volunteer for a religious order based in New York after graduating K-12 in Russell County, AL, and spending four years studying computer science at Auburn University.
+    bio:`Brandon was born in Columbus, Georgia, and raised in the rural southeast along the Chattahoochee River, that is shared with Phenix City, Alabama. Prior to his current role a Systems Engineer for Amazon, Brandon spent seven plus years as a full-time volunteer for a religious order based in New York after graduating K-12 in Russell County, AL, and spending four years studying computer science at Auburn University.
 
 Brandon withdrew his support for and effectively detached himself from the fundamentalist religious order in 2017, at the age of 30, while undertaking a methodical deconstruction so as not to throw out the baby with the bathwater.
 Brandon continues to believe that all life, regardless of race, color, species, religion, nationality, social position, economic condition, or other factors, has inherent worth and value.
