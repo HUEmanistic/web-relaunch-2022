@@ -141,3 +141,26 @@ export const Pulsate = keyframes`
 `;
 
 //animation: heartbeat 1.5s ease-in-out infinite both;
+
+export const PopText = keyframes`
+  0% {
+
+            filter: blur(0.01);
+  }
+  100% {
+
+            filter: blur(12px) opacity(0%);
+  }
+}
+@keyframes text-blur-out {
+  0% {
+
+            filter: blur(0.01);
+  }
+  100% {
+
+            filter: blur(12px) opacity(0%);
+  }
+}
+`;
+//animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both;

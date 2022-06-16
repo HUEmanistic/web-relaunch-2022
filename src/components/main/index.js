@@ -1,7 +1,11 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import Carousel from "nuka-carousel";
 import ProfileListDisplay from "../profileListDisplay";
-import background from "../../media/images/background/main.jpg";
+import event from "../../media/images/events/Juneteenth/backgrounds/juneteenth.jpg";
+import flag from "../../media/images/events/Juneteenth/inner-images/flag.jpg";
+
+// import background from "../../media/images/background/main.jpg";
 import { webBlocks, slideData } from "../../data/web_info";
 
 import {
@@ -23,18 +27,29 @@ import {
   WebBlockLink,
   WebBlockTextDiv,
   BlockText,
+  EventImg
 } from "./style";
 
+
+
 function Main(props) {
+
+  const history = useHistory();
+  const specialRoute = () => {
+    history.push("/juneteenth");
+  };
+
+
   return (
-    <Page style={{ backgroundImage: `url(${background})` }}>
+    <Page style={{ backgroundImage: `url(${event})` }}>
       <MainDiv>
         <CarouselContainer>
-          <Carousel
-
-          >
+          <Carousel>
+            <Slide onClick={specialRoute}>
+              <EventImg />
+            </Slide>
             {slideData.map((bg) => (
-              <Slide style={{ backgroundImage: bg.backgroundImage }}>
+              <Slide style={{ backgroundImage: `url(${bg.backgroundImage})`  }}>
                 <PodcastContainerColumn>
                   <bg.logo style={{ width: bg.logoWidth, margin: bg.margin }} />
                   <Frame
@@ -51,9 +66,9 @@ function Main(props) {
               height="100%"
               src="https://www.youtube.com/embed/2GcyYvruOYY"
               title="Your Black Friend - The N Word"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </Carousel>
         </CarouselContainer>

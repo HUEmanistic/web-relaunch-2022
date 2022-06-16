@@ -1,5 +1,5 @@
 import { CCLogo, ProfileLogo } from "../components/style";
-
+import flag from "../media/images/events/Juneteenth/inner-images/flag-light.jpg";
 
 import HazzaunaProfile from "../media/images/background/hazzauna.jpg";
 import SeanProfile from "../media/images/background/sean.jpg";
@@ -39,7 +39,10 @@ export const webBlocks = [
 export const slideData = [
   {
     backgroundColor: "#D9AFD9",
-    backgroundImage: "linear-gradient(0deg, #D9AFD9 0%, #97D9E18c 100%)",
+    //original
+    // backgroundImage: "linear-gradient(0deg, #D9AFD9 0%, #97D9E18c 100%)",
+    //juneteenth
+    backgroundImage: flag,
     background: "#3fbfbf8c",
     logo: CCLogo,
     src: ccPodcast,
