@@ -2,6 +2,39 @@
 
 export const eventAccordion = [
   {
+    linkTitle:
+      "13th Annual Juneteenth NYC Festival - Virtual and Live 3 day Celebration",
+    linkaddress:
+      "https://www.eventbrite.com/e/13th-annual-juneteenth-nyc-festival-virtual-and-live-3-day-celebration-tickets-272862959457?aff=ebdssbonlinesearch",
+    location: "Virtual, NYC",
+  },
+  {
+    linkTitle:
+      "JUNETEENTH CELEBRATION VIRTUAL WORKSHOP AND PARTY FOR KIDS AND TEENS",
+    linkaddress:
+      "https://www.eventbrite.com/e/juneteenth-celebration-virtual-workshop-and-party-for-kids-and-teens-tickets-353197893407?aff=ebdssbonlinesearch",
+    location: "Virtual",
+  },
+  {
+    linkTitle: "2022 Juneteenth Virtual Celebration",
+    linkaddress:
+      "https://www.eventbrite.com/e/2022-juneteenth-virtual-celebration-tickets-361212284667?aff=ebdssbonlinesearch",
+    location: "Virtual",
+  },
+  {
+    linkTitle: "RMJ Studios presents: Juneteenth Community Day",
+    linkaddress:
+      "https://www.eventbrite.com/e/rmj-studios-presents-juneteenth-community-day-tickets-354849693987?aff=ebdssbonlinesearch",
+    location: "Virtual",
+  },
+  {
+    linkTitle:
+      "Black History, Continued: A New York Times Virtual Event Series",
+    linkaddress:
+      "https://www.nytimes.com/article/black-history-continued-events.html",
+    location: "Virtual",
+  },
+  {
     linkTitle: "Ways to celebrate and serve Juneteenth",
     linkaddress:
       "https://www.cnn.com/2022/06/14/us/iyw-juneteenth-2022/index.html",
@@ -46,10 +79,15 @@ export const eventAccordion = [
       "https://www.parentmap.com/article/juneteenth-events-seattle-area-families-2022",
     location: "Seattle",
   },
-  {},
 ];
 
 export const historyAccordion = [
+  {
+    linkTitle:
+      "Black Joy—Not Corporate Acknowledgment—Is the Heart of Juneteenth",
+    linkaddress:
+      "https://www.theatlantic.com/culture/archive/2020/06/juneteenth-has-always-been-worthy-celebration/613270/",
+  },
   {
     linkTitle: "Juneteenth History and Facts",
     linkaddress:
@@ -83,6 +121,11 @@ export const historyAccordion = [
       "https://www.mentalfloss.com/article/501680/12-things-you-might-not-know-about-juneteenth",
   },
   {
+    linkTitle: "Juneteenth: A Musical Journey",
+    linkaddress:
+      "https://open.spotify.com/playlist/5dDYiS8rQIHLyIgWijEnMa?si=f5423e511ffe494f&nd=1",
+  },
+  {
     linkTitle: "Juneteenth Educational Team games",
     linkaddress:
       "https://www.withconfetti.com/collection/juneteenth?utm_adgroup=juneteenth-b&utm_source=google&utm_medium=cpc&utm_campaign=search-seasonal-juneteenth&utm_term=how%20to%20celebrate%20juneteenth%20virtually&utm_content=juneteenth&hsa_acc=5647854541&hsa_cam=17115361810&hsa_grp=134969986526&hsa_ad=595882584899&hsa_src=g&hsa_tgt=kwd-1287568079720&hsa_kw=how%20to%20celebrate%20juneteenth%20virtually&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwqauVBhBGEiwAXOepkZy00HmLlhiTs8ksx4FVhO-P1yAc5DItOqVjNbjXCvVjtk_kSu7hIxoC7tsQAvD_BwE",
@@ -96,9 +139,27 @@ export const flagAccordion = [
       "https://parade.com/1219444/alliyahlogan/juneteenth-flag-meaning/",
   },
   {
-    linkTitle: "Why Is the Juneteenth Flag Blue and Red?",
+    linkTitle: "The Juneteenth flag is full of symbols. Here's what they mean",
     linkaddress:
-      "https://parade.com/1219444/alliyahlogan/juneteenth-flag-meaning/",
+      "https://www.cnn.com/2021/06/19/us/juneteenth-flag-meaning-explainer-trnd/index.html",
+  },
+  {
+    linkTitle: "The True Meaning of the Juneteenth Flag, Explained",
+    linkaddress:
+      "https://www.oprahdaily.com/life/a36233221/juneteenth-flag-meaning/",
+  },
+  {
+    linkTitle: "The Juneteenth Flag",
+    linkaddress: "https://capitalbnews.org/juneteenth-flag-explainer/",
+  },
+  {
+    linkTitle: "The Meaning & Symbolism Behind the Colors of Juneteenth",
+    linkaddress:
+      "https://www.goodhousekeeping.com/holidays/a36687761/juneteenth-colors-meaning/",
+  },
+  {
+    linkTitle: "The Juneteenth Flag: The History Behind Its Colors and Symbols",
+    linkaddress: "https://www.rd.com/article/juneteenth-flag/",
   },
 ];
 

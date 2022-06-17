@@ -1,7 +1,6 @@
 import Styled from "styled-components";
 import { Link } from "react-router-dom";
 import { Col } from "reactstrap";
-import freeish from "../../../media/images/events/Juneteenth/backgrounds/freeish.jpg";
 import { Accordion } from "react-bootstrap";
 
 
@@ -14,48 +13,62 @@ export const Page = Styled.body`
 justify-content: center;
 background-attachment: fixed;
 background-position: top;
-height: 100vh;
 background-repeat: no-repeat;
 background-size: cover;
 padding-top: 6%;
+position:absolute;
+top:0px;
+right:0px;
+bottom:0px;
+left:0px;
 font-family: font-family: 'Montserrat', sans-serif;
-      @media (max-width: 481px) {
-        background-image: none;
-        padding:0;
-      }
+
+@media (max-width: 481px) {
+background-image: none;
+padding:0;
+}
+//Firefox
+scrollbar-width: thin;
+scrollbar-color: blue orange;
+
+
+// //Chrome, Edge, Safari
+
+&::-webkit-scrollbar-track {
+  background: green;
+}
+&::-webkit-scrollbar {
+        width: 10px;
+        border: 1px solid black;
+    }
+
+&::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+  border: 1px solid red;
+}
+
 
 `;
 
 //link
-export const WebBlockLink = Styled(Link)`
+export const EventLink = Styled.a`
 display:flex;
 width:100%;
 height:100%;
-text-decoration:none;
-color: black;
+color: green;
 
+&:hover{
+color:black;
+text-decoration: red wavy underline;
+}
 
- &:focus, &:hover, &:visited, &:link, &:active {
-        text-decoration: none;
-              @media (max-width: 1024px) {
-                        @media (max-width: 1024px) {
-        height:100%;
-      
-      }
+&:focus, &:hover, &:visited, &:link, &:active {
+
+@media (max-width: 1024px) {
+height:100%;
+}
 `;
-
-
-// *images
-
-export const BgImg = Styled.img.attrs({
-  src: `${freeish}`,
-})`
-display:flex;
-    width: 100%;
-    border: red 1px solid;
-            }
-`;
-
 
 export const MainDiv = Styled.div`
 display:flex;
@@ -63,6 +76,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 align-content: center;
+position: absolute;
 width:100%;
 max-width:1000px;
 margin-bottom:3%;
@@ -84,47 +98,6 @@ margin-top: 10%;
 `;
 
 
-
-export const ContentRow2 = Styled.div`
-background: #FFFFFF;
-width: 100%;
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-align-content: center;
-align-items: center;
-flex-wrap: nowrap;
-padding: 3%;
-
-@media (max-width: 1280px) {
-width: 100%;
-}
-
-@media (max-width: 768px) {
-flex-direction: column;
-justify-content: center;
-align-items: center;
-align-content: center;
-            }
-
-`;
-
-
-export const MainCol = Styled.div`
-display:flex;
-margin: 0;
-background:#ffffffBF;
-color: #ffffff;
-padding: 2% 0;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-align-content: center;
-width: 100%;
-margin-bottom: 5%;
-
-
-`;
 
 // *text
 
@@ -189,17 +162,20 @@ margin-top: 20%;
 
 // *columns
 
-export const IntroCol = Styled(Col)`
-display:flex;
-justify-content: center;
-color: black;
-background: #ffffffCC;
-flex-direction: column;
-padding-bottom: 3%; 
-align-items: center;
-text-align: center;
-margin:5% 0;
 
+export const MainCol = Styled.div`
+display:flex;
+margin: 0;
+background:#ffffffBF;
+color: #ffffff;
+padding: 2% 0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+width: 100%;
+margin-bottom: 5%;
+border-radius: 15px 50px;
 `;
 
 
@@ -209,6 +185,7 @@ export const Acc = Styled(Accordion)`
 color:black;
 width:100%;  
 background:#ffffffBF;
+margin-bottom: 5%;
 `;
  
 export const ABody = Styled(Accordion.Body)`
@@ -218,6 +195,7 @@ background:#ffffffBF;
 export const AHeader = Styled(Accordion.Header)`
 background:#ffffffBF;
 width:100%;
+
 `;
 
 export const AItem = Styled(Accordion.Item)`
