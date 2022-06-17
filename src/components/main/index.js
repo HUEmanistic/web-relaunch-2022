@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import Carousel from "nuka-carousel";
 import ProfileListDisplay from "../profileListDisplay";
 import event from "../../media/images/events/Juneteenth/backgrounds/juneteenth.jpg";
-import flag from "../../media/images/events/Juneteenth/inner-images/flag.jpg";
+
 
 // import background from "../../media/images/background/main.jpg";
 import { webBlocks, slideData } from "../../data/web_info";
