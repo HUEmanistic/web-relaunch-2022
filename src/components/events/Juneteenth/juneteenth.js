@@ -1,6 +1,6 @@
 import React from "react";
 import event from "../../../media/images/events/Juneteenth/backgrounds/juneteenth.jpg";
-import freeish from "../../../media/images/events/Juneteenth/backgrounds/freeish.png";
+
 import {
   eventAccordion,
   historyAccordion,
