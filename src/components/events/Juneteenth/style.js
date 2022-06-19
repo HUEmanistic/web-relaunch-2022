@@ -70,6 +70,21 @@ height:100%;
 }
 `;
 
+// *iframe
+
+export const Frame = Styled.iframe.attrs({
+  height: "100%",
+  width: "100%",
+  frameborder: "0",
+  scrolling: "no",
+})`
+display: flex;,
+margin: 0 auto;
+border:none;
+margin-bottom: 5%;
+
+`;
+
 export const MainDiv = Styled.div`
 display:flex;
 flex-direction: column;
