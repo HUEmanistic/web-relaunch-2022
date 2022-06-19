@@ -1,5 +1,5 @@
 import Styled from "styled-components";
-import { LogoFocusIn, Pulsate } from "../keyframes";
+import { LogoFocusIn, Pulsate, PopText } from "../keyframes";
 import { Navbar, Button, NavbarBrand, NavItem } from "reactstrap";
 import LogoColor from "../../media/images/logo/logo_no_phrase_shadow.png";
 import { Link } from "react-router-dom";
@@ -223,8 +223,48 @@ export const LinkBlack = Styled.a`
     margin: 0 22%; 
     &:hover {
     color: #8A2BE2;
+    cursor: pointer;
     transition: all 0.2s ease-out;
     text-decoration: none;
+}
+    @media(max-width: 1200px) {
+        width:50%;
+        font-size: 1rem;
+    }      
+    @media(max-width: 990px) {
+        padding: 5% 0;
+        font-size: 1.5rem;
+        border-bottom: black 2px solid;
+    }
+    @media(max-width: 900px) {
+        width:100%;
+        border: none;
+        padding:0;
+    }
+        @media(max-width: 400px) {
+        width:100%;
+        border: none;
+        padding:0;
+    }
+    
+
+`;
+
+export const SpecialLink = Styled.a`
+    display: flex;
+    text-align:center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: green;
+    width: 100%;
+    font-weight: 500;
+    margin: 0 22%; 
+    &:hover {
+    color: red;
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+    cursor: pointer;
 }
     @media(max-width: 1200px) {
         width:50%;
@@ -467,6 +507,16 @@ export const LogoFade = Styled.div`
     animation: ${LogoFocusIn} 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 `;
 
+export const PopupText = Styled.div`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+    padding: 0;
+    width: 100%;
+animation: ${PopText} 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) reverse ;
+`;
+
 export const PulsateButton = Styled.div`
     display:flex;
     width: 10%;
@@ -480,6 +530,4 @@ export const PulsateButton = Styled.div`
                 @media (max-width: 600px) {
           margin-bottom: 3%;
         }
-
-
 `;

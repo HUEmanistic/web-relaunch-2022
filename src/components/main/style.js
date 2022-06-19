@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Col } from "reactstrap";
 import Logo from "../../media/images/logo/logo.png";
 import { BounceIn } from "../keyframes";
+import eventBanner from "../../media/images/events/Juneteenth/inner-images/banner.png";
+
 
 
 export const Page = Styled.body`
@@ -70,6 +72,19 @@ display:flex;
 
 `;
 
+export const EventImg = Styled.img.attrs({
+  src: `${eventBanner}`,
+})`
+display:flex;
+    width: 100%;
+            }
+            @media (max-width: 768px) {
+             width: 100%;
+            }
+
+`;
+
+
 // divs
 
 
@@ -100,9 +115,15 @@ align-content: center;
 width:100%;
 max-width:1000px;
 margin-bottom:3%;
-background-color: #FFFFFFCC;
-border-left: violet 5px solid;
-border-right: purple 5px solid;
+//background-color: #FFFFFFCC;
+//juneteenth
+background-color: #FFFFFF80;
+//juneteenth
+border-left: green 5px solid;
+border-right: #8B0000 5px solid;
+//original
+// border-left: violet 5px solid;
+// border-right: purple 5px solid;
 
             @media(max-width: 1200px) {
                 margin-bottom: 0%;

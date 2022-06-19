@@ -9,7 +9,8 @@ import Mission from "./components/what-is-hue/index";
 import Donate from "./components/donate/index";
 import Contact from "./components/contact/index";
 import Profile from "./components/profile/index";
-import Volunteer from "./components/volunteer/index"
+import Volunteer from "./components/volunteer/index";
+import Juneteenth from "./components/events/Juneteenth/juneteenth";
 
 
 function App() {
@@ -20,6 +21,7 @@ ReactGA.initialize(TRACKING_ID);
       <RouteChangeTracker />
       <Switch>
         <Route exact path="/" component={Main} />
+        <Route exact path="/juneteenth" component={Juneteenth} />
         <Route exact path="/what-is-huemanistic" component={Mission} />
         <Route exact path="/donate" component={Donate} />
         <Route exact path="/contact" component={Contact} />
