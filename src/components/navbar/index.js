@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Tooltip, OverlayTrigger } from "react-bootstrap";
 import {
@@ -21,12 +21,7 @@ import {
   PopupText,
 } from "./style";
 
-import {
-  Collapse,
-  Nav,
-  NavbarToggler,
-  Navbar,
-} from "reactstrap";
+import { Collapse, Nav, NavbarToggler, Navbar } from "reactstrap";
 
 const Navibar = () => {
   const history = useHistory();
@@ -49,6 +44,10 @@ const Navibar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
+  const today = new Date();
+  const Juneteenth = new Date(2022, 5, 19);
+  console.log(today)
+  console.log(Juneteenth)
 
   return (
     <Navbar color="light" expand="xl" light fixed="top">
@@ -61,11 +60,13 @@ const Navibar = () => {
       <Collapse isOpen={isOpen} navbar>
         <MenuList>
           <Nav navbar style={{ width: "100%" }}>
-            <PopupText>
-              <NaviItem>
-                <SpecialLink onClick={specialRoute}>Juneteenth</SpecialLink>
-              </NaviItem>
-            </PopupText>
+            {today >= Juneteenth ? (
+              <PopupText>
+                <NaviItem>
+                  <SpecialLink onClick={specialRoute}>Juneteenth</SpecialLink>
+                </NaviItem>
+              </PopupText>
+            ) : null}
             <NaviItem>
               <LinkBlack onClick={route1}>Home</LinkBlack>
             </NaviItem>
@@ -135,7 +136,3 @@ const Navibar = () => {
 };
 
 export default Navibar;
-
-
-
-

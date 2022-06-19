@@ -228,13 +228,48 @@ export const foodAccordion = [
     linkaddress: "https://divascancook.com/category/juneteenth-food/",
   },
   {
-    linkTitle: "Juneteenth Food & Recipes",
+    linkTitle:
+      "Chef Nicole A. Taylor talks red birds, red drink, and Juneteenth",
     linkaddress: "https://divascancook.com/category/juneteenth-food/",
   },
   {
-    linkTitle: "JUNETEENTH: WHY DO PEOPLE DRINK STRAWBERRY SODA?",
+    linkTitle: "All The Juneteenth Food And Drinks You Should Know About",
     linkaddress:
-      "https://www.hitc.com/en-gb/2020/06/19/juneteenth-why-do-people-drink-strawberry-soda-find-a-recipe-here/",
+      "https://www.delish.com/food-news/a40305074/juneteenth-food-drinks/",
+  },
+  {
+    linkTitle: "Delicious Juneteenth Recipes Your Whole Family Will Love",
+    linkaddress:
+      "https://www.romper.com/life/juneteenth-recipes-for-the-whole-family",
+  },
+  {
+    linkTitle: "Juneteenth Menu, Food, History, Facts, & Black Folks Recipes",
+    linkaddress: "https://thesoulfoodpot.com/juneteenth-food/",
+  },
+  {
+    linkTitle: "For Juneteenth, this hibiscus red drink is steeped in history",
+    linkaddress:
+      "https://www.washingtonpost.com/food/2022/06/10/red-drink-recipe-juneteenth/",
+  },
+  {
+    linkTitle:
+      "The Traditional Foods of Juneteenth Carry a Rich History, Dating Back Centuries",
+    linkaddress:
+      "https://www.oprahdaily.com/life/a36479941/juneteenth-food-traditions/",
+  },
+  {
+    linkTitle: "13 Recipes to Celebrate Juneteenth",
+    linkaddress:
+      "https://www.foodandwine.com/holidays-events/juneteenth-recipes",
+  },
+  {
+    linkTitle: "What to Eat on Juneteenth",
+    linkaddress: "https://www.seriouseats.com/juneteenth-menu-5189136",
+  },
+  {
+    linkTitle:
+      "58 of the Best Juneteenth Recipes From Black Food Creators for Traditional Juneteenth Celebrations ",
+    linkaddress: "https://parade.com/1394136/jocelyndelkadams/juneteenth-food/",
   },
 ];
 
