@@ -3,6 +3,7 @@ import event from "../../../media/images/events/Juneteenth/backgrounds/juneteent
 import { ReactTinyLink } from "react-tiny-link";
 
 
+
 import {
   eventAccordion,
   historyAccordion,
@@ -23,6 +24,8 @@ import {
   AHeader,
   EventLink,
   Frame,
+  ContentRow,
+  FlagImg
 } from "./style";
 
 function Juneteenth() {
@@ -50,18 +53,19 @@ const Blog =
           frameborder="0"
           scrolling="no"
         ></Frame>
-
+        <ContentRow>
+      <FlagImg/>
         <ReactTinyLink
           cardSize="medium"
           header="My Love and Hate Relationship with Juneteenth - by Martin L. Boston"
           width="100%"
           description="Martin L. Boston is an assistant professor of Pan African Studies and Ethnic Studies at California State University, Sacramento (Sacramento State). He holds a doctorate in Ethnic Studies from the University of California, San Diego (UC San Diego), and has also taught at DePaul University, UC San Diego, and Washington State University before joining the Ethnic Studies Department at Sacramento State."
-          showGraphic={true}
+          showGraphic={false}
           maxLine={2}
           minLine={1}
           url={Blog}
         />
-
+</ContentRow>
 
         <Acc defaultActiveKey="0" flush>
           <AItem eventKey="1">

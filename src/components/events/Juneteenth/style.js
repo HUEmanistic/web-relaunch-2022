@@ -1,6 +1,6 @@
 import Styled from "styled-components";
 import { Accordion } from "react-bootstrap";
-
+import flag from "../../../media/images/events/Juneteenth/inner-images/flag.jpg";
 
 
 export const Page = Styled.body`
@@ -82,6 +82,16 @@ display: flex;,
 margin: 0 auto;
 border:none;
 margin-bottom: 5%;
+
+`;
+
+// images
+
+export const FlagImg = Styled.img.attrs({
+  src: `${flag}`,
+})`
+display:flex;
+width: 25%;
 
 `;
 
@@ -196,7 +206,7 @@ flex-direction:row;
 justify-content: center;
 width:100%;
 flex-direction: row;
-
+margin-bottom: 3%;
 `;
 
 // *columns
@@ -213,7 +223,7 @@ justify-content: center;
 align-items: center;
 align-content: center;
 width: 100%;
-margin-bottom: 5%;
+margin-bottom: 3%;
 border-radius: 15px 50px;
 
 @media (max-width: 1024px) {
