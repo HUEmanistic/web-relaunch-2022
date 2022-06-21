@@ -215,7 +215,7 @@ margin-bottom: 3%;
 export const MainCol = Styled.div`
 display:flex;
 margin: 0;
-background:#ffffffBF;
+background:#ffffff;
 color: #ffffff;
 padding: 2% 0;
 flex-direction: column;
@@ -223,7 +223,7 @@ justify-content: center;
 align-items: center;
 align-content: center;
 width: 100%;
-margin-bottom: 3%;
+margin-bottom: 5%;
 border-radius: 15px 50px;
 
 @media (max-width: 1024px) {
@@ -248,7 +248,7 @@ export const Acc = Styled(Accordion)`
 color:black;
 width:100%;  
 background:#ffffffBF;
-margin: 5% 0;
+margin: 3% 0;
 `;
  
 export const ABody = Styled(Accordion.Body)`
