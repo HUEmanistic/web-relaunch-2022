@@ -238,7 +238,7 @@ export const Acc = Styled(Accordion)`
 color:black;
 width:100%;  
 background:#ffffffBF;
-margin-bottom: 5%;
+margin: 5% 0;
 `;
  
 export const ABody = Styled(Accordion.Body)`
