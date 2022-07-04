@@ -17,7 +17,7 @@ import {
   PulsateButton,
   HideMe,
   NaviItem,
-  // SpecialLink,
+  SpecialLink,
   PopupText,
 } from "./style";
 
@@ -60,13 +60,13 @@ const Navibar = () => {
       <Collapse isOpen={isOpen} navbar>
         <MenuList>
           <Nav navbar style={{ width: "100%" }}>
-            {today >= Juneteenth ? (
+            {/* {today >= Juneteenth ? (
               <PopupText>
-                {/* <NaviItem>
+                <NaviItem>
                   <SpecialLink onClick={specialRoute}>Juneteenth</SpecialLink>
-                </NaviItem> */}
+                </NaviItem>
               </PopupText>
-            ) : null}
+            ) : null} */}
             <NaviItem>
               <LinkBlack onClick={route1}>Home</LinkBlack>
             </NaviItem>

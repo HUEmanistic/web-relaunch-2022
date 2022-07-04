@@ -6,10 +6,8 @@ import MariannaProfile from "../media/images/background/marianna.jpg";
 import ChristinaProfile from "../media/images/background/christina.jpg";
 import BrandonProfile from "../media/images/background/brandon.jpg";
 
-
 let ccPodcast = "https://anchor.fm/huemanistic-organization/embed";
-let pPodcast =
-  "https://anchor.fm/huemanistic-organization9/embed";
+let pPodcast = "https://anchor.fm/huemanistic-organization9/embed";
 
 export const webBlocks = [
   {
@@ -37,10 +35,10 @@ export const webBlocks = [
 
 export const slideData = [
   {
-    backgroundColor: "#D9AFD9",
-    backgroundImage: "linear-gradient(0deg, #D9AFD9 0%, #97D9E18c 100%)",
     // //juneteenth
     // backgroundImage: flag,
+    backgroundColor: "#D9AFD9",
+    backgroundImage: "linear-gradient(0deg, #D9AFD9 0%, #97D9E18c 100%)",
     background: "#3fbfbf8c",
     logo: CCLogo,
     src: ccPodcast,
