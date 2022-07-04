@@ -17,8 +17,8 @@ import {
   PulsateButton,
   HideMe,
   NaviItem,
-  SpecialLink,
-  PopupText,
+  // SpecialLink,
+  // PopupText,
 } from "./style";
 
 import { Collapse, Nav, NavbarToggler, Navbar } from "reactstrap";
