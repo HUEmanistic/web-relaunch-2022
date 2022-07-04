@@ -49,7 +49,7 @@ function Main(props) {
               <EventImg />
             </Slide> */}
             {slideData.map((bg) => (
-              <Slide style={{ backgroundImage: `url(${bg.backgroundImage})`  }}>
+              <Slide style={{ background: bg.backgroundImage  }}>
                 <PodcastContainerColumn>
                   <bg.logo style={{ width: bg.logoWidth, margin: bg.margin }} />
                   <Frame
