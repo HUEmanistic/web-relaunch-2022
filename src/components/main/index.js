@@ -1,11 +1,11 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import Carousel from "nuka-carousel";
 import ProfileListDisplay from "../profileListDisplay";
-import event from "../../media/images/events/Juneteenth/backgrounds/juneteenth.jpg";
+// import event from "../../media/images/events/Juneteenth/backgrounds/juneteenth.jpg";
 
 
-// import background from "../../media/images/background/main.jpg";
+import background from "../../media/images/background/main.jpg";
 import { webBlocks, slideData } from "../../data/web_info";
 
 import {
@@ -27,27 +27,27 @@ import {
   WebBlockLink,
   WebBlockTextDiv,
   BlockText,
-  EventImg
+  // EventImg
 } from "./style";
 
 
 
 function Main(props) {
 
-  const history = useHistory();
-  const specialRoute = () => {
-    history.push("/juneteenth");
-  };
+  // const history = useHistory();
+  // const specialRoute = () => {
+  //   history.push("/juneteenth");
+  // };
 
 
   return (
-    <Page style={{ backgroundImage: `url(${event})` }}>
+    <Page style={{ backgroundImage: `url(${background})` }}>
       <MainDiv>
         <CarouselContainer>
           <Carousel>
-            <Slide onClick={specialRoute}>
+            {/* <Slide onClick={specialRoute}>
               <EventImg />
-            </Slide>
+            </Slide> */}
             {slideData.map((bg) => (
               <Slide style={{ backgroundImage: `url(${bg.backgroundImage})`  }}>
                 <PodcastContainerColumn>
