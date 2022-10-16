@@ -53,9 +53,8 @@ function Main(props) {
                     title={bg.title}
                   />
                   <p style={{ textAlign: "center", fontSize: "15px" }}>
-                    <a href="https://anchor.fm/huemanistic-organization">
-                      View HUEmanistic's past podcasts
-                    </a>
+                    <a href={ bg.pastPodcasts }>View HUEmanistic's past podcast</a>
+                      
                   </p>
                 </PodcastContainerColumn>
               </Slide>
