@@ -44,6 +44,7 @@ export const slideData = [
     src: ccPodcast,
     title: "Color Commentary Podcast",
     width: "100%",
+    pastPodcasts: "https://anchor.fm/huemanistic-organization",
   },
   {
     backgroundColor: "#FFDEE9",
@@ -55,6 +56,7 @@ export const slideData = [
     margin: "0 auto",
     logoWidth: "50%",
     width: "100%",
+    pastPodcasts: "https://anchor.fm/huemanistic-organization9",
   },
 ];
 

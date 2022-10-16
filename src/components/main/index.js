@@ -4,7 +4,6 @@ import Carousel from "nuka-carousel";
 import ProfileListDisplay from "../profileListDisplay";
 // import event from "../../media/images/events/Juneteenth/backgrounds/juneteenth.jpg";
 
-
 import background from "../../media/images/background/main.jpg";
 import { webBlocks, slideData } from "../../data/web_info";
 
@@ -30,15 +29,11 @@ import {
   // EventImg
 } from "./style";
 
-
-
 function Main(props) {
-
   // const history = useHistory();
   // const specialRoute = () => {
   //   history.push("/juneteenth");
   // };
-
 
   return (
     <Page style={{ backgroundImage: `url(${background})` }}>
@@ -49,7 +44,7 @@ function Main(props) {
               <EventImg />
             </Slide> */}
             {slideData.map((bg) => (
-              <Slide style={{ background: bg.backgroundImage  }}>
+              <Slide style={{ background: bg.backgroundImage }}>
                 <PodcastContainerColumn>
                   <bg.logo style={{ width: bg.logoWidth, margin: bg.margin }} />
                   <Frame
@@ -57,6 +52,11 @@ function Main(props) {
                     src={bg.src}
                     title={bg.title}
                   />
+                  <p style={{ textAlign: "center", fontSize: "15px" }}>
+                    <a href="https://anchor.fm/huemanistic-organization">
+                      View HUEmanistic's past podcasts
+                    </a>
+                  </p>
                 </PodcastContainerColumn>
               </Slide>
             ))}

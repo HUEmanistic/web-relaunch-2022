@@ -11,6 +11,7 @@ import { Youtube } from "@styled-icons/bootstrap/Youtube";
 import { Twitter } from "@styled-icons/bootstrap/Twitter";
 import { Facebook } from "@styled-icons/boxicons-logos/Facebook";
 import { InstagramAlt } from "@styled-icons/boxicons-logos/InstagramAlt";
+import { Tiktok } from "@styled-icons/boxicons-logos/Tiktok";
 import BG from "../../media/images/background/bg2.jpg";
 
 export const PageTitle = Styled.h1`
@@ -250,8 +251,8 @@ width: 100%;
 export const Rule = Styled.hr`
 width:100%;
 height:3px;
-padding: 2% 0;
 color:black;
+margin-bottom: 4%;
 `;
 
 export const VenmoImg = Styled.img.attrs({
@@ -270,19 +271,19 @@ export const PaypalImg = Styled.img.attrs({
 })`
     display: flex;
     padding-bottom: 3%;
-    width: 100%;
+    width: 50%;
     border:black 1px solid;
     @media (max-width: 1200px) {
-        width:100%;
+        width:50%;
     }
     @media (max-width: 1024px) {
-        width:120%;
+        width:50%;
     }
     @media (max-width: 900px) {
-        width:100%;
+        width:50%;
     }
     @media (max-width: 768px) {
-        width: 90%;
+        width: 40%;
     }
     @media (max-width: 600px) {
         display:none;
@@ -352,7 +353,7 @@ margin-left: 7%;
 
 export const PaypalLogo = Styled(Paypal)`
 display: flex;
-width:5%;
+width:10%;
 color:black;
 
     @media (max-width: 481px) {
@@ -363,7 +364,7 @@ color:black;
 
 export const VenmoLogo = Styled(LogoVenmo)`
 display: flex;
-width: 5%;
+width: 10%;
 margin-right:1%;
 color:black;
 
@@ -437,6 +438,24 @@ width: 50%;
 `;
 
 export const InstaLogo = Styled(InstagramAlt)`
+display: flex;
+width:10%;
+color:black;
+
+    @media (max-width: 900px) {
+        width: 12%;
+    }
+    @media (max-width: 600px) {
+        width: 15%;
+        margin-right: 2%;
+    }
+        @media (max-width: 320px) {
+width: 50%;
+margin:0;
+    }
+`;
+
+export const TikTokLogo = Styled(Tiktok)`
 display: flex;
 width:10%;
 color:black;

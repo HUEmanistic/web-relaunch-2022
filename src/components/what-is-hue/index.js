@@ -20,31 +20,29 @@ function Mission() {
         <ContentContainer>
           <RowOutline>
             <SectionTitle>What is HUEmanistic?</SectionTitle>
-            <Rule />
 
             <NoColOutline>
               <DefinitionImg />
             </NoColOutline>
-            <Rule />
 
             <RowNoOutline>
               <Para>
                 To be HUEmanistic (Hu•man•ist•ic) is to adopt diversity and
                 equality as the norm; advocating against racism and believing
                 that every human, despite color, has and deserves the potential
-                to be great. By peeling away the societal layers that define and divide us,
-                we can re-educate and build an understanding and supportive
-                society that embraces our differences. Creating a movement
-                around building community and branching from there to build
-                bridges of true unification and solidarity for us, as humans,
-                despite our color.
+                to be great. By peeling away the societal layers that define and
+                divide us, we can re-educate and build an understanding and
+                supportive society that embraces our differences. Creating a
+                movement around building community and branching from there to
+                build bridges of true unification and solidarity for us, as
+                humans, despite our color.
               </Para>
             </RowNoOutline>
           </RowOutline>
 
           <RowOutline>
             <SectionTitle>What's Our Mission?</SectionTitle>
-            <Rule />
+
             <Para>
               Our mission is to enlist, develop, and educate our world's
               communities to evolve by becoming allies who harness diversity,
@@ -56,7 +54,7 @@ function Mission() {
 
           <RowOutline>
             <SectionTitle>What is HUEmanistic's Vision?</SectionTitle>
-            <Rule />
+
             <Para>
               A unified nation where ALL people experience the same privileges
               and basic human rights.
@@ -65,7 +63,7 @@ function Mission() {
 
           <RowOutline>
             <SectionTitle>Why Do We Exist?</SectionTitle>
-            <Rule />
+
             <Para>
               We are one race, the human race, yet the everyday inequities Black
               and Brown people face must be addressed. A longtime racial divide
@@ -83,11 +81,17 @@ function Mission() {
 
           <RowOutline>
             <SectionTitle>What are HUEmanistic's Values?</SectionTitle>
-            <Rule />
-            <Para>
+
+            <NoColOutline
+              style={{ fontSize: "20px", fontWeight: "500", lineHeight: "2" }}
+            >
               Grounded in humanity. We are a humanitarian-focused 501(c)3
-              organization with no political or religious affiliation.{" "}
-            </Para>
+              organization with no political or religious affiliation. Look us
+              up on the{" "}
+              <a href="https://ccfs.sos.wa.gov/#/">
+                Washington Corporations and Charities Filing System.{" "}
+              </a>
+            </NoColOutline>
           </RowOutline>
         </ContentContainer>
       </MainContainer>

@@ -57,7 +57,7 @@ padding: 2%;
 
 export const Rule = Styled.hr`
 width:100%;
-height:3px;
+height:1px;
 padding: 2% 0;
 color:black;
 
@@ -86,8 +86,6 @@ justify-content: center;
 width: 150%;
 padding-top: 15%;
 `;
-
-
 
 //images
 

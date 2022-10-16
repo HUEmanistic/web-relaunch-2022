@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import {
   Page,
   ContentContainer,
@@ -19,6 +18,7 @@ import {
   TwitterLogo,
   FBLogo,
   InstaLogo,
+  TikTokLogo,
   Storefront,
   Rule,
   Italics,
@@ -35,9 +35,7 @@ function Donate() {
   return (
     <Page>
       <MainContainer>
-        
         <ContentContainer>
-         
           <RowOutline>
             <SectionTitle>Donate</SectionTitle>
             <Rule />
@@ -56,35 +54,33 @@ function Donate() {
                 <PaypalImg />
               </NoColOutline2>
 
+              <PaypalForm
+                action="https://www.paypal.com/donate"
+                method="post"
+                target="_top"
+              >
+                <input
+                  type="hidden"
+                  name="hosted_button_id"
+                  value="E7VMQYNL3U4HG"
+                />
+                <input
+                  type="image"
+                  src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+                  border="0"
+                  name="submit"
+                  title="PayPal - The safer, easier way to pay online!"
+                  alt="Donate with PayPal button"
+                />
+                <img
+                  alt=""
+                  border="0"
+                  src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+                  width="1"
+                  height="1"
+                />
+              </PaypalForm>
 
-                <PaypalForm
-
-                  action="https://www.paypal.com/donate"
-                  method="post"
-                  target="_top"
-                >
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value="E7VMQYNL3U4HG"
-                  />
-                  <input
-                    type="image"
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                    border="0"
-                    name="submit"
-                    title="PayPal - The safer, easier way to pay online!"
-                    alt="Donate with PayPal button"
-                  />
-                  <img
-                    alt=""
-                    border="0"
-                    src="https://www.paypal.com/en_US/i/scr/pixel.gif"
-                    width="1"
-                    height="1"
-                  />
-                </PaypalForm>
-  
               <NoColOutline2>
                 <LinkBlack href="paypal.me/HUEmanistic">
                   paypal.me/HUEmanistic
@@ -178,9 +174,18 @@ function Donate() {
                 </SectionTitle2>
               </ContentCol>
             </TitleRow>
-          </RowOutline>
 
-        
+            <TitleRow>
+              <ContentCol>
+                <SectionTitle2>
+                  <TikTokLogo />{" "}
+                  <LinkBlack href="https://www.tiktok.com/@huemanistic">
+                    HUEmanistic's TikTok Channel
+                  </LinkBlack>
+                </SectionTitle2>
+              </ContentCol>
+            </TitleRow>
+          </RowOutline>
         </ContentContainer>
       </MainContainer>
     </Page>
