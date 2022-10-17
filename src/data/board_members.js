@@ -1,72 +1,11 @@
 import Hazzauna from "../media/images/bio/hazzauna.jpg";
-import Sean from "../media/images/bio/sean.jpg";
-import Marianna from "../media/images/bio/marianna.jpg";
 import Christina from "../media/images/bio/christina.jpg";
 import Brandon from "../media/images/bio/brandon.jpg";
 import HazzaunaProfile from "../media/images/background/hazzauna.jpg";
-import SeanProfile from "../media/images/background/sean.jpg";
-import MariannaProfile from "../media/images/background/marianna.jpg";
 import ChristinaProfile from "../media/images/background/christina.jpg";
 import BrandonProfile from "../media/images/background/brandon.jpg";
 
-
-
 export const members = [
-  {
-    background: "#543734",
-    profileBackgroundImage: SeanProfile,
-    first_name: "Sean",
-    last_name: "Moore",
-    image: `${Sean}`,
-    role: "President, Director Of Marketing, Director",
-    profile_episode: [
-      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Sean-Moore-e1anf6v",
-    ],
-    contact: `
-    info@huemanistic.org / attn: Sean Moore`,
-    books: [],
-    movies: [],
-    bio: `A Los Angeles native, Sean is an experienced Marketing and Creative Professional with 15+ years of experience and an impeccable track record for bottom-line results. Skilled in franchise building, marketing support and driving new businesses with a collaborative spirit in complex global organizations. 
-
-    Sean is currently a campaign manager, marketer, writer, artist and does podcasts in his spare time. Being a person of color, Sean is intimately familiar with the inequities and injustice of a racist society with a violent and painful history. Sean joined HUEmanistic because he believes in what the organization represents, and 
-will use his skills and talents to aid in the HUEmanistic mission. `,
-    experienceTitle: "Evening Traffic Stop",
-    experience: `My mother frequently made it a point to teach me about the inequities in society.  The disparity in the sexes, the unfairness of the classes, and the oft time subtle and blatant racism prevalent in our country.  I can't say that I was ever surprised that there are people out there who didn't like me, simply because of the color of my skin.  Nor was I caught off guard when I finally learned the accurate and unabridged history of America, never shared by my grade school teachers, until I went to college. 
-
-However, some things in life will still provide lessons and revelations for which you aren't prepared.  To give proper context, my late mother was a Los Angeles County Peace Officer and Probation Guidance Counselor; tasked with the safety of the public and the rehabilitation of ex-convicts, who were still under the jurisdiction of the system.  She wore a badge, took her oaths, and was allowed to carry a gun - though she very rarely did so.  She was a hard worker, loyal, and cared about people in general.  In nearly every sense, she was one of them.  And by 'them' I mean the law enforcement agents of the establishment.
-
-My family lived in, what at the time was known as, South Central Los Angeles, a lower income, suburban neighborhood, southeast of the Downtown District.  South Central did not exactly have a stellar reputation, but media outlets regularly exaggerated the conditions that characterized the neighborhood.  Between regular coverage of rare shootings, the occasional muggings, and drugs dealt on every corner, one would surmise that South Central LA was hell on Earth - to those who didn't live there.  To me it was home, mostly peaceful and periodically frightening to a kid, who spent a good chunk of his formative years there.  This description of my childhood home is necessary; it is what I'm using to -perhaps- get a better understanding of the behavior, mentality, and events of the people and incident I will describe in the following narrative.
-
-I was 14 years old, when my mother decided to drive to her favorite Chinese restaurant to pick up dinner one evening.  She and I hopped in her old (but reliable), blue '84 Toyota Corolla, and drove the 5-mile distance to pick up our favorite meals.  Once a week on Fridays, Mom would allow my grandmother and me to pick what style of food we wanted for dinner as a treat for being productive during the previous few days.  I insisted that I tag along, since I enjoyed these treats and spending time with my mother.
-
-We picked up our food and headed back.  Halfway between the restaurant and home, we noticed that we were being followed by a police car with flashing lights, and sirens buzzing intermittently.  My mother, being both a law-abiding citizen and an instrument of the law, promptly pulled over, the patrol car parked several feet behind us.  My mom simultaneously turned off the ignition and took out her keys, while telling me to stay quiet and calm.  As two officers got out of the car and approached us, the sky got progressively darker, adding to the sense of internal dread I was feeling.  Mom remained cool, as she was inclined to do, looking more annoyed than afraid.  We found ourselves flanked on both sides of the car by the officers.  Both officers were White men. 
-
-The officer on the driver's side window, whom I assumed was the lead, spoke to my mother, demanding why we were out 'at this hour' and what we were doing.  I found the statement odd, considering that 'the hour' was a little after 7 p.m.  His tone was rude, condescending and, at times, offensive.  I remember him using phrases as, 'We've had a rash of robberies,' and, 'People like you shouldn't be driving around this area.'  My mom responded in kind, telling the officer that she's done nothing wrong, asking the real reason why we were being pulled over.  I, too, was annoyed and turned my body to see the face of the officer insulting my mother, when I heard that very officer shouting directly at me, dictating that I turn back around and face front.  The officer who was at my window angrily told me to place my hands on the dashboard in front of me.  As I look at him, I caught a sight that I will never forget, and clued me in as to how 'serious' the situation was:
-
-I could see the barrel of a gun aimed at my head.  The officer demanded that my hands be placed on the dashboard, an order with which I complied.
-
-'He's just a damn kid!  What's wrong with you?'  I heard my mother shout. 'Get that goddamned gun out of his face!' 
-
-The driver side officer demanded that my mother get out of the car.
-
-'You Idiots, I'm a cop just like you!'  Mom shouted again, getting out of the car and quickly pulling out her badge.
-
-I remember looking at the gun and not quite understanding what I had done.  I've never seen a gun in real life and registering as to what was happening in the moment, I was terrified.  Will this cop shoot me?  Are my mother and I going to jail?  I wasn't a criminal, yet I was being treated as one.  I remember trying to control the shaking in my fingertips, because I didn't want the officer to think I was doing anything suspicious and shoot me for it.
-
-The next thing I remember was the other officer shouting something at the gunman, and as quickly as he drew his gun on me, the officer put it away and went back to his patrol car. 
-
-My mom returned to our car.  As she placed the keys into the ignition, the lead cop returned to the window, gave a quick, insincere apology, and told my mother to stay out of trouble, to which my mother replied, 'I'll make sure to contact your superiors in the morning.'
-
-The last thing I remember the cop saying to me directly was, 'Sorry kid.'
-
-During the mostly silent ride home, Mom made it a point to say, 'I'm sorry, son.  They are not all like this.'
-
-It took a few days before my mother and I could talk about the incident.  Mom was too angry, and I was too shaken and mystified about the whole affair.  When we talked, I asked her why it happened, and her reply was, 'A lot of cops don't like us.  They took one look at my car, our neighborhood, and our skin, and made a decision.'  Naïvely, I told her that it wasn't fair, to which she responded in cliched fashion, 'Life ain't fair.'
-
-It took me a while to reconcile this revelation.  Regardless of whom you are, where you lived and what you did, I assumed that the police were always supposed to look out for the city's residents.  Up until that day, I didn't understand that race politics were ever a part of the equation.  It was yet another lesson that I learned about the prevalent inequities in our society.
-
-This is a lesson I've never forgotten.`,
-  },
   {
     background: "#a77948",
     profileBackgroundImage: HazzaunaProfile,
@@ -95,34 +34,7 @@ What would you do if nothing around you looked like you?
 
 This is what I grew up in.  I emulated what was around, what I was taught was beauty.  This was not the life I wanted for my daughter.  I wanted her to LOVE the skin she was in and the hair she was given.  So, I cut my hair to 2 inches and our love for our hair started together!`,
   },
-  {
-    background: "#E0AC69",
-    profileBackgroundImage: MariannaProfile,
-    first_name: "Marianna",
-    last_name: "Jankowski",
-    image: `${Marianna}`,
-    contact: `
-    info@huemanistic.org / attn: Marianna Jankowski`,
-    books: [],
-    movies: [],
-    role: "Secretary, Director",
-    profile_episode: [
-      "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Marianna-Jankowski-e1fe7s1",
-    ],
-    bio: `Production and Copy Editor. With a degree in Journalism, I’ve worked as the Head of International in a DVD Menu company in L.A., a Project Manager and Script Writer in Colorado, and an Admin. Assistant and Copy Editor in Portland, OR. While attending CSU Long Beach, I interned for the NAACP, where I got my first dose of white privilege. No longer a part of the struggle, I stopped paying attention, and rarely followed up on police brutality cases. The recent murders have put our nation’s dirty laundry on display, and the numbers continue to rise. We are a broken country, and we need to unite in order to fix it.`,
-    experienceTitle: "Small Farm Town",
-    experience: `From the time I was a child, into adulthood, I've battled with a voice in my head. A voice that has been passed down through generations. A voice that has asked, 'Why do they get their own awards shows? Why do they get a whole month, dedicated to their history? Why do they get Black versions of White movies? Why do they… Why do they… Why do they…'
 
-The older I have gotten, the more ashamed I have gotten. I'm ashamed of this voice, and it's negative and naive nature. I'm ashamed that it has taken me so long to dispute the voice on educated grounds. I'm ashamed that, on occasion, I listened to it, and I spoke the words.
-
-I grew up in a small farm town in central California, where it was rare to interact with a Black person, let alone befriend one. Everything I knew about Black people was fed to me through media, entertainment, friends, family, or history books. Of course not all of it was negative, but if someone had a negative experience with a Black person, it was amplified, and wasn't compared to a negative experience with a White person. Which is when I began to notice that some people let one unpleasant experience color their perspective on the collective. But in the same regard, they don't hold White people, or their preferred ethnicity to that same standard.
-
-For high school, I ventured out of our little farm town and met Black friends and other ethnicities through school and work, who didn't appear to be any different than I was. Which led to arguments with others about their predispositions, even though I still had my own, that nagging voice that would erupt in an internal battle. Since I now had Black friends, I didn't see any differences, so I didn't understand why they were given special treatment.
-
-Once in college, I ventured even further - all the way to Long Beach, California. And there, I met just about every ethnicity. I even interned for the Long Beach Branch of the NAACP, but I squandered an amazing opportunity to learn a wealth of knowledge. Because I had a flaw in my thinking. Their hardships were theirs and theirs alone. For that reason, I didn't connect and retain or pursue the knowledge to change my understanding.
-
-As a full-grown adult, with kids of my own, I didn't fully realize the extent of modern racism and its footing until after George Floyd's murder. Everyday, I learn something new, a new angle on White privilege, buried Black history, sun down towns, redlining, police violence that has gone unnoticed, and so much more. The voice has now gone, packed its bags and left a void for a new voice to take up residence. “Why do we treat them like a threat? Why do we have such anger and hatred for them? Why do we make their children have to grow up so fast?” Our ancestors planted a way of thinking in our heads - an us versus them mentality. Don't let your inner voice have the last word, challenge it to do better.`,
-  },
   {
     background: "#714137",
     profileBackgroundImage: ChristinaProfile,

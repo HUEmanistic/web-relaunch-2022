@@ -1,8 +1,8 @@
 import { CCLogo, ProfileLogo } from "../components/style";
 // import flag from "../media/images/events/Juneteenth/inner-images/flag-light.jpg";
 import HazzaunaProfile from "../media/images/background/hazzauna.jpg";
-import SeanProfile from "../media/images/background/sean.jpg";
-import MariannaProfile from "../media/images/background/marianna.jpg";
+// import SeanProfile from "../media/images/background/sean.jpg";
+// import MariannaProfile from "../media/images/background/marianna.jpg";
 import ChristinaProfile from "../media/images/background/christina.jpg";
 import BrandonProfile from "../media/images/background/brandon.jpg";
 
@@ -67,12 +67,12 @@ export const backgroundImage = [
   {
     backgroundImage2: { BrandonProfile },
   },
-  {
-    backgroundImage3: { SeanProfile },
-  },
-  {
-    backgroundImage4: { MariannaProfile },
-  },
+  // {
+  //   backgroundImage3: { SeanProfile },
+  // },
+  // {
+  //   backgroundImage4: { MariannaProfile },
+  // },
   {
     backgroundImage5: { ChristinaProfile },
   },
