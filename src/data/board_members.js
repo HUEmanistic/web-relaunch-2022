@@ -60,7 +60,7 @@ This is what I grew up in.  I emulated what was around, what I was taught was be
       "Do the Right Thing",
       "In the Heat of the Night",
     ],
-    role: "Treasurer, Director Of Technology, Director",
+    role: "Secrerary-Treasurer, Director Of Technology, Director",
     profile_episode: [
       "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Christina-Harris-e1bjv87",
       "https://anchor.fm/huemanistic-organization9/embed/episodes/Reaction-the-Color-Commentary-episode-HealthCare-and-Wellness-with-Dr--Smith-e1guft3",
@@ -85,7 +85,7 @@ This is what I grew up in.  I emulated what was around, what I was taught was be
     books: [],
     movies: [],
     image: Brandon,
-    role: "Director of Social Media, Director",
+    role: "Vice President, Director of Social Media, Director",
     profile_episode: [
       "https://anchor.fm/huemanistic-organization9/embed/episodes/HUEmanistic-Profiles---Brandon-Fiquett-e1di003",
     ],
