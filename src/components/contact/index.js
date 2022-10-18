@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Col,
-  Button,
-  Form,
-  FormGroup,
-  Input,
-  Row,
-} from "reactstrap";
+import { Col, Button, Form, FormGroup, Input, Row } from "reactstrap";
 import {
   Page,
   EmailImg,
@@ -75,18 +68,14 @@ function Contact() {
                       </FormLabel>
                       <select id="attn" name="attn" style={{ border: "none" }}>
                         <option value="Org">HUEmanistic Organization</option>
-                        <option value="S.Moore">Sean Moore - President</option>
                         <option value="H.Underwood">
-                          Hazzauna Underwood - Vice President
+                          Hazzauna Underwood - President
                         </option>
                         <option value="B.Fiquett">
-                          Brandon Fiquett - Social Media Director
+                          Brandon Fiquett - Vice President
                         </option>
                         <option value="C.Harris">
-                          Christina Harris - Tech Director
-                        </option>
-                        <option value="M.J.">
-                          Marianna Jankowski - Secretary
+                          Christina Harris - Treasurer - Secratary
                         </option>
                       </select>
                     </OptionGroup>
