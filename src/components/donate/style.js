@@ -11,7 +11,7 @@ import { Youtube } from "@styled-icons/bootstrap/Youtube";
 import { Twitter } from "@styled-icons/bootstrap/Twitter";
 import { Facebook } from "@styled-icons/boxicons-logos/Facebook";
 import { InstagramAlt } from "@styled-icons/boxicons-logos/InstagramAlt";
-import { Tiktok } from "@styled-icons/boxicons-logos/Tiktok";
+// import { Tiktok } from "@styled-icons/boxicons-logos/Tiktok";
 import BG from "../../media/images/background/bg2.jpg";
 
 export const PageTitle = Styled.h1`
@@ -455,23 +455,23 @@ margin:0;
     }
 `;
 
-export const TikTokLogo = Styled(Tiktok)`
-display: flex;
-width:10%;
-color:black;
+// export const TikTokLogo = Styled(Tiktok)`
+// display: flex;
+// width:10%;
+// color:black;
 
-    @media (max-width: 900px) {
-        width: 12%;
-    }
-    @media (max-width: 600px) {
-        width: 15%;
-        margin-right: 2%;
-    }
-        @media (max-width: 320px) {
-width: 50%;
-margin:0;
-    }
-`;
+//     @media (max-width: 900px) {
+//         width: 12%;
+//     }
+//     @media (max-width: 600px) {
+//         width: 15%;
+//         margin-right: 2%;
+//     }
+//         @media (max-width: 320px) {
+// width: 50%;
+// margin:0;
+//     }
+// `;
 
 export const ContactRow = Styled(Col)`
 display:flex;

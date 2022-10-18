@@ -18,7 +18,7 @@ import {
   TwitterLogo,
   FBLogo,
   InstaLogo,
-  TikTokLogo,
+  // TikTokLogo,
   Storefront,
   Rule,
   Italics,
@@ -178,7 +178,7 @@ function Donate() {
             <TitleRow>
               <ContentCol>
                 <SectionTitle2>
-                  <TikTokLogo />{" "}
+                  {/* <TikTokLogo />{" "} */}
                   <LinkBlack href="https://www.tiktok.com/@huemanistic">
                     HUEmanistic's TikTok Channel
                   </LinkBlack>
