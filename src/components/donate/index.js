@@ -55,7 +55,7 @@ function Donate() {
               </NoColOutline2>
 
               <PaypalForm
-                action="https://www.paypal.com/donate"
+                action="https://paypal.me/HuemanisticWA?country.x=US&locale.x=en_US"
                 method="post"
                 target="_top"
               >
@@ -82,7 +82,7 @@ function Donate() {
               </PaypalForm>
 
               <NoColOutline2>
-                <LinkBlack href="paypal.me/HUEmanistic">
+                <LinkBlack href="https://paypal.me/HuemanisticWA?country.x=US&locale.x=en_US">
                   paypal.me/HUEmanistic
                 </LinkBlack>
               </NoColOutline2>
