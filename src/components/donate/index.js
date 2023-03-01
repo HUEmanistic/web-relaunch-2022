@@ -54,7 +54,7 @@ function Donate() {
                 <PaypalImg />
               </NoColOutline2>
 
-              <PaypalForm
+              {/* <PaypalForm
                 action="https://paypal.me/HuemanisticWA?country.x=US&locale.x=en_US"
                 method="post"
                 target="_top"
@@ -79,7 +79,7 @@ function Donate() {
                   width="1"
                   height="1"
                 />
-              </PaypalForm>
+              </PaypalForm> */}
 
               <NoColOutline2>
                 <LinkBlack href="https://paypal.me/HuemanisticWA?country.x=US&locale.x=en_US">
